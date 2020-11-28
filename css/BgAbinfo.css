@@ -1,0 +1,205 @@
+﻿#name {
+    position: relative;
+    width: 335px;
+    height: 40px;
+    left: 20px;
+    top: 64px;
+    overflow: visible;
+}
+
+.bgname {
+    position: absolute;
+    overflow: visible;
+    width: 335px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+
+#txtname {
+    left: 20px;
+    top: 7px;
+    position: absolute;
+    overflow: visible;
+    width: 69px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+
+#effect {
+    position: relative;
+    width: 335px;
+    height: 100px;
+    left: 20px;
+    margin-top: 68px;
+    overflow: visible;
+}
+
+.bgeffect {
+    position: absolute;
+    overflow: visible;
+    width: 335px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+}
+
+#bar {
+    fill: transparent;
+    stroke: grey;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.bar {
+    overflow: visible;
+    position: absolute;
+    width: 281px;
+    height: 1px;
+    left: 26px;
+    top: 16px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#txtinfoname {
+    left: 68px;
+    top: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 200px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+
+#txteffect {
+    left: 16px;
+    top: 19px;
+    position: absolute;
+    overflow: visible;
+    width: 302px;
+    height: 78px;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
+    word-break: keep-all;
+}
+
+.bgnormal {
+    position: absolute;
+    overflow: visible;
+    width: 335px;
+    left: 0px;
+    top: 0px;
+}
+
+.bghidden {
+    position: absolute;
+    overflow: visible;
+    width: 335px;
+    left: 0px;
+    top: 0px;
+}
+
+#pkmn {
+    position: relative;
+    width: 255px;
+    height: 50px;
+    left: 15px;
+    top: 17px;
+    overflow: visible;
+    margin-top: 2px;
+}
+
+.pkmnmain {
+    position: absolute;
+    overflow: visible;
+    width: 255px;
+    height: 50px;
+    left: 50px;
+    top: 0px;
+}
+
+#sprt {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#pkmnname {
+    position: absolute;
+    width: 141px;
+    height: 34px;
+    left: 60px;
+    top: 8px;
+    overflow: visible;
+}
+
+#txtpkmnname {
+    left: 8px;
+    top: 4px;
+    position: absolute;
+    overflow: visible;
+    width: 108px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+
+#type {
+    position: absolute;
+    width: 80px;
+    height: 34px;
+    left: 218px;
+    top: 8px;
+    overflow: visible;
+}
+
+#type1 {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#type2 {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 46px;
+    top: 0px;
+    overflow: visible;
+}
+
+#typesole {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 23px;
+    top: 0px;
+    overflow: visible;
+}

@@ -1,0 +1,336 @@
+﻿#deninfo {
+    position: absolute;
+    width: 375px;
+    height: 1256px;
+    background-color: white;
+    overflow: hidden;
+}
+
+#pkmn1 {
+    position: absolute;
+    width: 101px;
+    height: 146px;
+    left: 10px;
+    top: 4px;
+    overflow: visible;
+}
+
+#pkmn2 {
+    position: absolute;
+    width: 101px;
+    height: 146px;
+    left: 117px;
+    top: 4px;
+    overflow: visible;
+}
+
+#pkmn3 {
+    position: absolute;
+    width: 101px;
+    height: 146px;
+    left: 224px;
+    top: 4px;
+    overflow: visible;
+}
+
+#pkmn4 {
+    position: absolute;
+    width: 101px;
+    height: 146px;
+    left: 10px;
+    top: 150px;
+    overflow: visible;
+}
+
+#pkmn5 {
+    position: absolute;
+    width: 101px;
+    height: 146px;
+    left: 117px;
+    top: 150px;
+    overflow: visible;
+}
+
+#pkmn6 {
+    position: absolute;
+    width: 101px;
+    height: 146px;
+    left: 224px;
+    top: 150px;
+    overflow: visible;
+}
+
+#pkmn7 {
+    position: absolute;
+    width: 101px;
+    height: 146px;
+    left: 10px;
+    top: 296px;
+    overflow: visible;
+}
+
+#pkmn8 {
+    position: absolute;
+    width: 101px;
+    height: 146px;
+    left: 117px;
+    top: 296px;
+    overflow: visible;
+}
+
+#pkmn9 {
+    position: absolute;
+    width: 101px;
+    height: 146px;
+    left: 224px;
+    top: 296px;
+    overflow: visible;
+}
+
+#pkmn10 {
+    position: absolute;
+    width: 101px;
+    height: 146px;
+    left: 10px;
+    top: 442px;
+    overflow: visible;
+}
+
+#pkmn11 {
+    position: absolute;
+    width: 101px;
+    height: 146px;
+    left: 117px;
+    top: 442px;
+    overflow: visible;
+}
+
+#pkmn12 {
+    position: absolute;
+    width: 101px;
+    height: 146px;
+    left: 224px;
+    top: 442px;
+    overflow: visible;
+}
+
+
+#info {
+    position: absolute;
+    width: 101px;
+    height: 13px;
+    left: 0px;
+    top: 103px;
+    overflow: visible;
+}
+
+.bginfo {
+    position: absolute;
+    overflow: visible;
+    width: 101px;
+    height: 13px;
+    left: 0px;
+    top: 0px;
+}
+
+#txtname {
+    top: 1px;
+    position: absolute;
+    overflow: visible;
+    width: 101px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+    color: rgba(0,0,0,1);
+}
+
+#bgsprt {
+    position: absolute;
+    width: 101px;
+    height: 101px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.Bgodds {
+    overflow: visible;
+    position: absolute;
+    width: 21px;
+    height: 13px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#txtodds {
+    left: 1px;
+    top: 1px;
+    position: absolute;
+    overflow: visible;
+    width: 17px;
+    height: 9px;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+    color: rgba(0,0,0,1);
+}
+
+#odds1 {
+    position: absolute;
+    width: 21px;
+    height: 13px;
+    left: 0px;
+    top: 118px;
+    overflow: visible;
+}
+
+#odds2 {
+    position: absolute;
+    width: 21px;
+    height: 13px;
+    left: 20px;
+    top: 118px;
+    overflow: visible;
+}
+
+#odds3 {
+    position: absolute;
+    width: 21px;
+    height: 13px;
+    left: 40px;
+    top: 118px;
+    overflow: visible;
+}
+
+#odds4 {
+    position: absolute;
+    width: 21px;
+    height: 13px;
+    left: 60px;
+    top: 118px;
+    overflow: visible;
+}
+
+#odds5 {
+    position: absolute;
+    width: 21px;
+    height: 13px;
+    left: 80px;
+    top: 118px;
+    overflow: visible;
+}
+
+#ab1 {
+    position: absolute;
+    width: 51px;
+    height: 13px;
+    left: 0px;
+    top: 133px;
+    overflow: visible;
+}
+
+.Bgab1 {
+    overflow: visible;
+    position: absolute;
+    width: 51px;
+    height: 13px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#ab2 {
+    position: absolute;
+    width: 51px;
+    height: 13px;
+    left: 50px;
+    top: 133px;
+    overflow: visible;
+}
+
+.Bgab2 {
+    overflow: visible;
+    position: absolute;
+    width: 51px;
+    height: 13px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#txtab {
+    left: 5px;
+    top: 1px;
+    position: absolute;
+    overflow: visible;
+    width: 41px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+    color: rgba(0,0,0,1);
+}
+
+#sword {
+    position: absolute;
+    width: 335px;
+    height: 592px;
+    left: 20px;
+    top: 64px;
+    overflow: visible;
+}
+
+#bgsword {
+    fill: rgba(40,125,192,0.298);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.bgsword {
+    position: absolute;
+    overflow: visible;
+    width: 335px;
+    height: 592px;
+    left: 0px;
+    top: 0px;
+}
+
+#shield {
+    position: absolute;
+    width: 335px;
+    height: 592px;
+    left: 20px;
+    top: 660px;
+    overflow: visible;
+}
+
+#bgshield {
+    fill: rgba(212,30,70,0.302);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.bgshield {
+    position: absolute;
+    overflow: visible;
+    width: 335px;
+    height: 592px;
+    left: 0px;
+    top: 0px;
+}

@@ -1,0 +1,326 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=320, user-scalable=yes">
+	<title>external link</title>
+	<link rel="stylesheet" href="../../css/header.css" />
+	<style id="applicationStylesheet" type="text/css">
+		#hamburger-popup {
+			position: absolute;
+			width: 375px;
+			height: 812px;
+			overflow: hidden;
+		}
+
+		#popup {
+			position: absolute;
+			width: 375px;
+			height: 812px;
+			left: 0px;
+			top: 0px;
+			overflow: visible;
+		}
+
+		.bgpopup {
+			position: absolute;
+			overflow: visible;
+			width: 375px;
+			height: 812px;
+			left: 0px;
+			top: 0px;
+		}
+
+		#search {
+			position: absolute;
+			width: 217px;
+			height: 20px;
+			left: 70px;
+			top: 20px;
+			overflow: visible;
+		}
+
+		.bgsearch {
+			position: absolute;
+			overflow: visible;
+			width: 255px;
+			height: 35px;
+			left: 0px;
+			top: 0px;
+		}
+
+		.input_text {
+			width: 217px;
+			line-height: 20px;
+			font-family: NanumSquare;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 16px;
+			outline: none;
+		}
+
+		.button {
+			overflow: visible;
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			left: 290px;
+			top: 20px;
+			transform: matrix(1,0,0,1,0,0);
+		}
+
+		#separatebar {
+			position: relative;
+			fill: red;
+			width: 375px;
+			height: 8px;
+			left: 0px;
+			top: -10px;
+			overflow: visible;
+		}
+
+		.separate {
+			position: relative;
+			overflow: visible;
+			width: 375px;
+			height: 10px;
+			left: 0px;
+			top: 60px;
+		}
+
+		#bar {
+			position: relative;
+			width: 375px;
+			height: 30px;
+			left: 0px;
+			top: 60px;
+			overflow: visible;
+		}
+
+		.bgbar {
+			position: relative;
+			overflow: visible;
+			width: 375px;
+			height: 30px;
+			left: 0px;
+			top: 0px;
+		}
+
+		#name {
+			left: 40px;
+			top: 7px;
+			position: absolute;
+			overflow: visible;
+			width: 255px;
+			white-space: nowrap;
+			text-align: left;
+			font-family: NanumSquare;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 14px;
+			color: rgba(0,0,0,1);
+		}
+
+		#nameen {
+			left: 180px;
+			top: 7px;
+			position: absolute;
+			overflow: visible;
+			width: 255px;
+			white-space: nowrap;
+			text-align: left;
+			font-family: NanumSquare;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 14px;
+			color: rgba(0,0,0,1);
+		}
+
+		#sprt {
+			position: absolute;
+			width: 24px;
+			height: 24px;
+			left: 8px;
+			top: 3px;
+			overflow: visible;
+		}
+
+
+		#currentver {
+			left: 332px;
+			top: 785px;
+			position: absolute;
+			overflow: visible;
+			width: 35px;
+			white-space: nowrap;
+			text-align: left;
+			font-family: NanumSquare;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 14px;
+			color: rgba(0,0,0,1);
+		}
+
+		#gohome {
+			position: absolute;
+			width: 58px;
+			height: 58px;
+			left: 1px;
+			top: 1px;
+			overflow: visible;
+		}
+
+		#bggohome {
+			position: absolute;
+			width: 36px;
+			height: 36px;
+			left: 11px;
+			top: 11px;
+			overflow: visible;
+		}
+
+		#close {
+			position: absolute;
+			width: 58px;
+			height: 58px;
+			left: 317px;
+			top: 1px;
+			overflow: visible;
+		}
+
+		#bgclose {
+			position: absolute;
+			overflow: visible;
+			width: 58px;
+			height: 58px;
+			left: 0px;
+			top: 0px;
+		}
+
+        #ditto {
+            position: relative;
+            width: 50px;
+            height: 50px;
+            left: 149px;
+            top: 130px;
+            overflow: visible;
+        }
+	</style>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$("#header").load("../header.html");  // 원하는 파일 경로를 삽입하면 된다
+
+		});
+	</script>
+</head>
+<body>
+	<div id="hamburger-popup">
+		<svg class="bgbody">
+			<rect id="bgbody" width="375" height="752">
+			</rect>
+		</svg>
+		<div id="bar" style="cursor:pointer;" OnClick="location.href='https://gall.dcinside.com/board/lists?id=pokemon'">
+			<svg class="bgbar">
+				<rect id="fillwhitewithborder" width="375" height="30">
+				</rect>
+			</svg>
+			<div id="name">
+				<span>디시인사이드 포켓몬스터 갤러리</span>
+			</div>
+			<div id="nameen">
+				<span></span>
+			</div>
+			<img id="sprt" srcset="../../images/icon/dcinside.png 1x">
+		</div>
+		<div id="bar" style="cursor:pointer;" OnClick="location.href='https://pokemon.fandom.com/wiki/Pok%C3%A9mon_Wiki'">
+			<svg class="bgbar">
+				<rect id="fillwhitewithborder" width="375" height="30">
+				</rect>
+			</svg>
+			<div id="name">
+				<span>포켓몬 위키</span>
+			</div>
+			<div id="nameen">
+				<span>Pokemon Wiki</span>
+			</div>
+			<img id="sprt" srcset="../../images/icon/wiki.png 1x">
+		</div>
+		<div id="bar" style="cursor:pointer;" OnClick="location.href='https://bulbapedia.bulbagarden.net/wiki/Main_Page'">
+			<svg class="bgbar">
+				<rect id="fillwhitewithborder" width="375" height="30">
+				</rect>
+			</svg>
+			<div id="name">
+				<span>불바피디아</span>
+			</div>
+			<div id="nameen">
+				<span>Bulbapedia</span>
+			</div>
+			<img id="sprt" srcset="../../images/icon/bulbapedia.png 1x">
+		</div>
+		<div id="bar" style="cursor:pointer;" OnClick="location.href='https://serebii.net/'">
+			<svg class="bgbar">
+				<rect id="fillwhitewithborder" width="375" height="30">
+				</rect>
+			</svg>
+			<div id="name">
+				<span>세레비넷</span>
+			</div>
+			<div id="nameen">
+				<span>Serebii.net</span>
+			</div>
+			<img id="sprt" srcset="../../images/sprt1/251.png 1x">
+		</div>
+		<div id="bar" style="cursor:pointer;" OnClick="location.href='https://pokemondb.net/'">
+			<svg class="bgbar">
+				<rect id="fillwhitewithborder" width="375" height="30">
+				</rect>
+			</svg>
+			<div id="name">
+				<span>포켓몬 데이터베이스</span>
+			</div>
+			<div id="nameen">
+				<span>Pokemon Database</span>
+			</div>
+			<img id="sprt" srcset="../../images/icon/pokemondb.png 1x">
+		</div>
+		<div id="bar" style="cursor:pointer;" OnClick="location.href='https://game8.jp/pokemon-sword-shield'">
+			<svg class="bgbar">
+				<rect id="fillwhitewithborder" width="375" height="30">
+				</rect>
+			</svg>
+			<div id="name">
+				<span>게임8</span>
+			</div>
+			<div id="nameen">
+				<span style="font-family: NanumGothic;">ゲームエイト</span>
+			</div>
+			<img id="sprt" srcset="../../images/icon/game8.png 1x">
+		</div>
+		<img id="ditto" srcset="../../images/icon/ditto.gif 1x">
+
+
+		<div id="footer">
+			<svg class="bgfooter">
+				<rect id="fillwhitewithborder" width="375" height="60">
+				</rect>
+			</svg>
+			<div id="copyright">
+				<span>©2020 Pokémon.<br />©1995-2020 Nintendo/Creatures Inc./GAME FREAK inc.</span>
+			</div>
+		</div>
+		<div id="title" style="cursor:pointer;" onclick='history.go(0);'>
+			<svg class="bgtitle">
+				<rect id="fillwhite" width="255" height="60">
+				</rect>
+			</svg>
+			<div id="txttitle">
+				<span>외부 링크</span>
+			</div>
+		</div>
+		<div id="header"></div>
+	</div>
+</body>
+</html>

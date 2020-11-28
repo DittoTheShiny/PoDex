@@ -1,0 +1,2393 @@
+﻿#AR시스템 {
+    position: absolute;
+    width: 99px;
+    height: 40px;
+    left: 30px;
+    top: 65px;
+    overflow: visible;
+}
+
+#가뭄 {
+    position: absolute;
+    width: 99px;
+    height: 40px;
+    left: 138px;
+    top: 65px;
+    overflow: visible;
+}
+
+#가속 {
+    position: absolute;
+    width: 99px;
+    height: 40px;
+    left: 246px;
+    top: 65px;
+    overflow: visible;
+}
+
+#갈지자걸음 {
+    position: absolute;
+    width: 100px;
+    height: 41px;
+    left: 30px;
+    top: 107px;
+    overflow: visible;
+}
+
+#강철술사 {
+    position: absolute;
+    width: 100px;
+    height: 41px;
+    left: 138px;
+    top: 107px;
+    overflow: visible;
+}
+
+#강철정신 {
+    position: absolute;
+    width: 100px;
+    height: 41px;
+    left: 246px;
+    top: 107px;
+    overflow: visible;
+}
+
+#개미지옥 {
+    position: absolute;
+    width: 101px;
+    height: 42px;
+    left: 30px;
+    top: 149px;
+    overflow: visible;
+}
+
+#건조피부 {
+    position: absolute;
+    width: 101px;
+    height: 42px;
+    left: 138px;
+    top: 149px;
+    overflow: visible;
+}
+
+#게으름 {
+    position: absolute;
+    width: 101px;
+    height: 42px;
+    left: 246px;
+    top: 149px;
+    overflow: visible;
+}
+
+#곡예 {
+    position: absolute;
+    width: 102px;
+    height: 43px;
+    left: 30px;
+    top: 191px;
+    overflow: visible;
+}
+
+#공생 {
+    position: absolute;
+    width: 102px;
+    height: 43px;
+    left: 138px;
+    top: 191px;
+    overflow: visible;
+}
+
+#과학의힘 {
+    position: absolute;
+    width: 102px;
+    height: 43px;
+    left: 246px;
+    top: 191px;
+    overflow: visible;
+}
+
+#괴력집게 {
+    position: absolute;
+    width: 103px;
+    height: 44px;
+    left: 30px;
+    top: 233px;
+    overflow: visible;
+}
+
+#괴짜 {
+    position: absolute;
+    width: 103px;
+    height: 44px;
+    left: 138px;
+    top: 233px;
+    overflow: visible;
+}
+
+#굳건한신념 {
+    position: absolute;
+    width: 103px;
+    height: 44px;
+    left: 246px;
+    top: 233px;
+    overflow: visible;
+}
+
+#그대로꿀꺽미사일 {
+    position: absolute;
+    width: 104px;
+    height: 45px;
+    left: 30px;
+    top: 275px;
+    overflow: visible;
+}
+
+#그래스메이커 {
+    position: absolute;
+    width: 104px;
+    height: 45px;
+    left: 138px;
+    top: 275px;
+    overflow: visible;
+}
+
+#그림자밟기 {
+    position: absolute;
+    width: 104px;
+    height: 45px;
+    left: 246px;
+    top: 275px;
+    overflow: visible;
+}
+
+#근성 {
+    position: absolute;
+    width: 105px;
+    height: 46px;
+    left: 30px;
+    top: 317px;
+    overflow: visible;
+}
+
+#급류 {
+    position: absolute;
+    width: 105px;
+    height: 46px;
+    left: 138px;
+    top: 317px;
+    overflow: visible;
+}
+
+#기묘한약 {
+    position: absolute;
+    width: 105px;
+    height: 46px;
+    left: 246px;
+    top: 317px;
+    overflow: visible;
+}
+
+#기분파 {
+    position: absolute;
+    width: 106px;
+    height: 47px;
+    left: 30px;
+    top: 359px;
+    overflow: visible;
+}
+
+#긴장감 {
+    position: absolute;
+    width: 106px;
+    height: 47px;
+    left: 138px;
+    top: 359px;
+    overflow: visible;
+}
+
+#까칠한피부 {
+    position: absolute;
+    width: 106px;
+    height: 47px;
+    left: 246px;
+    top: 359px;
+    overflow: visible;
+}
+
+#깨어진갑옷 {
+    position: absolute;
+    width: 107px;
+    height: 48px;
+    left: 30px;
+    top: 401px;
+    overflow: visible;
+}
+
+#꼬르륵스위치 {
+    position: absolute;
+    width: 107px;
+    height: 48px;
+    left: 138px;
+    top: 401px;
+    overflow: visible;
+}
+
+#꾸덕꾸덕굳기 {
+    position: absolute;
+    width: 107px;
+    height: 48px;
+    left: 246px;
+    top: 401px;
+    overflow: visible;
+}
+
+#꿀모으기 {
+    position: absolute;
+    width: 108px;
+    height: 49px;
+    left: 30px;
+    top: 443px;
+    overflow: visible;
+}
+
+#끝의대지 {
+    position: absolute;
+    width: 108px;
+    height: 49px;
+    left: 138px;
+    top: 443px;
+    overflow: visible;
+}
+
+#나쁜손버릇 {
+    position: absolute;
+    width: 108px;
+    height: 49px;
+    left: 246px;
+    top: 443px;
+    overflow: visible;
+}
+
+#나이트메어 {
+    position: absolute;
+    width: 109px;
+    height: 50px;
+    left: 30px;
+    top: 485px;
+    overflow: visible;
+}
+
+#날씨부정 {
+    position: absolute;
+    width: 109px;
+    height: 50px;
+    left: 138px;
+    top: 485px;
+    overflow: visible;
+}
+
+#날카로운눈 {
+    position: absolute;
+    width: 109px;
+    height: 50px;
+    left: 246px;
+    top: 485px;
+    overflow: visible;
+}
+
+#내열 {
+    position: absolute;
+    width: 110px;
+    height: 51px;
+    left: 30px;
+    top: 527px;
+    overflow: visible;
+}
+
+#내용물분출 {
+    position: absolute;
+    width: 110px;
+    height: 51px;
+    left: 138px;
+    top: 527px;
+    overflow: visible;
+}
+
+#노가드 {
+    position: absolute;
+    width: 110px;
+    height: 51px;
+    left: 246px;
+    top: 527px;
+    overflow: visible;
+}
+
+#노말스킨 {
+    position: absolute;
+    width: 111px;
+    height: 52px;
+    left: 30px;
+    top: 569px;
+    overflow: visible;
+}
+
+#눈숨기 {
+    position: absolute;
+    width: 111px;
+    height: 52px;
+    left: 138px;
+    top: 569px;
+    overflow: visible;
+}
+
+#눈치우기 {
+    position: absolute;
+    width: 111px;
+    height: 52px;
+    left: 246px;
+    top: 569px;
+    overflow: visible;
+}
+
+#눈퍼뜨리기 {
+    position: absolute;
+    width: 112px;
+    height: 53px;
+    left: 30px;
+    top: 611px;
+    overflow: visible;
+}
+
+#다운로드 {
+    position: absolute;
+    width: 112px;
+    height: 53px;
+    left: 138px;
+    top: 611px;
+    overflow: visible;
+}
+
+#다크오라 {
+    position: absolute;
+    width: 112px;
+    height: 53px;
+    left: 246px;
+    top: 611px;
+    overflow: visible;
+}
+
+#단단한발톱 {
+    position: absolute;
+    width: 113px;
+    height: 54px;
+    left: 30px;
+    top: 653px;
+    overflow: visible;
+}
+
+#단순 {
+    position: absolute;
+    width: 113px;
+    height: 54px;
+    left: 138px;
+    top: 653px;
+    overflow: visible;
+}
+
+#달마모드 {
+    position: absolute;
+    width: 113px;
+    height: 54px;
+    left: 246px;
+    top: 653px;
+    overflow: visible;
+}
+
+#대운 {
+    position: absolute;
+    width: 114px;
+    height: 55px;
+    left: 30px;
+    top: 695px;
+    overflow: visible;
+}
+
+#델타스트림 {
+    position: absolute;
+    width: 114px;
+    height: 55px;
+    left: 138px;
+    top: 695px;
+    overflow: visible;
+}
+
+#도망태세 {
+    position: absolute;
+    width: 114px;
+    height: 55px;
+    left: 246px;
+    top: 695px;
+    overflow: visible;
+}
+
+#도주 {
+    position: absolute;
+    width: 115px;
+    height: 56px;
+    left: 30px;
+    top: 737px;
+    overflow: visible;
+}
+
+#독가시 {
+    position: absolute;
+    width: 115px;
+    height: 56px;
+    left: 138px;
+    top: 737px;
+    overflow: visible;
+}
+
+#독수 {
+    position: absolute;
+    width: 115px;
+    height: 56px;
+    left: 246px;
+    top: 737px;
+    overflow: visible;
+}
+
+#독폭주 {
+    position: absolute;
+    width: 116px;
+    height: 57px;
+    left: 30px;
+    top: 779px;
+    overflow: visible;
+}
+
+#돌머리 {
+    position: absolute;
+    width: 116px;
+    height: 57px;
+    left: 138px;
+    top: 779px;
+    overflow: visible;
+}
+
+#두꺼운지방 {
+    position: absolute;
+    width: 116px;
+    height: 57px;
+    left: 246px;
+    top: 779px;
+    overflow: visible;
+}
+
+#둔감 {
+    position: absolute;
+    width: 117px;
+    height: 58px;
+    left: 30px;
+    top: 821px;
+    overflow: visible;
+}
+
+#떠도는영혼 {
+    position: absolute;
+    width: 117px;
+    height: 58px;
+    left: 138px;
+    top: 821px;
+    overflow: visible;
+}
+
+#라이트메탈 {
+    position: absolute;
+    width: 117px;
+    height: 58px;
+    left: 246px;
+    top: 821px;
+    overflow: visible;
+}
+
+#리밋실드 {
+    position: absolute;
+    width: 118px;
+    height: 59px;
+    left: 30px;
+    top: 863px;
+    overflow: visible;
+}
+
+#리베로 {
+    position: absolute;
+    width: 118px;
+    height: 59px;
+    left: 138px;
+    top: 863px;
+    overflow: visible;
+}
+
+#리시버 {
+    position: absolute;
+    width: 118px;
+    height: 59px;
+    left: 246px;
+    top: 863px;
+    overflow: visible;
+}
+
+#리프가드 {
+    position: absolute;
+    width: 119px;
+    height: 60px;
+    left: 30px;
+    top: 905px;
+    overflow: visible;
+}
+
+#마그마의무장 {
+    position: absolute;
+    width: 119px;
+    height: 60px;
+    left: 138px;
+    top: 905px;
+    overflow: visible;
+}
+
+#마이너스 {
+    position: absolute;
+    width: 119px;
+    height: 60px;
+    left: 246px;
+    top: 905px;
+    overflow: visible;
+}
+
+#마이페이스 {
+    position: absolute;
+    width: 120px;
+    height: 61px;
+    left: 30px;
+    top: 947px;
+    overflow: visible;
+}
+
+#마중물 {
+    position: absolute;
+    width: 120px;
+    height: 61px;
+    left: 138px;
+    top: 947px;
+    overflow: visible;
+}
+
+#매지션 {
+    position: absolute;
+    width: 120px;
+    height: 61px;
+    left: 246px;
+    top: 947px;
+    overflow: visible;
+}
+
+#매직가드 {
+    position: absolute;
+    width: 121px;
+    height: 62px;
+    left: 30px;
+    top: 989px;
+    overflow: visible;
+}
+
+#매직미러 {
+    position: absolute;
+    width: 121px;
+    height: 62px;
+    left: 138px;
+    top: 989px;
+    overflow: visible;
+}
+
+#맹화 {
+    position: absolute;
+    width: 121px;
+    height: 62px;
+    left: 246px;
+    top: 989px;
+    overflow: visible;
+}
+
+#먹보 {
+    position: absolute;
+    width: 122px;
+    height: 63px;
+    left: 30px;
+    top: 1031px;
+    overflow: visible;
+}
+
+#멀티스케일 {
+    position: absolute;
+    width: 122px;
+    height: 63px;
+    left: 138px;
+    top: 1031px;
+    overflow: visible;
+}
+
+#멀티타입 {
+    position: absolute;
+    width: 122px;
+    height: 63px;
+    left: 246px;
+    top: 1031px;
+    overflow: visible;
+}
+
+#메가런처 {
+    position: absolute;
+    width: 123px;
+    height: 64px;
+    left: 30px;
+    top: 1073px;
+    overflow: visible;
+}
+
+#메탈프로텍트 {
+    position: absolute;
+    width: 123px;
+    height: 64px;
+    left: 138px;
+    top: 1073px;
+    overflow: visible;
+}
+
+#면역 {
+    position: absolute;
+    width: 123px;
+    height: 64px;
+    left: 246px;
+    top: 1073px;
+    overflow: visible;
+}
+
+#멸망의바디 {
+    position: absolute;
+    width: 124px;
+    height: 65px;
+    left: 30px;
+    top: 1115px;
+    overflow: visible;
+}
+
+#모래날림 {
+    position: absolute;
+    width: 124px;
+    height: 65px;
+    left: 138px;
+    top: 1115px;
+    overflow: visible;
+}
+
+#모래뿜기 {
+    position: absolute;
+    width: 124px;
+    height: 65px;
+    left: 246px;
+    top: 1115px;
+    overflow: visible;
+}
+
+#모래숨기 {
+    position: absolute;
+    width: 125px;
+    height: 66px;
+    left: 30px;
+    top: 1157px;
+    overflow: visible;
+}
+
+#모래의힘 {
+    position: absolute;
+    width: 125px;
+    height: 66px;
+    left: 138px;
+    top: 1157px;
+    overflow: visible;
+}
+
+#모래헤치기 {
+    position: absolute;
+    width: 125px;
+    height: 66px;
+    left: 246px;
+    top: 1157px;
+    overflow: visible;
+}
+
+#무기력 {
+    position: absolute;
+    width: 126px;
+    height: 67px;
+    left: 30px;
+    top: 1199px;
+    overflow: visible;
+}
+
+#무도한행동 {
+    position: absolute;
+    width: 126px;
+    height: 67px;
+    left: 138px;
+    top: 1199px;
+    overflow: visible;
+}
+
+#무아지경 {
+    position: absolute;
+    width: 126px;
+    height: 67px;
+    left: 246px;
+    top: 1199px;
+    overflow: visible;
+}
+
+#무희 {
+    position: absolute;
+    width: 127px;
+    height: 68px;
+    left: 30px;
+    top: 1241px;
+    overflow: visible;
+}
+
+#미끈미끈 {
+    position: absolute;
+    width: 127px;
+    height: 68px;
+    left: 138px;
+    top: 1241px;
+    overflow: visible;
+}
+
+#미라 {
+    position: absolute;
+    width: 127px;
+    height: 68px;
+    left: 246px;
+    top: 1241px;
+    overflow: visible;
+}
+
+#미라클스킨 {
+    position: absolute;
+    width: 128px;
+    height: 69px;
+    left: 30px;
+    top: 1283px;
+    overflow: visible;
+}
+
+#미러아머 {
+    position: absolute;
+    width: 128px;
+    height: 69px;
+    left: 138px;
+    top: 1283px;
+    overflow: visible;
+}
+
+#미스트메이커 {
+    position: absolute;
+    width: 128px;
+    height: 69px;
+    left: 246px;
+    top: 1283px;
+    overflow: visible;
+}
+
+#발광 {
+    position: absolute;
+    width: 129px;
+    height: 70px;
+    left: 30px;
+    top: 1325px;
+    overflow: visible;
+}
+
+#발끈 {
+    position: absolute;
+    width: 129px;
+    height: 70px;
+    left: 138px;
+    top: 1325px;
+    overflow: visible;
+}
+
+#방음 {
+    position: absolute;
+    width: 129px;
+    height: 70px;
+    left: 246px;
+    top: 1325px;
+    overflow: visible;
+}
+
+#방진 {
+    position: absolute;
+    width: 130px;
+    height: 71px;
+    left: 30px;
+    top: 1367px;
+    overflow: visible;
+}
+
+#방탄 {
+    position: absolute;
+    width: 130px;
+    height: 71px;
+    left: 138px;
+    top: 1367px;
+    overflow: visible;
+}
+
+#배리어프리 {
+    position: absolute;
+    width: 130px;
+    height: 71px;
+    left: 246px;
+    top: 1367px;
+    overflow: visible;
+}
+
+#배짱 {
+    position: absolute;
+    width: 131px;
+    height: 72px;
+    left: 30px;
+    top: 1409px;
+    overflow: visible;
+}
+
+#배터리 {
+    position: absolute;
+    width: 131px;
+    height: 72px;
+    left: 138px;
+    top: 1409px;
+    overflow: visible;
+}
+
+#배틀스위치 {
+    position: absolute;
+    width: 131px;
+    height: 72px;
+    left: 246px;
+    top: 1409px;
+    overflow: visible;
+}
+
+#백의울음 {
+    position: absolute;
+    width: 132px;
+    height: 73px;
+    left: 30px;
+    top: 1451px;
+    overflow: visible;
+}
+
+#벌레의알림 {
+    position: absolute;
+    width: 132px;
+    height: 73px;
+    left: 138px;
+    top: 1451px;
+    overflow: visible;
+}
+
+#변덕쟁이 {
+    position: absolute;
+    width: 132px;
+    height: 73px;
+    left: 246px;
+    top: 1451px;
+    overflow: visible;
+}
+
+#변색 {
+    position: absolute;
+    width: 133px;
+    height: 74px;
+    left: 30px;
+    top: 1493px;
+    overflow: visible;
+}
+
+#변환자재 {
+    position: absolute;
+    width: 133px;
+    height: 74px;
+    left: 138px;
+    top: 1493px;
+    overflow: visible;
+}
+
+#보이지않는주먹 {
+    position: absolute;
+    width: 133px;
+    height: 74px;
+    left: 246px;
+    top: 1493px;
+    overflow: visible;
+}
+
+#복슬복슬 {
+    position: absolute;
+    width: 134px;
+    height: 75px;
+    left: 30px;
+    top: 1535px;
+    overflow: visible;
+}
+
+#복안 {
+    position: absolute;
+    width: 134px;
+    height: 75px;
+    left: 138px;
+    top: 1535px;
+    overflow: visible;
+}
+
+#볼주머니 {
+    position: absolute;
+    width: 134px;
+    height: 75px;
+    left: 246px;
+    top: 1535px;
+    overflow: visible;
+}
+
+#볼줍기 {
+    position: absolute;
+    width: 135px;
+    height: 76px;
+    left: 30px;
+    top: 1577px;
+    overflow: visible;
+}
+
+#부식 {
+    position: absolute;
+    width: 135px;
+    height: 76px;
+    left: 138px;
+    top: 1577px;
+    overflow: visible;
+}
+
+#부유 {
+    position: absolute;
+    width: 135px;
+    height: 76px;
+    left: 246px;
+    top: 1577px;
+    overflow: visible;
+}
+
+#부자유친 {
+    position: absolute;
+    width: 136px;
+    height: 77px;
+    left: 30px;
+    top: 1619px;
+    overflow: visible;
+}
+
+#부풀린가슴 {
+    position: absolute;
+    width: 136px;
+    height: 77px;
+    left: 138px;
+    top: 1619px;
+    overflow: visible;
+}
+
+#분노의경혈 {
+    position: absolute;
+    width: 136px;
+    height: 77px;
+    left: 246px;
+    top: 1619px;
+    overflow: visible;
+}
+
+#불가사의부적 {
+    position: absolute;
+    width: 137px;
+    height: 78px;
+    left: 30px;
+    top: 1661px;
+    overflow: visible;
+}
+
+#불굴의마음 {
+    position: absolute;
+    width: 137px;
+    height: 78px;
+    left: 138px;
+    top: 1661px;
+    overflow: visible;
+}
+
+#불굴의방패 {
+    position: absolute;
+    width: 137px;
+    height: 78px;
+    left: 246px;
+    top: 1661px;
+    overflow: visible;
+}
+
+#불꽃몸 {
+    position: absolute;
+    width: 138px;
+    height: 79px;
+    left: 30px;
+    top: 1703px;
+    overflow: visible;
+}
+
+#불면 {
+    position: absolute;
+    width: 138px;
+    height: 79px;
+    left: 138px;
+    top: 1703px;
+    overflow: visible;
+}
+
+#불요의검 {
+    position: absolute;
+    width: 138px;
+    height: 79px;
+    left: 246px;
+    top: 1703px;
+    overflow: visible;
+}
+
+#브레인포스 {
+    position: absolute;
+    width: 139px;
+    height: 80px;
+    left: 30px;
+    top: 1745px;
+    overflow: visible;
+}
+
+#비비드바디 {
+    position: absolute;
+    width: 139px;
+    height: 80px;
+    left: 138px;
+    top: 1745px;
+    overflow: visible;
+}
+
+#비스트부스트 {
+    position: absolute;
+    width: 139px;
+    height: 80px;
+    left: 246px;
+    top: 1745px;
+    overflow: visible;
+}
+
+#사이코메이커 {
+    position: absolute;
+    width: 140px;
+    height: 81px;
+    left: 30px;
+    top: 1787px;
+    overflow: visible;
+}
+
+#색안경 {
+    position: absolute;
+    width: 140px;
+    height: 81px;
+    left: 138px;
+    top: 1787px;
+    overflow: visible;
+}
+
+#서투름 {
+    position: absolute;
+    width: 140px;
+    height: 81px;
+    left: 246px;
+    top: 1787px;
+    overflow: visible;
+}
+
+#서핑테일 {
+    position: absolute;
+    width: 141px;
+    height: 82px;
+    left: 30px;
+    top: 1829px;
+    overflow: visible;
+}
+
+#선파워 {
+    position: absolute;
+    width: 141px;
+    height: 82px;
+    left: 138px;
+    top: 1829px;
+    overflow: visible;
+}
+
+#소울하트 {
+    position: absolute;
+    width: 141px;
+    height: 82px;
+    left: 246px;
+    top: 1829px;
+    overflow: visible;
+}
+
+#속보 {
+    position: absolute;
+    width: 142px;
+    height: 83px;
+    left: 30px;
+    top: 1871px;
+    overflow: visible;
+}
+
+#솜털 {
+    position: absolute;
+    width: 142px;
+    height: 83px;
+    left: 138px;
+    top: 1871px;
+    overflow: visible;
+}
+
+#수의베일 {
+    position: absolute;
+    width: 142px;
+    height: 83px;
+    left: 246px;
+    top: 1871px;
+    overflow: visible;
+}
+
+#수포 {
+    position: absolute;
+    width: 143px;
+    height: 84px;
+    left: 30px;
+    top: 1913px;
+    overflow: visible;
+}
+
+#수확 {
+    position: absolute;
+    width: 143px;
+    height: 84px;
+    left: 138px;
+    top: 1913px;
+    overflow: visible;
+}
+
+#숙성 {
+    position: absolute;
+    width: 143px;
+    height: 84px;
+    left: 246px;
+    top: 1913px;
+    overflow: visible;
+}
+
+#순수한힘 {
+    position: absolute;
+    width: 144px;
+    height: 85px;
+    left: 30px;
+    top: 1955px;
+    overflow: visible;
+}
+
+#스나이퍼 {
+    position: absolute;
+    width: 144px;
+    height: 85px;
+    left: 138px;
+    top: 1955px;
+    overflow: visible;
+}
+
+#스웜체인지 {
+    position: absolute;
+    width: 144px;
+    height: 85px;
+    left: 246px;
+    top: 1955px;
+    overflow: visible;
+}
+
+#스위트베일 {
+    position: absolute;
+    width: 145px;
+    height: 86px;
+    left: 30px;
+    top: 1997px;
+    overflow: visible;
+}
+
+#스카이스킨 {
+    position: absolute;
+    width: 145px;
+    height: 86px;
+    left: 138px;
+    top: 1997px;
+    overflow: visible;
+}
+
+#스크루지느러미 {
+    position: absolute;
+    width: 145px;
+    height: 86px;
+    left: 246px;
+    top: 1997px;
+    overflow: visible;
+}
+
+#스킬링크 {
+    position: absolute;
+    width: 146px;
+    height: 87px;
+    left: 30px;
+    top: 2039px;
+    overflow: visible;
+}
+
+#스펙터가드 {
+    position: absolute;
+    width: 146px;
+    height: 87px;
+    left: 138px;
+    top: 2039px;
+    overflow: visible;
+}
+
+#슬로스타트 {
+    position: absolute;
+    width: 146px;
+    height: 87px;
+    left: 246px;
+    top: 2039px;
+    overflow: visible;
+}
+
+#습기 {
+    position: absolute;
+    width: 147px;
+    height: 88px;
+    left: 30px;
+    top: 2081px;
+    overflow: visible;
+}
+
+#승기 {
+    position: absolute;
+    width: 147px;
+    height: 88px;
+    left: 138px;
+    top: 2081px;
+    overflow: visible;
+}
+
+#승리의별 {
+    position: absolute;
+    width: 147px;
+    height: 88px;
+    left: 246px;
+    top: 2081px;
+    overflow: visible;
+}
+
+#시간벌기 {
+    position: absolute;
+    width: 148px;
+    height: 89px;
+    left: 30px;
+    top: 2123px;
+    overflow: visible;
+}
+
+#시작의바다 {
+    position: absolute;
+    width: 148px;
+    height: 89px;
+    left: 138px;
+    top: 2123px;
+    overflow: visible;
+}
+
+#심록 {
+    position: absolute;
+    width: 148px;
+    height: 89px;
+    left: 246px;
+    top: 2123px;
+    overflow: visible;
+}
+
+#심술꾸러기 {
+    position: absolute;
+    width: 149px;
+    height: 90px;
+    left: 30px;
+    top: 2165px;
+    overflow: visible;
+}
+
+#싱크로 {
+    position: absolute;
+    width: 149px;
+    height: 90px;
+    left: 138px;
+    top: 2165px;
+    overflow: visible;
+}
+
+#쓱쓱 {
+    position: absolute;
+    width: 149px;
+    height: 90px;
+    left: 246px;
+    top: 2165px;
+    overflow: visible;
+}
+
+#아로마베일 {
+    position: absolute;
+    width: 150px;
+    height: 91px;
+    left: 30px;
+    top: 2207px;
+    overflow: visible;
+}
+
+#아이스바디 {
+    position: absolute;
+    width: 150px;
+    height: 91px;
+    left: 138px;
+    top: 2207px;
+    overflow: visible;
+}
+
+#아이스페이스 {
+    position: absolute;
+    width: 150px;
+    height: 91px;
+    left: 246px;
+    top: 2207px;
+    overflow: visible;
+}
+
+#악취 {
+    position: absolute;
+    width: 151px;
+    height: 92px;
+    left: 30px;
+    top: 2249px;
+    overflow: visible;
+}
+
+#애널라이즈 {
+    position: absolute;
+    width: 151px;
+    height: 92px;
+    left: 138px;
+    top: 2249px;
+    overflow: visible;
+}
+
+#어군 {
+    position: absolute;
+    width: 151px;
+    height: 92px;
+    left: 246px;
+    top: 2249px;
+    overflow: visible;
+}
+
+#얼음인분 {
+    position: absolute;
+    width: 152px;
+    height: 93px;
+    left: 30px;
+    top: 2291px;
+    overflow: visible;
+}
+
+#에어록 {
+    position: absolute;
+    width: 152px;
+    height: 93px;
+    left: 138px;
+    top: 2291px;
+    overflow: visible;
+}
+
+#여왕의위엄 {
+    position: absolute;
+    width: 152px;
+    height: 93px;
+    left: 246px;
+    top: 2291px;
+    overflow: visible;
+}
+
+#열폭주 {
+    position: absolute;
+    width: 153px;
+    height: 94px;
+    left: 30px;
+    top: 2333px;
+    overflow: visible;
+}
+
+#엽록소 {
+    position: absolute;
+    width: 153px;
+    height: 94px;
+    left: 138px;
+    top: 2333px;
+    overflow: visible;
+}
+
+#예지몽 {
+    position: absolute;
+    width: 153px;
+    height: 94px;
+    left: 246px;
+    top: 2333px;
+    overflow: visible;
+}
+
+#오기 {
+    position: absolute;
+    width: 154px;
+    height: 95px;
+    left: 30px;
+    top: 2375px;
+    overflow: visible;
+}
+
+#오라브레이크 {
+    position: absolute;
+    width: 154px;
+    height: 95px;
+    left: 138px;
+    top: 2375px;
+    overflow: visible;
+}
+
+#옹골찬턱 {
+    position: absolute;
+    width: 154px;
+    height: 95px;
+    left: 246px;
+    top: 2375px;
+    overflow: visible;
+}
+
+#옹골참 {
+    position: absolute;
+    width: 155px;
+    height: 96px;
+    left: 30px;
+    top: 2417px;
+    overflow: visible;
+}
+
+#용의턱 {
+    position: absolute;
+    width: 155px;
+    height: 96px;
+    left: 138px;
+    top: 2417px;
+    overflow: visible;
+}
+
+#우격다짐 {
+    position: absolute;
+    width: 155px;
+    height: 96px;
+    left: 246px;
+    top: 2417px;
+    overflow: visible;
+}
+
+#원격 {
+    position: absolute;
+    width: 156px;
+    height: 97px;
+    left: 30px;
+    top: 2459px;
+    overflow: visible;
+}
+
+#위기회피 {
+    position: absolute;
+    width: 156px;
+    height: 97px;
+    left: 138px;
+    top: 2459px;
+    overflow: visible;
+}
+
+#위험예지 {
+    position: absolute;
+    width: 156px;
+    height: 97px;
+    left: 246px;
+    top: 2459px;
+    overflow: visible;
+}
+
+#위협 {
+    position: absolute;
+    width: 157px;
+    height: 98px;
+    left: 30px;
+    top: 2501px;
+    overflow: visible;
+}
+
+#유대변화 {
+    position: absolute;
+    width: 157px;
+    height: 98px;
+    left: 138px;
+    top: 2501px;
+    overflow: visible;
+}
+
+#유연 {
+    position: absolute;
+    width: 157px;
+    height: 98px;
+    left: 246px;
+    top: 2501px;
+    overflow: visible;
+}
+
+#유폭 {
+    position: absolute;
+    width: 158px;
+    height: 99px;
+    left: 30px;
+    top: 2543px;
+    overflow: visible;
+}
+
+#의기양양 {
+    position: absolute;
+    width: 158px;
+    height: 99px;
+    left: 138px;
+    top: 2543px;
+    overflow: visible;
+}
+
+#의욕 {
+    position: absolute;
+    width: 158px;
+    height: 99px;
+    left: 246px;
+    top: 2543px;
+    overflow: visible;
+}
+
+#의태 {
+    position: absolute;
+    width: 159px;
+    height: 100px;
+    left: 30px;
+    top: 2585px;
+    overflow: visible;
+}
+
+#이상한비늘 {
+    position: absolute;
+    width: 159px;
+    height: 100px;
+    left: 138px;
+    top: 2585px;
+    overflow: visible;
+}
+
+#이판사판 {
+    position: absolute;
+    width: 159px;
+    height: 100px;
+    left: 246px;
+    top: 2585px;
+    overflow: visible;
+}
+
+#인분 {
+    position: absolute;
+    width: 160px;
+    height: 101px;
+    left: 30px;
+    top: 2627px;
+    overflow: visible;
+}
+
+#일렉트릭메이커 {
+    position: absolute;
+    width: 160px;
+    height: 101px;
+    left: 138px;
+    top: 2627px;
+    overflow: visible;
+}
+
+#일렉트릭스킨 {
+    position: absolute;
+    width: 160px;
+    height: 101px;
+    left: 246px;
+    top: 2627px;
+    overflow: visible;
+}
+
+#일루전 {
+    position: absolute;
+    width: 161px;
+    height: 102px;
+    left: 30px;
+    top: 2669px;
+    overflow: visible;
+}
+
+#일찍기상 {
+    position: absolute;
+    width: 161px;
+    height: 102px;
+    left: 138px;
+    top: 2669px;
+    overflow: visible;
+}
+
+#자기과신 {
+    position: absolute;
+    width: 161px;
+    height: 102px;
+    left: 246px;
+    top: 2669px;
+    overflow: visible;
+}
+
+#자력 {
+    position: absolute;
+    width: 162px;
+    height: 103px;
+    left: 30px;
+    top: 2711px;
+    overflow: visible;
+}
+
+#자연회복 {
+    position: absolute;
+    width: 162px;
+    height: 103px;
+    left: 138px;
+    top: 2711px;
+    overflow: visible;
+}
+
+#잔비 {
+    position: absolute;
+    width: 162px;
+    height: 103px;
+    left: 246px;
+    top: 2711px;
+    overflow: visible;
+}
+
+#잠복 {
+    position: absolute;
+    width: 163px;
+    height: 104px;
+    left: 30px;
+    top: 2753px;
+    overflow: visible;
+}
+
+#재생력 {
+    position: absolute;
+    width: 163px;
+    height: 104px;
+    left: 138px;
+    top: 2753px;
+    overflow: visible;
+}
+
+#저수 {
+    position: absolute;
+    width: 163px;
+    height: 104px;
+    left: 246px;
+    top: 2753px;
+    overflow: visible;
+}
+
+#저주받은바디 {
+    position: absolute;
+    width: 164px;
+    height: 105px;
+    left: 30px;
+    top: 2795px;
+    overflow: visible;
+}
+
+#적응력 {
+    position: absolute;
+    width: 164px;
+    height: 105px;
+    left: 138px;
+    top: 2795px;
+    overflow: visible;
+}
+
+#전기엔진 {
+    position: absolute;
+    width: 164px;
+    height: 105px;
+    left: 246px;
+    top: 2795px;
+    overflow: visible;
+}
+
+#전투무장 {
+    position: absolute;
+    width: 165px;
+    height: 106px;
+    left: 30px;
+    top: 2837px;
+    overflow: visible;
+}
+
+#절대안깸 {
+    position: absolute;
+    width: 165px;
+    height: 106px;
+    left: 138px;
+    top: 2837px;
+    overflow: visible;
+}
+
+#점착 {
+    position: absolute;
+    width: 165px;
+    height: 106px;
+    left: 246px;
+    top: 2837px;
+    overflow: visible;
+}
+
+#정신력 {
+    position: absolute;
+    width: 166px;
+    height: 107px;
+    left: 30px;
+    top: 2879px;
+    overflow: visible;
+}
+
+#정의의마음 {
+    position: absolute;
+    width: 166px;
+    height: 107px;
+    left: 138px;
+    top: 2879px;
+    overflow: visible;
+}
+
+#정전기 {
+    position: absolute;
+    width: 166px;
+    height: 107px;
+    left: 246px;
+    top: 2879px;
+    overflow: visible;
+}
+
+#젖은접시 {
+    position: absolute;
+    width: 167px;
+    height: 108px;
+    left: 30px;
+    top: 2921px;
+    overflow: visible;
+}
+
+#조가비갑옷 {
+    position: absolute;
+    width: 167px;
+    height: 108px;
+    left: 138px;
+    top: 2921px;
+    overflow: visible;
+}
+
+#주눅 {
+    position: absolute;
+    width: 167px;
+    height: 108px;
+    left: 246px;
+    top: 2921px;
+    overflow: visible;
+}
+
+#증기기관 {
+    position: absolute;
+    width: 168px;
+    height: 109px;
+    left: 30px;
+    top: 2963px;
+    overflow: visible;
+}
+
+#지구력 {
+    position: absolute;
+    width: 168px;
+    height: 109px;
+    left: 138px;
+    top: 2963px;
+    overflow: visible;
+}
+
+#질풍날개 {
+    position: absolute;
+    width: 168px;
+    height: 109px;
+    left: 246px;
+    top: 2963px;
+    overflow: visible;
+}
+
+#짓궂은마음 {
+    position: absolute;
+    width: 169px;
+    height: 110px;
+    left: 30px;
+    top: 3005px;
+    overflow: visible;
+}
+
+#천진 {
+    position: absolute;
+    width: 169px;
+    height: 110px;
+    left: 138px;
+    top: 3005px;
+    overflow: visible;
+}
+
+#천하장사 {
+    position: absolute;
+    width: 169px;
+    height: 110px;
+    left: 246px;
+    top: 3005px;
+    overflow: visible;
+}
+
+#철가시 {
+    position: absolute;
+    width: 170px;
+    height: 111px;
+    left: 30px;
+    top: 3047px;
+    overflow: visible;
+}
+
+#철주먹 {
+    position: absolute;
+    width: 170px;
+    height: 111px;
+    left: 138px;
+    top: 3047px;
+    overflow: visible;
+}
+
+#초식 {
+    position: absolute;
+    width: 170px;
+    height: 111px;
+    left: 246px;
+    top: 3047px;
+    overflow: visible;
+}
+
+#촉촉바디 {
+    position: absolute;
+    width: 171px;
+    height: 112px;
+    left: 30px;
+    top: 3089px;
+    overflow: visible;
+}
+
+#촉촉보이스 {
+    position: absolute;
+    width: 171px;
+    height: 112px;
+    left: 138px;
+    top: 3089px;
+    overflow: visible;
+}
+
+#축전 {
+    position: absolute;
+    width: 171px;
+    height: 112px;
+    left: 246px;
+    top: 3089px;
+    overflow: visible;
+}
+
+#치유의마음 {
+    position: absolute;
+    width: 172px;
+    height: 113px;
+    left: 30px;
+    top: 3131px;
+    overflow: visible;
+}
+
+#컬리헤어 {
+    position: absolute;
+    width: 172px;
+    height: 113px;
+    left: 138px;
+    top: 3131px;
+    overflow: visible;
+}
+
+#퀵드로 {
+    position: absolute;
+    width: 172px;
+    height: 113px;
+    left: 246px;
+    top: 3131px;
+    overflow: visible;
+}
+
+#클리어바디 {
+    position: absolute;
+    width: 173px;
+    height: 114px;
+    left: 30px;
+    top: 3173px;
+    overflow: visible;
+}
+
+#타오르는불꽃 {
+    position: absolute;
+    width: 173px;
+    height: 114px;
+    left: 138px;
+    top: 3173px;
+    overflow: visible;
+}
+
+#탈 {
+    position: absolute;
+    width: 173px;
+    height: 114px;
+    left: 246px;
+    top: 3173px;
+    overflow: visible;
+}
+
+#탈피 {
+    position: absolute;
+    width: 174px;
+    height: 115px;
+    left: 30px;
+    top: 3215px;
+    overflow: visible;
+}
+
+#터보블레이즈 {
+    position: absolute;
+    width: 174px;
+    height: 115px;
+    left: 138px;
+    top: 3215px;
+    overflow: visible;
+}
+
+#테라볼티지 {
+    position: absolute;
+    width: 174px;
+    height: 115px;
+    left: 246px;
+    top: 3215px;
+    overflow: visible;
+}
+
+#테크니션 {
+    position: absolute;
+    width: 175px;
+    height: 116px;
+    left: 30px;
+    top: 3257px;
+    overflow: visible;
+}
+
+#텔레파시 {
+    position: absolute;
+    width: 175px;
+    height: 116px;
+    left: 138px;
+    top: 3257px;
+    overflow: visible;
+}
+
+#통찰 {
+    position: absolute;
+    width: 175px;
+    height: 116px;
+    left: 246px;
+    top: 3257px;
+    overflow: visible;
+}
+
+#투쟁심 {
+    position: absolute;
+    width: 176px;
+    height: 117px;
+    left: 30px;
+    top: 3299px;
+    overflow: visible;
+}
+
+#트랜지스터 {
+    position: absolute;
+    width: 176px;
+    height: 117px;
+    left: 138px;
+    top: 3299px;
+    overflow: visible;
+}
+
+#트레이스 {
+    position: absolute;
+    width: 176px;
+    height: 117px;
+    left: 246px;
+    top: 3299px;
+    overflow: visible;
+}
+
+#틀깨기 {
+    position: absolute;
+    width: 177px;
+    height: 118px;
+    left: 30px;
+    top: 3341px;
+    overflow: visible;
+}
+
+#틈새포착 {
+    position: absolute;
+    width: 177px;
+    height: 118px;
+    left: 138px;
+    top: 3341px;
+    overflow: visible;
+}
+
+#파스텔베일 {
+    position: absolute;
+    width: 177px;
+    height: 118px;
+    left: 246px;
+    top: 3341px;
+    overflow: visible;
+}
+
+#파워스폿 {
+    position: absolute;
+    width: 178px;
+    height: 119px;
+    left: 30px;
+    top: 3383px;
+    overflow: visible;
+}
+
+#퍼코트 {
+    position: absolute;
+    width: 178px;
+    height: 119px;
+    left: 138px;
+    top: 3383px;
+    overflow: visible;
+}
+
+#펑크록 {
+    position: absolute;
+    width: 178px;
+    height: 119px;
+    left: 246px;
+    top: 3383px;
+    overflow: visible;
+}
+
+#페어리스킨 {
+    position: absolute;
+    width: 179px;
+    height: 120px;
+    left: 30px;
+    top: 3425px;
+    overflow: visible;
+}
+
+#페어리오라 {
+    position: absolute;
+    width: 179px;
+    height: 120px;
+    left: 138px;
+    top: 3425px;
+    overflow: visible;
+}
+
+#포이즌힐 {
+    position: absolute;
+    width: 179px;
+    height: 120px;
+    left: 246px;
+    top: 3425px;
+    overflow: visible;
+}
+
+#포자 {
+    position: absolute;
+    width: 180px;
+    height: 121px;
+    left: 30px;
+    top: 3467px;
+    overflow: visible;
+}
+
+#풀모피 {
+    position: absolute;
+    width: 180px;
+    height: 121px;
+    left: 138px;
+    top: 3467px;
+    overflow: visible;
+}
+
+#프레셔 {
+    position: absolute;
+    width: 180px;
+    height: 121px;
+    left: 246px;
+    top: 3467px;
+    overflow: visible;
+}
+
+#프렌드가드 {
+    position: absolute;
+    width: 181px;
+    height: 122px;
+    left: 30px;
+    top: 3509px;
+    overflow: visible;
+}
+
+#프리즈스킨 {
+    position: absolute;
+    width: 181px;
+    height: 122px;
+    left: 138px;
+    top: 3509px;
+    overflow: visible;
+}
+
+#프리즘아머 {
+    position: absolute;
+    width: 181px;
+    height: 122px;
+    left: 246px;
+    top: 3509px;
+    overflow: visible;
+}
+
+#플라워기프트 {
+    position: absolute;
+    width: 182px;
+    height: 123px;
+    left: 30px;
+    top: 3551px;
+    overflow: visible;
+}
+
+#플라워베일 {
+    position: absolute;
+    width: 182px;
+    height: 123px;
+    left: 138px;
+    top: 3551px;
+    overflow: visible;
+}
+
+#플러스 {
+    position: absolute;
+    width: 182px;
+    height: 123px;
+    left: 246px;
+    top: 3551px;
+    overflow: visible;
+}
+
+#피뢰침 {
+    position: absolute;
+    width: 183px;
+    height: 124px;
+    left: 30px;
+    top: 3593px;
+    overflow: visible;
+}
+
+#픽업 {
+    position: absolute;
+    width: 183px;
+    height: 124px;
+    left: 138px;
+    top: 3593px;
+    overflow: visible;
+}
+
+#필터 {
+    position: absolute;
+    width: 183px;
+    height: 124px;
+    left: 246px;
+    top: 3593px;
+    overflow: visible;
+}
+
+#하늘의은총 {
+    position: absolute;
+    width: 184px;
+    height: 125px;
+    left: 30px;
+    top: 3635px;
+    overflow: visible;
+}
+
+#하드록 {
+    position: absolute;
+    width: 184px;
+    height: 125px;
+    left: 138px;
+    top: 3635px;
+    overflow: visible;
+}
+
+#하얀연기 {
+    position: absolute;
+    width: 184px;
+    height: 125px;
+    left: 246px;
+    top: 3635px;
+    overflow: visible;
+}
+
+#해감액 {
+    position: absolute;
+    width: 185px;
+    height: 126px;
+    left: 30px;
+    top: 3677px;
+    overflow: visible;
+}
+
+#헤롱헤롱바디 {
+    position: absolute;
+    width: 185px;
+    height: 126px;
+    left: 138px;
+    top: 3677px;
+    overflow: visible;
+}
+
+#헤비메탈 {
+    position: absolute;
+    width: 185px;
+    height: 126px;
+    left: 246px;
+    top: 3677px;
+    overflow: visible;
+}
+
+#혼연일체 {
+    position: absolute;
+    width: 186px;
+    height: 127px;
+    left: 30px;
+    top: 3719px;
+    overflow: visible;
+}
+
+#화학변화가스 {
+    position: absolute;
+    width: 186px;
+    height: 127px;
+    left: 138px;
+    top: 3719px;
+    overflow: visible;
+}
+
+#흑의울음 {
+    position: absolute;
+    width: 186px;
+    height: 127px;
+    left: 246px;
+    top: 3719px;
+    overflow: visible;
+}
+
+#흡반 {
+    position: absolute;
+    width: 187px;
+    height: 128px;
+    left: 30px;
+    top: 3761px;
+    overflow: visible;
+}
+
+#힐링시프트 {
+    position: absolute;
+    width: 187px;
+    height: 128px;
+    left: 138px;
+    top: 3761px;
+    overflow: visible;
+}

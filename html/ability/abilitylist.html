@@ -1,0 +1,1675 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=320, user-scalable=yes">
+	<title>Ability List</title>
+	<link rel="stylesheet" href="../../css/header.css" />
+	<link rel="stylesheet" href="../../css/BgAbility.css" />
+	<style id="applicationStylesheet" type="text/css">
+		#abilitylist {
+			position: absolute;
+			width: 375px;
+			height: 3806px;
+			background-color: white;
+			overflow: hidden;
+		}
+
+		#ability {
+			position: absolute;
+			width: 99px;
+			height: 40px;
+			left: 30px;
+			top: 5px;
+			overflow: visible;
+		}
+
+        #bgability {
+			opacity: 0.8;
+            position: absolute;
+            width: 99px;
+            height: 40px;
+            left: 0px;
+            top: 0px;
+            overflow: visible;
+        }
+
+		#txtability {
+			left: 8px;
+			top: 8px;
+			position: absolute;
+			overflow: visible;
+			width: 85px;
+			white-space: nowrap;
+			text-align: center;
+			font-family: NanumSquare;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 10px;
+			color: rgba(0,0,0,1);
+		}
+	</style>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$("#header").load("../header.html");  // 원하는 파일 경로를 삽입하면 된다
+
+		});
+	</script>
+</head>
+<body id="bodytag">
+	<div id="abilitylist">
+		<svg class="bgbody">
+			<rect id="bgbody" width="375" height="752">
+			</rect>
+		</svg>
+		<div id="AR시스템">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='AR시스템.html'" srcset="../../images/ability/RKS_System.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='AR시스템.html'">
+				<span>AR시스템<br />RKS System</span>
+			</div>
+		</div>
+		<div id="가뭄">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='가뭄.html'" srcset="../../images/ability/Drought.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='가뭄.html'">
+				<span>가뭄<br />Drought</span>
+			</div>
+		</div>
+		<div id="가속">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='가속.html'" srcset="../../images/ability/Speed_Boost.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='가속.html'">
+				<span>가속<br />Speed Boost</span>
+			</div>
+		</div>
+		<div id="갈지자걸음">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='갈지자걸음.html'" srcset="../../images/ability/Tangled_Feet.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='갈지자걸음.html'">
+				<span>갈지자걸음<br />Tangled Feet</span>
+			</div>
+		</div>
+		<div id="강철술사">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='강철술사.html'" srcset="../../images/ability/Steelworker.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='강철술사.html'">
+				<span>강철술사<br />Steelworker</span>
+			</div>
+		</div>
+		<div id="강철정신">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='강철정신.html'" srcset="../../images/ability/Steely_Spirit.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='강철정신.html'">
+				<span>강철정신<br />Steely Spirit</span>
+			</div>
+		</div>
+		<div id="개미지옥">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='개미지옥.html'" srcset="../../images/ability/Arena_Trap.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='개미지옥.html'">
+				<span>개미지옥<br />Arena Trap</span>
+			</div>
+		</div>
+		<div id="건조피부">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='건조피부.html'" srcset="../../images/ability/Dry_Skin.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='건조피부.html'">
+				<span>건조피부<br />Dry Skin</span>
+			</div>
+		</div>
+		<div id="게으름">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='게으름.html'" srcset="../../images/ability/Truant.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='게으름.html'">
+				<span>게으름<br />Truant</span>
+			</div>
+		</div>
+		<div id="곡예">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='곡예.html'" srcset="../../images/ability/Unburden.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='곡예.html'">
+				<span>곡예<br />Unburden</span>
+			</div>
+		</div>
+		<div id="공생">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='공생.html'" srcset="../../images/ability/Symbiosis.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='공생.html'">
+				<span>공생<br />Symbiosis</span>
+			</div>
+		</div>
+		<div id="과학의힘">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='과학의힘.html'" srcset="../../images/ability/Power_of_Alchemy.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='과학의힘.html'">
+				<span>과학의힘<br />Power of Alchemy</span>
+			</div>
+		</div>
+		<div id="괴력집게">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='괴력집게.html'" srcset="../../images/ability/Hyper_Cutter.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='괴력집게.html'">
+				<span>괴력집게<br />Hyper Cutter</span>
+			</div>
+		</div>
+		<div id="괴짜">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='괴짜.html'" srcset="../../images/ability/Imposter.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='괴짜.html'">
+				<span>괴짜<br />Imposter</span>
+			</div>
+		</div>
+		<div id="굳건한신념">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='굳건한신념.html'" srcset="../../images/ability/Stalwart.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='굳건한신념.html'">
+				<span>굳건한신념<br />Stalwart</span>
+			</div>
+		</div>
+		<div id="그대로꿀꺽미사일">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='그대로꿀꺽미사일.html'" srcset="../../images/ability/Gulp_Missile.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='그대로꿀꺽미사일.html'">
+				<span>그대로꿀꺽미사일<br />Gulp Missile</span>
+			</div>
+		</div>
+		<div id="그래스메이커">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='그래스메이커.html'" srcset="../../images/ability/Grassy_Surge.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='그래스메이커.html'">
+				<span>그래스메이커<br />Grassy Surge</span>
+			</div>
+		</div>
+		<div id="그림자밟기">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='그림자밟기.html'" srcset="../../images/ability/Shadow_Tag.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='그림자밟기.html'">
+				<span>그림자밟기<br />Shadow Tag</span>
+			</div>
+		</div>
+		<div id="근성">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='근성.html'" srcset="../../images/ability/Guts.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='근성.html'">
+				<span>근성<br />Guts</span>
+			</div>
+		</div>
+		<div id="급류">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='급류.html'" srcset="../../images/ability/Torrent.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='급류.html'">
+				<span>급류<br />Torrent</span>
+			</div>
+		</div>
+		<div id="기묘한약">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='기묘한약.html'" srcset="../../images/ability/Curious_Medicine.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='기묘한약.html'">
+				<span>기묘한약<br />Curious Medicine</span>
+			</div>
+		</div>
+		<div id="기분파">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='기분파.html'" srcset="../../images/ability/Forecast.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='기분파.html'">
+				<span>기분파<br />Forecast</span>
+			</div>
+		</div>
+		<div id="긴장감">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='긴장감.html'" srcset="../../images/ability/Unnerve.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='긴장감.html'">
+				<span>긴장감<br />Unnerve</span>
+			</div>
+		</div>
+		<div id="까칠한피부">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='까칠한피부.html'" srcset="../../images/ability/Rough_Skin.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='까칠한피부.html'">
+				<span>까칠한피부<br />Rough Skin</span>
+			</div>
+		</div>
+		<div id="깨어진갑옷">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='깨어진갑옷.html'" srcset="../../images/ability/Weak_Armor.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='깨어진갑옷.html'">
+				<span>깨어진갑옷<br />Weak Armor</span>
+			</div>
+		</div>
+		<div id="꼬르륵스위치">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='꼬르륵스위치.html'" srcset="../../images/ability/Hunger_Switch.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='꼬르륵스위치.html'">
+				<span>꼬르륵스위치<br />Hunger Switch</span>
+			</div>
+		</div>
+		<div id="꾸덕꾸덕굳기">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='꾸덕꾸덕굳기.html'" srcset="../../images/ability/Water_Compaction.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='꾸덕꾸덕굳기.html'">
+				<span>꾸덕꾸덕굳기<br />Water Compaction</span>
+			</div>
+		</div>
+		<div id="꿀모으기">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='꿀모으기.html'" srcset="../../images/ability/Honey_Gather.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='꿀모으기.html'">
+				<span>꿀모으기<br />Honey Gather</span>
+			</div>
+		</div>
+		<div id="끝의대지">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='끝의대지.html'" srcset="../../images/ability/Desolate_Land.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='끝의대지.html'">
+				<span>끝의대지<br />Desolate Land</span>
+			</div>
+		</div>
+		<div id="나쁜손버릇">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='나쁜손버릇.html'" srcset="../../images/ability/Pickpocket.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='나쁜손버릇.html'">
+				<span>나쁜손버릇<br />Pickpocket</span>
+			</div>
+		</div>
+		<div id="나이트메어">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='나이트메어.html'" srcset="../../images/ability/Bad_Dreams.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='나이트메어.html'">
+				<span>나이트메어<br />Bad Dreams</span>
+			</div>
+		</div>
+		<div id="날씨부정">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='날씨부정.html'" srcset="../../images/ability/Cloud_Nine.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='날씨부정.html'">
+				<span>날씨부정<br />Cloud Nine</span>
+			</div>
+		</div>
+		<div id="날카로운눈">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='날카로운눈.html'" srcset="../../images/ability/Keen_Eye.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='날카로운눈.html'">
+				<span>날카로운눈<br />Keen Eye</span>
+			</div>
+		</div>
+		<div id="내열">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='내열.html'" srcset="../../images/ability/Heatproof.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='내열.html'">
+				<span>내열<br />Heatproof</span>
+			</div>
+		</div>
+		<div id="내용물분출">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='내용물분출.html'" srcset="../../images/ability/Innards_Out.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='내용물분출.html'">
+				<span>내용물분출<br />Innards Out</span>
+			</div>
+		</div>
+		<div id="노가드">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='노가드.html'" srcset="../../images/ability/No_Guard.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='노가드.html'">
+				<span>노가드<br />No Guard</span>
+			</div>
+		</div>
+		<div id="노말스킨">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='노말스킨.html'" srcset="../../images/ability/Normalize.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='노말스킨.html'">
+				<span>노말스킨<br />Normalize</span>
+			</div>
+		</div>
+		<div id="눈숨기">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='눈숨기.html'" srcset="../../images/ability/Snow_Cloak.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='눈숨기.html'">
+				<span>눈숨기<br />Snow Cloak</span>
+			</div>
+		</div>
+		<div id="눈치우기">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='눈치우기.html'" srcset="../../images/ability/Slush_Rush.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='눈치우기.html'">
+				<span>눈치우기<br />Slush Rush</span>
+			</div>
+		</div>
+		<div id="눈퍼뜨리기">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='눈퍼뜨리기.html'" srcset="../../images/ability/Snow_Warning.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='눈퍼뜨리기.html'">
+				<span>눈퍼뜨리기<br />Snow Warning</span>
+			</div>
+		</div>
+		<div id="다운로드">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='다운로드.html'" srcset="../../images/ability/Download.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='다운로드.html'">
+				<span>다운로드<br />Download</span>
+			</div>
+		</div>
+		<div id="다크오라">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='다크오라.html'" srcset="../../images/ability/Dark_Aura.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='다크오라.html'">
+				<span>다크오라<br />Dark Aura</span>
+			</div>
+		</div>
+		<div id="단단한발톱">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='단단한발톱.html'" srcset="../../images/ability/Tough_Claws.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='단단한발톱.html'">
+				<span>단단한발톱<br />Tough Claws</span>
+			</div>
+		</div>
+		<div id="단순">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='단순.html'" srcset="../../images/ability/Simple.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='단순.html'">
+				<span>단순<br />Simple</span>
+			</div>
+		</div>
+		<div id="달마모드">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='달마모드.html'" srcset="../../images/ability/Zen_Mode.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='달마모드.html'">
+				<span>달마모드<br />Zen Mode</span>
+			</div>
+		</div>
+		<div id="대운">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='대운.html'" srcset="../../images/ability/Super_Luck.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='대운.html'">
+				<span>대운<br />Super Luck</span>
+			</div>
+		</div>
+		<div id="델타스트림">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='델타스트림.html'" srcset="../../images/ability/Delta_Stream.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='델타스트림.html'">
+				<span>델타스트림<br />Delta Stream</span>
+			</div>
+		</div>
+		<div id="도망태세">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='도망태세.html'" srcset="../../images/ability/Wimp_Out.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='도망태세.html'">
+				<span>도망태세<br />Wimp Out</span>
+			</div>
+		</div>
+		<div id="도주">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='도주.html'" srcset="../../images/ability/Run_Away.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='도주.html'">
+				<span>도주<br />Run Away</span>
+			</div>
+		</div>
+		<div id="독가시">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='독가시.html'" srcset="../../images/ability/Poison_Point.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='독가시.html'">
+				<span>독가시<br />Poison Point</span>
+			</div>
+		</div>
+		<div id="독수">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='독수.html'" srcset="../../images/ability/Poison_Touch.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='독수.html'">
+				<span>독수<br />Poison Touch</span>
+			</div>
+		</div>
+		<div id="독폭주">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='독폭주.html'" srcset="../../images/ability/Toxic_Boost.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='독폭주.html'">
+				<span>독폭주<br />Toxic Boost</span>
+			</div>
+		</div>
+		<div id="돌머리">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='돌머리.html'" srcset="../../images/ability/Rock_Head.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='돌머리.html'">
+				<span>돌머리<br />Rock Head</span>
+			</div>
+		</div>
+		<div id="두꺼운지방">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='두꺼운지방.html'" srcset="../../images/ability/Thick_Fat.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='두꺼운지방.html'">
+				<span>두꺼운지방<br />Thick Fat</span>
+			</div>
+		</div>
+		<div id="둔감">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='둔감.html'" srcset="../../images/ability/Oblivious.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='둔감.html'">
+				<span>둔감<br />Oblivious</span>
+			</div>
+		</div>
+		<div id="떠도는영혼">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='떠도는영혼.html'" srcset="../../images/ability/Wandering_Spirit.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='떠도는영혼.html'">
+				<span>떠도는영혼<br />Wandering Spirit</span>
+			</div>
+		</div>
+		<div id="라이트메탈">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='라이트메탈.html'" srcset="../../images/ability/Light_Metal.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='라이트메탈.html'">
+				<span>라이트메탈<br />Light Metal</span>
+			</div>
+		</div>
+		<div id="리밋실드">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='리밋실드.html'" srcset="../../images/ability/Shields_Down.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='리밋실드.html'">
+				<span>리밋실드<br />Shields Down</span>
+			</div>
+		</div>
+		<div id="리베로">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='리베로.html'" srcset="../../images/ability/Libero.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='리베로.html'">
+				<span>리베로<br />Libero</span>
+			</div>
+		</div>
+		<div id="리시버">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='리시버.html'" srcset="../../images/ability/Receiver.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='리시버.html'">
+				<span>리시버<br />Receiver</span>
+			</div>
+		</div>
+		<div id="리프가드">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='리프가드.html'" srcset="../../images/ability/Leaf_Guard.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='리프가드.html'">
+				<span>리프가드<br />Leaf Guard</span>
+			</div>
+		</div>
+		<div id="마그마의무장">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='마그마의무장.html'" srcset="../../images/ability/Magma_Armor.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='마그마의무장.html'">
+				<span>마그마의무장<br />Magma Armor</span>
+			</div>
+		</div>
+		<div id="마이너스">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='마이너스.html'" srcset="../../images/ability/Minus.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='마이너스.html'">
+				<span>마이너스<br />Minus</span>
+			</div>
+		</div>
+		<div id="마이페이스">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='마이페이스.html'" srcset="../../images/ability/Own_Tempo.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='마이페이스.html'">
+				<span>마이페이스<br />Own Tempo</span>
+			</div>
+		</div>
+		<div id="마중물">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='마중물.html'" srcset="../../images/ability/Storm_Drain.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='마중물.html'">
+				<span>마중물<br />Storm Drain</span>
+			</div>
+		</div>
+		<div id="매지션">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='매지션.html'" srcset="../../images/ability/Magician.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='매지션.html'">
+				<span>매지션<br />Magician</span>
+			</div>
+		</div>
+		<div id="매직가드">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='매직가드.html'" srcset="../../images/ability/Magic_Guard.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='매직가드.html'">
+				<span>매직가드<br />Magic Guard</span>
+			</div>
+		</div>
+		<div id="매직미러">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='매직미러.html'" srcset="../../images/ability/Magic_Bounce.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='매직미러.html'">
+				<span>매직미러<br />Magic Bounce</span>
+			</div>
+		</div>
+		<div id="맹화">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='맹화.html'" srcset="../../images/ability/Blaze.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='맹화.html'">
+				<span>맹화<br />Blaze</span>
+			</div>
+		</div>
+		<div id="먹보">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='먹보.html'" srcset="../../images/ability/Gluttony.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='먹보.html'">
+				<span>먹보<br />Gluttony</span>
+			</div>
+		</div>
+		<div id="멀티스케일">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='멀티스케일.html'" srcset="../../images/ability/Multiscale.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='멀티스케일.html'">
+				<span>멀티스케일<br />Multiscale</span>
+			</div>
+		</div>
+		<div id="멀티타입">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='멀티타입.html'" srcset="../../images/ability/Multitype.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='멀티타입.html'">
+				<span>멀티타입<br />Multitype</span>
+			</div>
+		</div>
+		<div id="메가런처">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='메가런처.html'" srcset="../../images/ability/Mega_Launcher.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='메가런처.html'">
+				<span>메가런처<br />Mega Launcher</span>
+			</div>
+		</div>
+		<div id="메탈프로텍트">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='메탈프로텍트.html'" srcset="../../images/ability/Full_Metal_Body.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='메탈프로텍트.html'">
+				<span>메탈프로텍트<br />Full Metal Body</span>
+			</div>
+		</div>
+		<div id="면역">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='면역.html'" srcset="../../images/ability/Immunity.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='면역.html'">
+				<span>면역<br />Immunity</span>
+			</div>
+		</div>
+		<div id="멸망의바디">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='멸망의바디.html'" srcset="../../images/ability/Perish_Body.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='멸망의바디.html'">
+				<span>멸망의바디<br />Perish Body</span>
+			</div>
+		</div>
+		<div id="모래날림">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='모래날림.html'" srcset="../../images/ability/Sand_Stream.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='모래날림.html'">
+				<span>모래날림<br />Sand Stream</span>
+			</div>
+		</div>
+		<div id="모래뿜기">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='모래뿜기.html'" srcset="../../images/ability/Sand_Spit.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='모래뿜기.html'">
+				<span>모래뿜기<br />Sand Spit</span>
+			</div>
+		</div>
+		<div id="모래숨기">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='모래숨기.html'" srcset="../../images/ability/Sand_Veil.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='모래숨기.html'">
+				<span>모래숨기<br />Sand Veil</span>
+			</div>
+		</div>
+		<div id="모래의힘">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='모래의힘.html'" srcset="../../images/ability/Sand_Force.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='모래의힘.html'">
+				<span>모래의힘<br />Sand Force</span>
+			</div>
+		</div>
+		<div id="모래헤치기">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='모래헤치기.html'" srcset="../../images/ability/Sand_Rush.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='모래헤치기.html'">
+				<span>모래헤치기<br />Sand Rush</span>
+			</div>
+		</div>
+		<div id="무기력">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='무기력.html'" srcset="../../images/ability/Defeatist.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='무기력.html'">
+				<span>무기력<br />Defeatist</span>
+			</div>
+		</div>
+		<div id="무도한행동">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='무도한행동.html'" srcset="../../images/ability/Merciless.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='무도한행동.html'">
+				<span>무도한행동<br />Merciless</span>
+			</div>
+		</div>
+		<div id="무아지경">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='무아지경.html'" srcset="../../images/ability/Gorilla_Tactics.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='무아지경.html'">
+				<span>무아지경<br />Gorilla Tactics</span>
+			</div>
+		</div>
+		<div id="무희">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='무희.html'" srcset="../../images/ability/Dancer.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='무희.html'">
+				<span>무희<br />Dancer</span>
+			</div>
+		</div>
+		<div id="미끈미끈">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='미끈미끈.html'" srcset="../../images/ability/Gooey.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='미끈미끈.html'">
+				<span>미끈미끈<br />Gooey</span>
+			</div>
+		</div>
+		<div id="미라">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='미라.html'" srcset="../../images/ability/Mummy.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='미라.html'">
+				<span>미라<br />Mummy</span>
+			</div>
+		</div>
+		<div id="미라클스킨">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='미라클스킨.html'" srcset="../../images/ability/Wonder_Skin.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='미라클스킨.html'">
+				<span>미라클스킨<br />Wonder Skin</span>
+			</div>
+		</div>
+		<div id="미러아머">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='미러아머.html'" srcset="../../images/ability/Mirror_Armor.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='미러아머.html'">
+				<span>미러아머<br />Mirror Armor</span>
+			</div>
+		</div>
+		<div id="미스트메이커">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='미스트메이커.html'" srcset="../../images/ability/Misty_Surge.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='미스트메이커.html'">
+				<span>미스트메이커<br />Misty Surge</span>
+			</div>
+		</div>
+		<div id="발광">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='발광.html'" srcset="../../images/ability/Illuminate.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='발광.html'">
+				<span>발광<br />Illuminate</span>
+			</div>
+		</div>
+		<div id="발끈">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='발끈.html'" srcset="../../images/ability/Berserk.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='발끈.html'">
+				<span>발끈<br />Berserk</span>
+			</div>
+		</div>
+		<div id="방음">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='방음.html'" srcset="../../images/ability/Soundproof.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='방음.html'">
+				<span>방음<br />Soundproof</span>
+			</div>
+		</div>
+		<div id="방진">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='방진.html'" srcset="../../images/ability/Overcoat.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='방진.html'">
+				<span>방진<br />Overcoat</span>
+			</div>
+		</div>
+		<div id="방탄">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='방탄.html'" srcset="../../images/ability/Bulletproof.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='방탄.html'">
+				<span>방탄<br />Bulletproof</span>
+			</div>
+		</div>
+		<div id="배리어프리">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='배리어프리.html'" srcset="../../images/ability/Screen_Cleaner.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='배리어프리.html'">
+				<span>배리어프리<br />Screen Cleaner</span>
+			</div>
+		</div>
+		<div id="배짱">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='배짱.html'" srcset="../../images/ability/Scrappy.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='배짱.html'">
+				<span>배짱<br />Scrappy</span>
+			</div>
+		</div>
+		<div id="배터리">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='배터리.html'" srcset="../../images/ability/Battery.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='배터리.html'">
+				<span>배터리<br />Battery</span>
+			</div>
+		</div>
+		<div id="배틀스위치">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='배틀스위치.html'" srcset="../../images/ability/Stance_Change.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='배틀스위치.html'">
+				<span>배틀스위치<br />Stance Change</span>
+			</div>
+		</div>
+		<div id="백의울음">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='백의울음.html'" srcset="../../images/ability/Chilling_Neigh.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='백의울음.html'">
+				<span>백의울음<br />Chilling Neigh</span>
+			</div>
+		</div>
+		<div id="벌레의알림">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='벌레의알림.html'" srcset="../../images/ability/Swarm.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='벌레의알림.html'">
+				<span>벌레의알림<br />Swarm</span>
+			</div>
+		</div>
+		<div id="변덕쟁이">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='변덕쟁이.html'" srcset="../../images/ability/Moody.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='변덕쟁이.html'">
+				<span>변덕쟁이<br />Moody</span>
+			</div>
+		</div>
+		<div id="변색">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='변색.html'" srcset="../../images/ability/Color_Change.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='변색.html'">
+				<span>변색<br />Color Change</span>
+			</div>
+		</div>
+		<div id="변환자재">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='변환자재.html'" srcset="../../images/ability/Protean.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='변환자재.html'">
+				<span>변환자재<br />Protean</span>
+			</div>
+		</div>
+		<div id="보이지않는주먹">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='보이지않는주먹.html'" srcset="../../images/ability/Unseen_Fist.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='보이지않는주먹.html'">
+				<span>보이지않는주먹<br />Unseen Fist</span>
+			</div>
+		</div>
+		<div id="복슬복슬">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='복슬복슬.html'" srcset="../../images/ability/Fluffy.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='복슬복슬.html'">
+				<span>복슬복슬<br />Fluffy</span>
+			</div>
+		</div>
+		<div id="복안">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='복안.html'" srcset="../../images/ability/Compound_Eyes.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='복안.html'">
+				<span>복안<br />Compound Eyes</span>
+			</div>
+		</div>
+		<div id="볼주머니">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='볼주머니.html'" srcset="../../images/ability/Cheek_Pouch.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='볼주머니.html'">
+				<span>볼주머니<br />Cheek Pouch</span>
+			</div>
+		</div>
+		<div id="볼줍기">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='볼줍기.html'" srcset="../../images/ability/Ball_Fetch.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='볼줍기.html'">
+				<span>볼줍기<br />Ball Fetch</span>
+			</div>
+		</div>
+		<div id="부식">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='부식.html'" srcset="../../images/ability/Corrosion.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='부식.html'">
+				<span>부식<br />Corrosion</span>
+			</div>
+		</div>
+		<div id="부유">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='부유.html'" srcset="../../images/ability/Levitate.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='부유.html'">
+				<span>부유<br />Levitate</span>
+			</div>
+		</div>
+		<div id="부자유친">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='부자유친.html'" srcset="../../images/ability/Parental_Bond.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='부자유친.html'">
+				<span>부자유친<br />Parental Bond</span>
+			</div>
+		</div>
+		<div id="부풀린가슴">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='부풀린가슴.html'" srcset="../../images/ability/Big_Pecks.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='부풀린가슴.html'">
+				<span>부풀린가슴<br />Big Pecks</span>
+			</div>
+		</div>
+		<div id="분노의경혈">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='분노의경혈.html'" srcset="../../images/ability/Anger_Point.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='분노의경혈.html'">
+				<span>분노의경혈<br />Anger Point</span>
+			</div>
+		</div>
+		<div id="불가사의부적">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='불가사의부적.html'" srcset="../../images/ability/Wonder_Guard.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='불가사의부적.html'">
+				<span>불가사의부적<br />Wonder Guard</span>
+			</div>
+		</div>
+		<div id="불굴의마음">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='불굴의마음.html'" srcset="../../images/ability/Steadfast.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='불굴의마음.html'">
+				<span>불굴의마음<br />Steadfast</span>
+			</div>
+		</div>
+		<div id="불굴의방패">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='불굴의방패.html'" srcset="../../images/ability/Dauntless_Shield.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='불굴의방패.html'">
+				<span>불굴의방패<br />Dauntless Shield</span>
+			</div>
+		</div>
+		<div id="불꽃몸">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='불꽃몸.html'" srcset="../../images/ability/Flame_Body.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='불꽃몸.html'">
+				<span>불꽃몸<br />Flame Body</span>
+			</div>
+		</div>
+		<div id="불면">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='불면.html'" srcset="../../images/ability/Insomnia.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='불면.html'">
+				<span>불면<br />Insomnia</span>
+			</div>
+		</div>
+		<div id="불요의검">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='불요의검.html'" srcset="../../images/ability/Intrepid_Sword.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='불요의검.html'">
+				<span>불요의검<br />Intrepid Sword</span>
+			</div>
+		</div>
+		<div id="브레인포스">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='브레인포스.html'" srcset="../../images/ability/Neuroforce.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='브레인포스.html'">
+				<span>브레인포스<br />Neuroforce</span>
+			</div>
+		</div>
+		<div id="비비드바디">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='비비드바디.html'" srcset="../../images/ability/Dazzling.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='비비드바디.html'">
+				<span>비비드바디<br />Dazzling</span>
+			</div>
+		</div>
+		<div id="비스트부스트">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='비스트부스트.html'" srcset="../../images/ability/Beast_Boost.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='비스트부스트.html'">
+				<span>비스트부스트<br />Beast Boost</span>
+			</div>
+		</div>
+		<div id="사이코메이커">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='사이코메이커.html'" srcset="../../images/ability/Psychic_Surge.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='사이코메이커.html'">
+				<span>사이코메이커<br />Psychic Surge</span>
+			</div>
+		</div>
+		<div id="색안경">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='색안경.html'" srcset="../../images/ability/Tinted_Lens.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='색안경.html'">
+				<span>색안경<br />Tinted Lens</span>
+			</div>
+		</div>
+		<div id="서투름">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='서투름.html'" srcset="../../images/ability/Klutz.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='서투름.html'">
+				<span>서투름<br />Klutz</span>
+			</div>
+		</div>
+		<div id="서핑테일">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='서핑테일.html'" srcset="../../images/ability/Surge_Surfer.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='서핑테일.html'">
+				<span>서핑테일<br />Surge Surfer</span>
+			</div>
+		</div>
+		<div id="선파워">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='선파워.html'" srcset="../../images/ability/Solar_Power.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='선파워.html'">
+				<span>선파워<br />Solar Power</span>
+			</div>
+		</div>
+		<div id="소울하트">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='소울하트.html'" srcset="../../images/ability/Soul-Heart.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='소울하트.html'">
+				<span>소울하트<br />Soul-Heart</span>
+			</div>
+		</div>
+		<div id="속보">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='속보.html'" srcset="../../images/ability/Quick_Feet.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='속보.html'">
+				<span>속보<br />Quick Feet</span>
+			</div>
+		</div>
+		<div id="솜털">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='솜털.html'" srcset="../../images/ability/Cotton_Down.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='솜털.html'">
+				<span>솜털<br />Cotton Down</span>
+			</div>
+		</div>
+		<div id="수의베일">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='수의베일.html'" srcset="../../images/ability/Water_Veil.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='수의베일.html'">
+				<span>수의베일<br />Water Veil</span>
+			</div>
+		</div>
+		<div id="수포">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='수포.html'" srcset="../../images/ability/Water_Bubble.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='수포.html'">
+				<span>수포<br />Water Bubble</span>
+			</div>
+		</div>
+		<div id="수확">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='수확.html'" srcset="../../images/ability/Harvest.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='수확.html'">
+				<span>수확<br />Harvest</span>
+			</div>
+		</div>
+		<div id="숙성">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='숙성.html'" srcset="../../images/ability/Ripen.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='숙성.html'">
+				<span>숙성<br />Ripen</span>
+			</div>
+		</div>
+		<div id="순수한힘">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='순수한힘.html'" srcset="../../images/ability/Pure_Power.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='순수한힘.html'">
+				<span>순수한힘<br />Pure Power</span>
+			</div>
+		</div>
+		<div id="스나이퍼">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='스나이퍼.html'" srcset="../../images/ability/Sniper.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='스나이퍼.html'">
+				<span>스나이퍼<br />Sniper</span>
+			</div>
+		</div>
+		<div id="스웜체인지">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='스웜체인지.html'" srcset="../../images/ability/Power_Construct.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='스웜체인지.html'">
+				<span>스웜체인지<br />Power Construct</span>
+			</div>
+		</div>
+		<div id="스위트베일">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='스위트베일.html'" srcset="../../images/ability/Sweet_Veil.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='스위트베일.html'">
+				<span>스위트베일<br />Sweet Veil</span>
+			</div>
+		</div>
+		<div id="스카이스킨">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='스카이스킨.html'" srcset="../../images/ability/Aerilate.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='스카이스킨.html'">
+				<span>스카이스킨<br />Aerilate</span>
+			</div>
+		</div>
+		<div id="스크루지느러미">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='스크루지느러미.html'" srcset="../../images/ability/Propeller_Tail.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='스크루지느러미.html'">
+				<span>스크루지느러미<br />Propeller Tail</span>
+			</div>
+		</div>
+		<div id="스킬링크">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='스킬링크.html'" srcset="../../images/ability/Skill_Link.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='스킬링크.html'">
+				<span>스킬링크<br />Skill Link</span>
+			</div>
+		</div>
+		<div id="스펙터가드">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='스펙터가드.html'" srcset="../../images/ability/Shadow_Shield.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='스펙터가드.html'">
+				<span>스펙터가드<br />Shadow Shield</span>
+			</div>
+		</div>
+		<div id="슬로스타트">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='슬로스타트.html'" srcset="../../images/ability/Slow_Start.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='슬로스타트.html'">
+				<span>슬로스타트<br />Slow Start</span>
+			</div>
+		</div>
+		<div id="습기">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='습기.html'" srcset="../../images/ability/Damp.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='습기.html'">
+				<span>습기<br />Damp</span>
+			</div>
+		</div>
+		<div id="승기">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='승기.html'" srcset="../../images/ability/Competitive.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='승기.html'">
+				<span>승기<br />Competitive</span>
+			</div>
+		</div>
+		<div id="승리의별">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='승리의별.html'" srcset="../../images/ability/Victory_Star.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='승리의별.html'">
+				<span>승리의별<br />Victory Star</span>
+			</div>
+		</div>
+		<div id="시간벌기">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='시간벌기.html'" srcset="../../images/ability/Stall.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='시간벌기.html'">
+				<span>시간벌기<br />Stall</span>
+			</div>
+		</div>
+		<div id="시작의바다">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='시작의바다.html'" srcset="../../images/ability/Primordial_Sea.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='시작의바다.html'">
+				<span>시작의바다<br />Primordial Sea</span>
+			</div>
+		</div>
+		<div id="심록">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='심록.html'" srcset="../../images/ability/Overgrow.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='심록.html'">
+				<span>심록<br />Overgrow</span>
+			</div>
+		</div>
+		<div id="심술꾸러기">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='심술꾸러기.html'" srcset="../../images/ability/Contrary.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='심술꾸러기.html'">
+				<span>심술꾸러기<br />Contrary</span>
+			</div>
+		</div>
+		<div id="싱크로">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='싱크로.html'" srcset="../../images/ability/Synchronize.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='싱크로.html'">
+				<span>싱크로<br />Synchronize</span>
+			</div>
+		</div>
+		<div id="쓱쓱">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='쓱쓱.html'" srcset="../../images/ability/Swift_Swim.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='쓱쓱.html'">
+				<span>쓱쓱<br />Swift Swim</span>
+			</div>
+		</div>
+		<div id="아로마베일">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='아로마베일.html'" srcset="../../images/ability/Aroma_Veil.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='아로마베일.html'">
+				<span>아로마베일<br />Aroma Veil</span>
+			</div>
+		</div>
+		<div id="아이스바디">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='아이스바디.html'" srcset="../../images/ability/Ice_Body.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='아이스바디.html'">
+				<span>아이스바디<br />Ice Body</span>
+			</div>
+		</div>
+		<div id="아이스페이스">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='아이스페이스.html'" srcset="../../images/ability/Ice_Face.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='아이스페이스.html'">
+				<span>아이스페이스<br />Ice Face</span>
+			</div>
+		</div>
+		<div id="악취">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='악취.html'" srcset="../../images/ability/Stench.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='악취.html'">
+				<span>악취<br />Stench</span>
+			</div>
+		</div>
+		<div id="애널라이즈">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='애널라이즈.html'" srcset="../../images/ability/Analytic.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='애널라이즈.html'">
+				<span>애널라이즈<br />Analytic</span>
+			</div>
+		</div>
+		<div id="어군">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='어군.html'" srcset="../../images/ability/Schooling.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='어군.html'">
+				<span>어군<br />Schooling</span>
+			</div>
+		</div>
+		<div id="얼음인분">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='얼음인분.html'" srcset="../../images/ability/Ice_Scales.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='얼음인분.html'">
+				<span>얼음인분<br />Ice Scales</span>
+			</div>
+		</div>
+		<div id="에어록">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='에어록.html'" srcset="../../images/ability/Air_Lock.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='에어록.html'">
+				<span>에어록<br />Air Lock</span>
+			</div>
+		</div>
+		<div id="여왕의위엄">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='여왕의위엄.html'" srcset="../../images/ability/Queenly_Majesty.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='여왕의위엄.html'">
+				<span>여왕의위엄<br />Queenly Majesty</span>
+			</div>
+		</div>
+		<div id="열폭주">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='열폭주.html'" srcset="../../images/ability/Flare_Boost.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='열폭주.html'">
+				<span>열폭주<br />Flare Boost</span>
+			</div>
+		</div>
+		<div id="엽록소">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='엽록소.html'" srcset="../../images/ability/Chlorophyll.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='엽록소.html'">
+				<span>엽록소<br />Chlorophyll</span>
+			</div>
+		</div>
+		<div id="예지몽">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='예지몽.html'" srcset="../../images/ability/Forewarn.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='예지몽.html'">
+				<span>예지몽<br />Forewarn</span>
+			</div>
+		</div>
+		<div id="오기">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='오기.html'" srcset="../../images/ability/Defiant.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='오기.html'">
+				<span>오기<br />Defiant</span>
+			</div>
+		</div>
+		<div id="오라브레이크">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='오라브레이크.html'" srcset="../../images/ability/Aura_Break.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='오라브레이크.html'">
+				<span>오라브레이크<br />Aura Break</span>
+			</div>
+		</div>
+		<div id="옹골찬턱">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='옹골찬턱.html'" srcset="../../images/ability/Strong_Jaw.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='옹골찬턱.html'">
+				<span>옹골찬턱<br />Strong Jaw</span>
+			</div>
+		</div>
+		<div id="옹골참">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='옹골참.html'" srcset="../../images/ability/Sturdy.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='옹골참.html'">
+				<span>옹골참<br />Sturdy</span>
+			</div>
+		</div>
+		<div id="용의턱">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='용의턱.html'" srcset="../../images/ability/Dragon's_Maw.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='용의턱.html'">
+				<span>용의턱<br />Dragon's Maw</span>
+			</div>
+		</div>
+		<div id="우격다짐">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='우격다짐.html'" srcset="../../images/ability/Sheer_Force.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='우격다짐.html'">
+				<span>우격다짐<br />Sheer Force</span>
+			</div>
+		</div>
+		<div id="원격">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='원격.html'" srcset="../../images/ability/Long_Reach.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='원격.html'">
+				<span>원격<br />Long Reach</span>
+			</div>
+		</div>
+		<div id="위기회피">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='위기회피.html'" srcset="../../images/ability/Emergency_Exit.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='위기회피.html'">
+				<span>위기회피<br />Emergency Exit</span>
+			</div>
+		</div>
+		<div id="위험예지">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='위험예지.html'" srcset="../../images/ability/Anticipation.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='위험예지.html'">
+				<span>위험예지<br />Anticipation</span>
+			</div>
+		</div>
+		<div id="위협">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='위협.html'" srcset="../../images/ability/Intimidate.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='위협.html'">
+				<span>위협<br />Intimidate</span>
+			</div>
+		</div>
+		<div id="유대변화">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='유대변화.html'" srcset="../../images/ability/Battle_Bond.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='유대변화.html'">
+				<span>유대변화<br />Battle Bond</span>
+			</div>
+		</div>
+		<div id="유연">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='유연.html'" srcset="../../images/ability/Limber.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='유연.html'">
+				<span>유연<br />Limber</span>
+			</div>
+		</div>
+		<div id="유폭">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='유폭.html'" srcset="../../images/ability/Aftermath.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='유폭.html'">
+				<span>유폭<br />Aftermath</span>
+			</div>
+		</div>
+		<div id="의기양양">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='의기양양.html'" srcset="../../images/ability/Vital_Spirit.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='의기양양.html'">
+				<span>의기양양<br />Vital Spirit</span>
+			</div>
+		</div>
+		<div id="의욕">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='의욕.html'" srcset="../../images/ability/Hustle.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='의욕.html'">
+				<span>의욕<br />Hustle</span>
+			</div>
+		</div>
+		<div id="의태">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='의태.html'" srcset="../../images/ability/Mimicry.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='의태.html'">
+				<span>의태<br />Mimicry</span>
+			</div>
+		</div>
+		<div id="이상한비늘">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='이상한비늘.html'" srcset="../../images/ability/Marvel_Scale.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='이상한비늘.html'">
+				<span>이상한비늘<br />Marvel Scale</span>
+			</div>
+		</div>
+		<div id="이판사판">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='이판사판.html'" srcset="../../images/ability/Reckless.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='이판사판.html'">
+				<span>이판사판<br />Reckless</span>
+			</div>
+		</div>
+		<div id="인분">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='인분.html'" srcset="../../images/ability/Shield_Dust.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='인분.html'">
+				<span>인분<br />Shield Dust</span>
+			</div>
+		</div>
+		<div id="일렉트릭메이커">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='일렉트릭메이커.html'" srcset="../../images/ability/Electric_Surge.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='일렉트릭메이커.html'">
+				<span>일렉트릭메이커<br />Electric Surge</span>
+			</div>
+		</div>
+		<div id="일렉트릭스킨">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='일렉트릭스킨.html'" srcset="../../images/ability/Galvanize.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='일렉트릭스킨.html'">
+				<span>일렉트릭스킨<br />Galvanize</span>
+			</div>
+		</div>
+		<div id="일루전">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='일루전.html'" srcset="../../images/ability/Illusion.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='일루전.html'">
+				<span>일루전<br />Illusion</span>
+			</div>
+		</div>
+		<div id="일찍기상">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='일찍기상.html'" srcset="../../images/ability/Early_Bird.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='일찍기상.html'">
+				<span>일찍기상<br />Early Bird</span>
+			</div>
+		</div>
+		<div id="자기과신">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='자기과신.html'" srcset="../../images/ability/Moxie.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='자기과신.html'">
+				<span>자기과신<br />Moxie</span>
+			</div>
+		</div>
+		<div id="자력">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='자력.html'" srcset="../../images/ability/Magnet_Pull.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='자력.html'">
+				<span>자력<br />Magnet Pull</span>
+			</div>
+		</div>
+		<div id="자연회복">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='자연회복.html'" srcset="../../images/ability/Natural_Cure.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='자연회복.html'">
+				<span>자연회복<br />Natural Cure</span>
+			</div>
+		</div>
+		<div id="잔비">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='잔비.html'" srcset="../../images/ability/Drizzle.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='잔비.html'">
+				<span>잔비<br />Drizzle</span>
+			</div>
+		</div>
+		<div id="잠복">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='잠복.html'" srcset="../../images/ability/Stakeout.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='잠복.html'">
+				<span>잠복<br />Stakeout</span>
+			</div>
+		</div>
+		<div id="재생력">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='재생력.html'" srcset="../../images/ability/Regenerator.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='재생력.html'">
+				<span>재생력<br />Regenerator</span>
+			</div>
+		</div>
+		<div id="저수">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='저수.html'" srcset="../../images/ability/Water_Absorb.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='저수.html'">
+				<span>저수<br />Water Absorb</span>
+			</div>
+		</div>
+		<div id="저주받은바디">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='저주받은바디.html'" srcset="../../images/ability/Cursed_Body.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='저주받은바디.html'">
+				<span>저주받은바디<br />Cursed Body</span>
+			</div>
+		</div>
+		<div id="적응력">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='적응력.html'" srcset="../../images/ability/Adaptability.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='적응력.html'">
+				<span>적응력<br />Adaptability</span>
+			</div>
+		</div>
+		<div id="전기엔진">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='전기엔진.html'" srcset="../../images/ability/Motor_Drive.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='전기엔진.html'">
+				<span>전기엔진<br />Motor Drive</span>
+			</div>
+		</div>
+		<div id="전투무장">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='전투무장.html'" srcset="../../images/ability/Battle_Armor.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='전투무장.html'">
+				<span>전투무장<br />Battle Armor</span>
+			</div>
+		</div>
+		<div id="절대안깸">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='절대안깸.html'" srcset="../../images/ability/Comatose.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='절대안깸.html'">
+				<span>절대안깸<br />Comatose</span>
+			</div>
+		</div>
+		<div id="점착">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='점착.html'" srcset="../../images/ability/Sticky_Hold.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='점착.html'">
+				<span>점착<br />Sticky Hold</span>
+			</div>
+		</div>
+		<div id="정신력">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='정신력.html'" srcset="../../images/ability/Inner_Focus.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='정신력.html'">
+				<span>정신력<br />Inner Focus</span>
+			</div>
+		</div>
+		<div id="정의의마음">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='정의의마음.html'" srcset="../../images/ability/Justified.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='정의의마음.html'">
+				<span>정의의마음<br />Justified</span>
+			</div>
+		</div>
+		<div id="정전기">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='정전기.html'" srcset="../../images/ability/Static.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='정전기.html'">
+				<span>정전기<br />Static</span>
+			</div>
+		</div>
+		<div id="젖은접시">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='젖은접시.html'" srcset="../../images/ability/Rain_Dish.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='젖은접시.html'">
+				<span>젖은접시<br />Rain Dish</span>
+			</div>
+		</div>
+		<div id="조가비갑옷">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='조가비갑옷.html'" srcset="../../images/ability/Shell_Armor.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='조가비갑옷.html'">
+				<span>조가비갑옷<br />Shell Armor</span>
+			</div>
+		</div>
+		<div id="주눅">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='주눅.html'" srcset="../../images/ability/Rattled.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='주눅.html'">
+				<span>주눅<br />Rattled</span>
+			</div>
+		</div>
+		<div id="증기기관">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='증기기관.html'" srcset="../../images/ability/Steam_Engine.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='증기기관.html'">
+				<span>증기기관<br />Steam Engine</span>
+			</div>
+		</div>
+		<div id="지구력">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='지구력.html'" srcset="../../images/ability/Stamina.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='지구력.html'">
+				<span>지구력<br />Stamina</span>
+			</div>
+		</div>
+		<div id="질풍날개">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='질풍날개.html'" srcset="../../images/ability/Gale_Wings.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='질풍날개.html'">
+				<span>질풍날개<br />Gale Wings</span>
+			</div>
+		</div>
+		<div id="짓궂은마음">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='짓궂은마음.html'" srcset="../../images/ability/Prankster.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='짓궂은마음.html'">
+				<span>짓궂은마음<br />Prankster</span>
+			</div>
+		</div>
+		<div id="천진">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='천진.html'" srcset="../../images/ability/Unaware.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='천진.html'">
+				<span>천진<br />Unaware</span>
+			</div>
+		</div>
+		<div id="천하장사">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='천하장사.html'" srcset="../../images/ability/Huge_Power.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='천하장사.html'">
+				<span>천하장사<br />Huge Power</span>
+			</div>
+		</div>
+		<div id="철가시">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='철가시.html'" srcset="../../images/ability/Iron_Barbs.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='철가시.html'">
+				<span>철가시<br />Iron Barbs</span>
+			</div>
+		</div>
+		<div id="철주먹">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='철주먹.html'" srcset="../../images/ability/Iron_Fist.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='철주먹.html'">
+				<span>철주먹<br />Iron Fist</span>
+			</div>
+		</div>
+		<div id="초식">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='초식.html'" srcset="../../images/ability/Sap_Sipper.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='초식.html'">
+				<span>초식<br />Sap Sipper</span>
+			</div>
+		</div>
+		<div id="촉촉바디">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='촉촉바디.html'" srcset="../../images/ability/Hydration.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='촉촉바디.html'">
+				<span>촉촉바디<br />Hydration</span>
+			</div>
+		</div>
+		<div id="촉촉보이스">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='촉촉보이스.html'" srcset="../../images/ability/Liquid_Voice.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='촉촉보이스.html'">
+				<span>촉촉보이스<br />Liquid Voice</span>
+			</div>
+		</div>
+		<div id="축전">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='축전.html'" srcset="../../images/ability/Volt_Absorb.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='축전.html'">
+				<span>축전<br />Volt Absorb</span>
+			</div>
+		</div>
+		<div id="치유의마음">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='치유의마음.html'" srcset="../../images/ability/Healer.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='치유의마음.html'">
+				<span>치유의마음<br />Healer</span>
+			</div>
+		</div>
+		<div id="컬리헤어">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='컬리헤어.html'" srcset="../../images/ability/Tangling_Hair.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='컬리헤어.html'">
+				<span>컬리헤어<br />Tangling Hair</span>
+			</div>
+		</div>
+		<div id="퀵드로">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='퀵드로.html'" srcset="../../images/ability/Quick_Draw.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='퀵드로.html'">
+				<span>퀵드로<br />Quick Draw</span>
+			</div>
+		</div>
+		<div id="클리어바디">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='클리어바디.html'" srcset="../../images/ability/Clear_Body.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='클리어바디.html'">
+				<span>클리어바디<br />Clear Body</span>
+			</div>
+		</div>
+		<div id="타오르는불꽃">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='타오르는불꽃.html'" srcset="../../images/ability/Flash_Fire.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='타오르는불꽃.html'">
+				<span>타오르는불꽃<br />Flash Fire</span>
+			</div>
+		</div>
+		<div id="탈">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='탈.html'" srcset="../../images/ability/Disguise.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='탈.html'">
+				<span>탈<br />Disguise</span>
+			</div>
+		</div>
+		<div id="탈피">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='탈피.html'" srcset="../../images/ability/Shed_Skin.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='탈피.html'">
+				<span>탈피<br />Shed Skin</span>
+			</div>
+		</div>
+		<div id="터보블레이즈">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='터보블레이즈.html'" srcset="../../images/ability/Turboblaze.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='터보블레이즈.html'">
+				<span>터보블레이즈<br />Turboblaze</span>
+			</div>
+		</div>
+		<div id="테라볼티지">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='테라볼티지.html'" srcset="../../images/ability/Teravolt.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='테라볼티지.html'">
+				<span>테라볼티지<br />Teravolt</span>
+			</div>
+		</div>
+		<div id="테크니션">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='테크니션.html'" srcset="../../images/ability/Technician.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='테크니션.html'">
+				<span>테크니션<br />Technician</span>
+			</div>
+		</div>
+		<div id="텔레파시">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='텔레파시.html'" srcset="../../images/ability/Telepathy.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='텔레파시.html'">
+				<span>텔레파시<br />Telepathy</span>
+			</div>
+		</div>
+		<div id="통찰">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='통찰.html'" srcset="../../images/ability/Frisk.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='통찰.html'">
+				<span>통찰<br />Frisk</span>
+			</div>
+		</div>
+		<div id="투쟁심">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='투쟁심.html'" srcset="../../images/ability/Rivalry.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='투쟁심.html'">
+				<span>투쟁심<br />Rivalry</span>
+			</div>
+		</div>
+		<div id="트랜지스터">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='트랜지스터.html'" srcset="../../images/ability/Transistor.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='트랜지스터.html'">
+				<span>트랜지스터<br />Transistor</span>
+			</div>
+		</div>
+		<div id="트레이스">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='트레이스.html'" srcset="../../images/ability/Trace.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='트레이스.html'">
+				<span>트레이스<br />Trace</span>
+			</div>
+		</div>
+		<div id="틀깨기">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='틀깨기.html'" srcset="../../images/ability/Mold_Breaker.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='틀깨기.html'">
+				<span>틀깨기<br />Mold Breaker</span>
+			</div>
+		</div>
+		<div id="틈새포착">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='틈새포착.html'" srcset="../../images/ability/Infiltrator.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='틈새포착.html'">
+				<span>틈새포착<br />Infiltrator</span>
+			</div>
+		</div>
+		<div id="파스텔베일">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='파스텔베일.html'" srcset="../../images/ability/Pastel_Veil.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='파스텔베일.html'">
+				<span>파스텔베일<br />Pastel Veil</span>
+			</div>
+		</div>
+		<div id="파워스폿">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='파워스폿.html'" srcset="../../images/ability/Power_Spot.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='파워스폿.html'">
+				<span>파워스폿<br />Power Spot</span>
+			</div>
+		</div>
+		<div id="퍼코트">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='퍼코트.html'" srcset="../../images/ability/Fur_Coat.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='퍼코트.html'">
+				<span>퍼코트<br />Fur Coat</span>
+			</div>
+		</div>
+		<div id="펑크록">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='펑크록.html'" srcset="../../images/ability/Punk_Rock.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='펑크록.html'">
+				<span>펑크록<br />Punk Rock</span>
+			</div>
+		</div>
+		<div id="페어리스킨">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='페어리스킨.html'" srcset="../../images/ability/Pixilate.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='페어리스킨.html'">
+				<span>페어리스킨<br />Pixilate</span>
+			</div>
+		</div>
+		<div id="페어리오라">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='페어리오라.html'" srcset="../../images/ability/Fairy_Aura.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='페어리오라.html'">
+				<span>페어리오라<br />Fairy Aura</span>
+			</div>
+		</div>
+		<div id="포이즌힐">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='포이즌힐.html'" srcset="../../images/ability/Poison_Heal.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='포이즌힐.html'">
+				<span>포이즌힐<br />Poison Heal</span>
+			</div>
+		</div>
+		<div id="포자">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='포자.html'" srcset="../../images/ability/Effect_Spore.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='포자.html'">
+				<span>포자<br />Effect Spore</span>
+			</div>
+		</div>
+		<div id="풀모피">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='풀모피.html'" srcset="../../images/ability/Grass_Pelt.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='풀모피.html'">
+				<span>풀모피<br />Grass Pelt</span>
+			</div>
+		</div>
+		<div id="프레셔">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='프레셔.html'" srcset="../../images/ability/Pressure.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='프레셔.html'">
+				<span>프레셔<br />Pressure</span>
+			</div>
+		</div>
+		<div id="프렌드가드">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='프렌드가드.html'" srcset="../../images/ability/Friend_Guard.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='프렌드가드.html'">
+				<span>프렌드가드<br />Friend Guard</span>
+			</div>
+		</div>
+		<div id="프리즈스킨">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='프리즈스킨.html'" srcset="../../images/ability/Refrigerate.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='프리즈스킨.html'">
+				<span>프리즈스킨<br />Refrigerate</span>
+			</div>
+		</div>
+		<div id="프리즘아머">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='프리즘아머.html'" srcset="../../images/ability/Prism_Armor.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='프리즘아머.html'">
+				<span>프리즘아머<br />Prism Armor</span>
+			</div>
+		</div>
+		<div id="플라워기프트">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='플라워기프트.html'" srcset="../../images/ability/Flower_Gift.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='플라워기프트.html'">
+				<span>플라워기프트<br />Flower Gift</span>
+			</div>
+		</div>
+		<div id="플라워베일">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='플라워베일.html'" srcset="../../images/ability/Flower_Veil.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='플라워베일.html'">
+				<span>플라워베일<br />Flower Veil</span>
+			</div>
+		</div>
+		<div id="플러스">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='플러스.html'" srcset="../../images/ability/Plus.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='플러스.html'">
+				<span>플러스<br />Plus</span>
+			</div>
+		</div>
+		<div id="피뢰침">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='피뢰침.html'" srcset="../../images/ability/Lightning_Rod.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='피뢰침.html'">
+				<span>피뢰침<br />Lightning Rod</span>
+			</div>
+		</div>
+		<div id="픽업">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='픽업.html'" srcset="../../images/ability/Pickup.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='픽업.html'">
+				<span>픽업<br />Pickup</span>
+			</div>
+		</div>
+		<div id="필터">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='필터.html'" srcset="../../images/ability/Filter.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='필터.html'">
+				<span>필터<br />Filter</span>
+			</div>
+		</div>
+		<div id="하늘의은총">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='하늘의은총.html'" srcset="../../images/ability/Serene_Grace.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='하늘의은총.html'">
+				<span>하늘의은총<br />Serene Grace</span>
+			</div>
+		</div>
+		<div id="하드록">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='하드록.html'" srcset="../../images/ability/Solid_Rock.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='하드록.html'">
+				<span>하드록<br />Solid Rock</span>
+			</div>
+		</div>
+		<div id="하얀연기">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='하얀연기.html'" srcset="../../images/ability/White_Smoke.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='하얀연기.html'">
+				<span>하얀연기<br />White Smoke</span>
+			</div>
+		</div>
+		<div id="해감액">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='해감액.html'" srcset="../../images/ability/Liquid_Ooze.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='해감액.html'">
+				<span>해감액<br />Liquid Ooze</span>
+			</div>
+		</div>
+		<div id="헤롱헤롱바디">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='헤롱헤롱바디.html'" srcset="../../images/ability/Cute_Charm.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='헤롱헤롱바디.html'">
+				<span>헤롱헤롱바디<br />Cute Charm</span>
+			</div>
+		</div>
+		<div id="헤비메탈">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='헤비메탈.html'" srcset="../../images/ability/Heavy_Metal.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='헤비메탈.html'">
+				<span>헤비메탈<br />Heavy Metal</span>
+			</div>
+		</div>
+		<div id="혼연일체">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='혼연일체.html'" srcset="../../images/ability/As_One.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='혼연일체.html'">
+				<span>혼연일체<br />As One</span>
+			</div>
+		</div>
+		<div id="화학변화가스">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='화학변화가스.html'" srcset="../../images/ability/Neutralizing_Gas.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='화학변화가스.html'">
+				<span>화학변화가스<br />Neutralizing Gas</span>
+			</div>
+		</div>
+		<div id="흑의울음">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='흑의울음.html'" srcset="../../images/ability/Grim_Neigh.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='흑의울음.html'">
+				<span>흑의울음<br />Grim Neigh</span>
+			</div>
+		</div>
+		<div id="흡반">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='흡반.html'" srcset="../../images/ability/Suction_Cups.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='흡반.html'">
+				<span>흡반<br />Suction Cups</span>
+			</div>
+		</div>
+		<div id="힐링시프트">
+			<img id="bgability" style="cursor:pointer;" OnClick="location.href='힐링시프트.html'" srcset="../../images/ability/Triage.png 1x">
+			<div id="txtability" style="cursor:pointer;" OnClick="location.href='힐링시프트.html'">
+				<span>힐링시프트<br />Triage</span>
+			</div>
+		</div>
+	</div>
+	<div id="title">
+		<svg class="bgtitle">
+			<rect id="fillwhite" width="255" height="60">
+			</rect>
+		</svg>
+		<div id="txttitle">
+			<span>특성 목록</span>
+		</div>
+	</div>
+	<div id="header"></div>
+</body>
+</html>

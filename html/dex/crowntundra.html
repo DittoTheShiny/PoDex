@@ -1,0 +1,4147 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=320, user-scalable=yes">
+    <title>Crown Tundra Pokedex</title>
+    <link rel="stylesheet" href="../../css/header.css" />
+    <link rel="stylesheet" href="../../css/BgPkmn.css" />
+    <style id="applicationStylesheet" type="text/css">
+        #pkmnlist {
+            position: absolute;
+            width: 375px;
+            height: 12519px;
+            top: 60px;
+            background-color: white;
+            overflow: hidden;
+        }
+
+        #pkmn {
+            position: relative;
+            width: 255px;
+            height: 50px;
+            left: 30px;
+            top: 2px;
+            overflow: visible;
+            margin-top: 3px;
+        }
+
+        .pkmnmain {
+            position: absolute;
+            overflow: visible;
+            width: 255px;
+            height: 50px;
+            left: 50px;
+            top: 0px;
+        }
+
+        #sprt {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            left: 0px;
+            top: 0px;
+            overflow: visible;
+        }
+
+        #pkmnname {
+            position: absolute;
+            width: 141px;
+            height: 34px;
+            left: 60px;
+            top: 8px;
+            overflow: visible;
+        }
+
+        #txtpkmnname {
+            left: 8px;
+            top: 4px;
+            position: absolute;
+            overflow: visible;
+            width: 108px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: NanumSquare;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            color: rgba(0,0,0,1);
+        }
+
+        #type {
+            position: absolute;
+            width: 80px;
+            height: 34px;
+            left: 218px;
+            top: 8px;
+            overflow: visible;
+        }
+
+        #type1 {
+            position: absolute;
+            width: 34px;
+            height: 34px;
+            left: 0px;
+            top: 0px;
+            overflow: visible;
+        }
+
+        #type2 {
+            position: absolute;
+            width: 34px;
+            height: 34px;
+            left: 46px;
+            top: 0px;
+            overflow: visible;
+        }
+
+        #typesole {
+            position: absolute;
+            width: 34px;
+            height: 34px;
+            left: 23px;
+            top: 0px;
+            overflow: visible;
+        }
+    </style>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#header").load("../header.html");  // 원하는 파일 경로를 삽입하면 된다
+
+        });
+    </script>
+</head>
+<body id="bodytag">
+    <div id="pkmnlist">
+        <svg class="bgbody">
+            <rect id="bgbody" width="375" height="752">
+            </rect>
+        </svg>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/872.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg872" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/872.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>001 누니머기<br />Snom</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ice.png">
+                <img id="type2" srcset="../../images/type/Bug.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/873.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg873" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/873.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>002 모스노우<br />Frosmoth</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ice.png">
+                <img id="type2" srcset="../../images/type/Bug.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/831.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg831" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/831.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>003 우르<br />Wooloo</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Normal.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/832.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg832" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/832.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>004 배우르<br />Dubwool</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Normal.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/819.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg819" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/819.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>005 탐리스<br />Skwovet</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Normal.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/820.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg820" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/820.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>006 요씽리스<br />Greedent</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Normal.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/220.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg220" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/220.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>007 꾸꾸리<br />Swibnub</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ice.png">
+                <img id="type2" srcset="../../images/type/Ground.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/221.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg221" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/221.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>008 메꾸리<br />Piloswine</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ice.png">
+                <img id="type2" srcset="../../images/type/Ground.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/473.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg473" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/473.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>009 맘모꾸리<br />Mamoswine</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ice.png">
+                <img id="type2" srcset="../../images/type/Ground.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/439.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg439" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/439.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>010 흉내내<br />Mime Jr.</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Psychic.png">
+                <img id="type2" srcset="../../images/type/Fairy.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/122.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg122" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/122.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>011 마임맨<br />Mr. Mime</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Psychic.png">
+                <img id="type2" srcset="../../images/type/Fairy.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/122rG.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg122rG" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/122rG.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>011 가라르 마임맨<br />Galarian Mr. Mime</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ice.png">
+                <img id="type2" srcset="../../images/type/Psychic.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/866.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg866" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/866.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>012 마임꽁꽁<br />Mr. Rime</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ice.png">
+                <img id="type2" srcset="../../images/type/Psychic.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/238.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg238" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/238.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>013 뽀뽀라<br />Smoochum</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ice.png">
+                <img id="type2" srcset="../../images/type/Psychic.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/124.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg124" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/124.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>014 루주라<br />Jynx</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ice.png">
+                <img id="type2" srcset="../../images/type/Psychic.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/239.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg239" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/239.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>015 에레키드<br />Elekid</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Electric.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/125.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg125" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/125.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>016 에레브<br />Electabuzz</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Electric.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/466.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg466" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/466.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>017 에레키블<br />Elecivire</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Electric.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/240.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg240" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/240.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>018 마그비<br />Magby</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Fire.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/126.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg126" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/126.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>019 마그마<br />Magmar</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Fire.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/467.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg467" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/467.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>020 마그마번<br />Magmoratr</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Fire.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/531.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg531" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/531.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>021 다부니<br />Audino</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Normal.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/582.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg582" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/582.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>022 바닐프티<br />Vanillite</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Ice.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/583.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg583" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/583.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>023 바닐리치<br />Vanillish</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Ice.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/584.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg584" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/584.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>024 배바닐라<br />Vanilluxe</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Ice.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/361.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg361" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/361.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>025 눈꼬마<br />Snorunt</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Ice.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/362.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg362" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/362.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>026 얼음귀신<br />Glalie</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Ice.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/478.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg478" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/478.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>027 눈여아<br />Froslass</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ice.png">
+                <img id="type2" srcset="../../images/type/Ghost.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/215.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg215" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/215.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>028 포푸니<br />Sneasel</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Dark.png">
+                <img id="type2" srcset="../../images/type/Ice.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/461.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg461" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/461.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>029 포푸니라<br />Weavile</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Dark.png">
+                <img id="type2" srcset="../../images/type/Ice.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/615.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg615" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/615.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>030 프리지오<br />Cryogonal</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Ice.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/459.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg459" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/459.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>031 눈쓰개<br />Snover</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Grass.png">
+                <img id="type2" srcset="../../images/type/Ice.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/460.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg460" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/460.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>032 눈설왕<br />Abomasnow</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Grass.png">
+                <img id="type2" srcset="../../images/type/Ice.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/708.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg708" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/708.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>033 나목령<br />Phantump</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ghost.png">
+                <img id="type2" srcset="../../images/type/Grass.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/709.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg709" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/709.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>034 대로트<br />Trevenant</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ghost.png">
+                <img id="type2" srcset="../../images/type/Grass.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/333.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg333" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/333.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>035 파비코<br />Swablu</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Normal.png">
+                <img id="type2" srcset="../../images/type/Flying.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/334.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg334" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/334.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>036 파비코리<br />Altaria</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Dragon.png">
+                <img id="type2" srcset="../../images/type/Flying.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/859.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg859" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/859.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>037 메롱꿍<br />Impidimp</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Dark.png">
+                <img id="type2" srcset="../../images/type/Fairy.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/860.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg860" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/860.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>038 쏘겨모<br />Morgrem</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Dark.png">
+                <img id="type2" srcset="../../images/type/Fairy.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/861.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg861" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/861.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>039 오롱털<br />Grimmsnarl</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Dark.png">
+                <img id="type2" srcset="../../images/type/Fairy.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/861G.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg861G" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/861G.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>039 거다이맥스 오롱털<br />Gigantamax Grimmsnarl</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Dark.png">
+                <img id="type2" srcset="../../images/type/Fairy.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/856.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg856" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/856.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>040 몸지브림<br />Hatenna</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Psychic.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/857.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg857" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/857.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>041 손지브림<br />Hattrem</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Psychic.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/858.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg858" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/858.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>042 브리무음<br />Hatterene</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Psychic.png">
+                <img id="type2" srcset="../../images/type/Fairy.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/858G.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg858G" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/858G.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>042 거다이맥스 브리무음<br />Gigantamax Hatterene</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Psychic.png">
+                <img id="type2" srcset="../../images/type/Fairy.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/173.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg173" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/173.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>043 삐<br />Cleffa</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Fairy.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/035.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg035" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/035.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>044 삐삐<br />Clefairy</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Fairy.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/036.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg036" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/036.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>045 픽시<br />Clefable</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Fairy.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/778.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg778" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/778.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>046 따라큐<br />Mimikyu</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ghost.png">
+                <img id="type2" srcset="../../images/type/Fairy.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/442.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg442" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/442.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>047 화강돌<br />Spiritomb</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ghost.png">
+                <img id="type2" srcset="../../images/type/Dark.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/607.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg607" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/607.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>048 불켜미<br />Litwick</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ghost.png">
+                <img id="type2" srcset="../../images/type/Fire.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/608.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg608" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/608.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>049 램프라<br />Lampent</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ghost.png">
+                <img id="type2" srcset="../../images/type/Fire.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/609.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg609" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/609.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>050 샹델라<br />Chandelure</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ghost.png">
+                <img id="type2" srcset="../../images/type/Fire.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/574.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg574" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/574.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>051 고디탱<br />Gothita</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Psychic.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/575.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg575" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/575.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>052 고디보미<br />Gothorita</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Psychic.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/576.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg576" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/576.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>053 고디모아젤<br />Gothitelle</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Psychic.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/577.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg577" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/577.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>054 유니란<br />Solosis</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Psychic.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/578.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg578" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/578.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>055 듀란<br />Duosion</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Psychic.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/579.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg579" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/579.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>056 란쿨루스<br />Reuniclus</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Psychic.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/532.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg532" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/532.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>057 으랏차<br />Timburr</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Fighting.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/533.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg533" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/533.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>058 토쇠골<br />Gurdurr</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Fighting.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/534.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg534" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/534.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>059 노보청<br />Conkeldurr</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Fighting.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/339.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg339" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/339.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>060 미꾸리<br />Barboach</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Water.png">
+                <img id="type2" srcset="../../images/type/Ground.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/340.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg340" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/340.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>061 메깅<br />Whiscash</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Water.png">
+                <img id="type2" srcset="../../images/type/Ground.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/129.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg129" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/129.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>062 잉어킹<br />Magikarp</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Water.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/130.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg130" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/130.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>063 갸라도스<br />Gyarados</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Water.png">
+                <img id="type2" srcset="../../images/type/Flying.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/550.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg550" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/550.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>064 배쓰나이 적색근<br />Basculin Red-Striped Form</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Water.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/550z1.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg550z1" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/550z1.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>064 배쓰나이 청색근<br />Basculin Blue-Striped Form</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Water.png">
+                <img id="type2" srcset="../../images/type/.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/029.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg029" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/029.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>065 니드런♀<br />Nidoran♀</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Poison.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/030.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg030" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/030.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>066 니드리나<br />Nidorina</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Poison.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/031.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg031" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/031.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>067 니드퀸<br />Nidoqueen</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Poison.png">
+                <img id="type2" srcset="../../images/type/Ground.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/032.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg032" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/032.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>068 니드런♂<br />Nidoran♂</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Poison.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/033.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg033" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/033.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>069 니드리노<br />Nidorino</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Poison.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/034.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg034" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/034.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>070 니드킹<br />Nidoking</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Poison.png">
+                <img id="type2" srcset="../../images/type/Ground.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/263.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg263" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/263.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>071 지그제구리<br />Ziagzagoon</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Normal.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/263rG.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg263rG" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/263rG.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>071 가라르 지그제구리<br />Galarian Zigzagoon</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Dark.png">
+                <img id="type2" srcset="../../images/type/Normal.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/264.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg264" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/264.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>072 직구리<br />Linoone</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Normal.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/264rG.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg264rG" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/264rG.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>072 가라르 직구리<br />Galarian Linoone</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Dark.png">
+                <img id="type2" srcset="../../images/type/Normal.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/862.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg862" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/862.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>073 가로막구리<br />Obstagoon</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Dark.png">
+                <img id="type2" srcset="../../images/type/Normal.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/133.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg133" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/133.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>074 이브이<br />Eevee</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Normal.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/133G.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg133G" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/133G.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>074 거다이맥스 이브이<br />Gigantamax Eevee</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Normal.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/134.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg134" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/134.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>075 샤미드<br />Vaporeon</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Water.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/135.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg135" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/135.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>076 쥬피썬더<br />Jolteon</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Electric.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/136.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg136" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/136.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>077 부스터<br />Flareon</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Fire.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/197.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg197" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/197.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>078 블래키<br />Umbreon</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Dark.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/196.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg196" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/196.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>079 에브이<br />Espeon</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Psychic.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/471.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg471" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/471.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>080 글레이시아<br />Glaceon</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Ice.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/470.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg470" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/470.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>081 리피아<br />Leafeon</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Grass.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/700.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg700" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/700.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>082 님피아<br />Sylveon</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Fairy.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/696.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg696" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/696.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>083 티고라스<br />Tyrunt</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Rock.png">
+                <img id="type2" srcset="../../images/type/Dragon.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/697.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg697" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/697.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>084 견고라스<br />Tyrantrum</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Rock.png">
+                <img id="type2" srcset="../../images/type/Dragon.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/698.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg698" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/698.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>085 아마루스<br />Amaura</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Rock.png">
+                <img id="type2" srcset="../../images/type/Ice.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/699.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg699" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/699.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>086 아마루르가<br />Aurorus</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Rock.png">
+                <img id="type2" srcset="../../images/type/Ice.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/436.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg436" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/436.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>087 동미러<br />Bronzor</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Steel.png">
+                <img id="type2" srcset="../../images/type/Psychic.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/437.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg437" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/437.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>088 동탁군<br />Bronzong</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Steel.png">
+                <img id="type2" srcset="../../images/type/Psychic.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/874.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg874" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/874.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>089 돌헨진<br />Stonjourner</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Rock.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/875.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg875" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/875.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>090 빙큐보 아이스페이스<br />Eiscue</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Ice.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/875z1.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg875z1" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/875z1.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>090 빙큐보 나이스페이스<br />Eiscue</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Ice.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/751.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg751" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/751.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>091 물거미<br />Dewpider</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Water.png">
+                <img id="type2" srcset="../../images/type/Bug.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/752.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg752" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/752.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>092 깨비물거미<br />Araquanid</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Water.png">
+                <img id="type2" srcset="../../images/type/Bug.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/595.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg595" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/595.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>093 파쪼옥<br />Joltik</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Bug.png">
+                <img id="type2" srcset="../../images/type/Electric.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/596.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg596" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/596.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>094 전툴라<br />Galvantula</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Bug.png">
+                <img id="type2" srcset="../../images/type/Electric.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/588.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg588" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/588.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>095 딱정곤<br />Karrablast</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Bug.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/589.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg589" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/589.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>096 슈바르고<br />Escavalier</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Bug.png">
+                <img id="type2" srcset="../../images/type/Steel.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/616.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg616" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/616.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>097 쪼마리<br />Shelmet</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Bug.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/617.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg617" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/617.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>098 어지리더<br />Accelgor</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Bug.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/850.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg850" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/850.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>099 태우지네<br />Sizzlipede</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Fire.png">
+                <img id="type2" srcset="../../images/type/Bug.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/851.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg851" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/851.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>100 다태우지네<br />Centiskorch</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Fire.png">
+                <img id="type2" srcset="../../images/type/Bug.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/851G.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg851G" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/851G.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>100 거다이맥스 다태우지네<br />Gigantamax Centiskorch</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Fire.png">
+                <img id="type2" srcset="../../images/type/Bug.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/632.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg632" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/632.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>101 아이앤트<br />Durant</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Bug.png">
+                <img id="type2" srcset="../../images/type/Steel.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/631.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg631" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/631.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>102 앤티골<br />Heatmor</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Fire.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/554.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg554" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/554.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>103 달막화<br />Darumaka</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Fire.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/554rG.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg554rG" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/554rG.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>103 가라르 달막화<br />Galarian Darumaka</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Ice.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/555.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg555" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/555.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>104 불비달마<br />Darmanitan</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Fire.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/555z1.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg555z1" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/555z1.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>104 달마모드 불비달마<br />Zen Mode Darmanitan</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Fire.png">
+                <img id="type2" srcset="../../images/type/Psychic.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/555rG.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg555rG" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/555rG.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>104 가라르 불비달마<br />Galarian Darmanitan</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Ice.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/555rGz1.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg555rGz1" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/555rGz1.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>104 가라르 달마모드 불비달마<br />Galarian Zen Mode Darmanitan</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ice.png">
+                <img id="type2" srcset="../../images/type/Fire.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/077.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg077" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/077.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>105 포니타<br />Ponyta</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Fire.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/077rG.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg077rG" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/077rG.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>105 가라르 포니타<br />Galarian Ponyta</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Psychic.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/078.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg078" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/078.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>106 날쌩마<br />Rapidash</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Fire.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/078rG.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg078rG" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/078rG.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>106 가라르 날쌩마<br />Galarian Rapidash</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Psychic.png">
+                <img id="type2" srcset="../../images/type/Fairy.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/359.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg359" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/359.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>107 앱솔<br />Absol</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Dark.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/878.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg878" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/878.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>108 끼리동<br />Cufant</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Steel.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/879.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg879" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/879.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>109 대왕끼리동<br />Copperajah</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Steel.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/879G.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg879G" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/879G.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>109 거다이맥스 대왕끼리동<br />Gigantamax Copperajah</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Steel.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/885.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg885" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/885.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>110 드라꼰<br />Dreepy</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Dragon.png">
+                <img id="type2" srcset="../../images/type/Ghost.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/886.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg886" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/886.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>111 드래런치<br />Drakloak</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Dragon.png">
+                <img id="type2" srcset="../../images/type/Ghost.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/887.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg887" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/887.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>112 드래펄트<br />Dragapult</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Dragon.png">
+                <img id="type2" srcset="../../images/type/Ghost.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/371.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg371" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/371.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>113 아공이<br />Bagon</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Dragon.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/372.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg372" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/372.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>114 쉘곤<br />Shelgon</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Dragon.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/373.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg373" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/373.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>115 보만다<br />Salamence</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Dragon.png">
+                <img id="type2" srcset="../../images/type/Flying.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/443.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg443" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/443.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>116 딥상어동<br />Gible</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Dragon.png">
+                <img id="type2" srcset="../../images/type/Ground.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/444.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg444" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/444.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>117 한바이트<br />Gabite</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Dragon.png">
+                <img id="type2" srcset="../../images/type/Ground.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/445.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg445" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/445.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>118 한카리아스<br />Garchomp</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Dragon.png">
+                <img id="type2" srcset="../../images/type/Ground.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/621.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg621" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/621.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>119 크리만<br />Druddigon</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Dragon.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/225.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg225" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/225.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>120 딜리버드<br />Delibird</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ice.png">
+                <img id="type2" srcset="../../images/type/Flying.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/613.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg613" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/613.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>121 코고미<br />Cubchoo</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Ice.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/614.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg614" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/614.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>122 툰베어<br />Beartic</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Ice.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/138.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg138" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/138.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>123 암나이트<br />Omanyte</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Rock.png">
+                <img id="type2" srcset="../../images/type/Water.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/139.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg139" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/139.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    #N/A
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Rock.png">
+                <img id="type2" srcset="../../images/type/Water.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/140.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg140" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/140.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>125 투구<br />Kabuto</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Rock.png">
+                <img id="type2" srcset="../../images/type/Water.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/141.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg141" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/141.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>126 투구푸스<br />Kabutos</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Rock.png">
+                <img id="type2" srcset="../../images/type/Water.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/142.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg142" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/142.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>127 프테라<br />Aerodactyl</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Rock.png">
+                <img id="type2" srcset="../../images/type/Flying.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/703.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg703" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/703.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>128 멜리시<br />Carbink</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Rock.png">
+                <img id="type2" srcset="../../images/type/Fairy.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/374.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg374" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/374.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>129 메탕<br />Beldum</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Steel.png">
+                <img id="type2" srcset="../../images/type/Psychic.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/375.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg375" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/375.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>130 메탕구<br />Metang</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Steel.png">
+                <img id="type2" srcset="../../images/type/Psychic.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/376.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg376" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/376.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>131 메타그로스<br />Metagross</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Steel.png">
+                <img id="type2" srcset="../../images/type/Psychic.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/854.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg854" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/854.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>132 데인차<br />Sinistea</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Ghost.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/855.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg855" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/855.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>133 포트데스<br />Polteageist</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Ghost.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/447.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg447" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/447.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>134 리오르<br />Riolu</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Fighting.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/448.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg448" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/448.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>135 루카리오<br />Lucario</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Fighting.png">
+                <img id="type2" srcset="../../images/type/Steel.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/633.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg633" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/633.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>136 모노두<br />Deino</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Dark.png">
+                <img id="type2" srcset="../../images/type/Dragon.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/634.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg634" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/634.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>137 디헤드<br />Zweilous</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Dark.png">
+                <img id="type2" srcset="../../images/type/Dragon.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/635.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg635" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/635.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>138 삼삼드래<br />Hydreigon</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Dark.png">
+                <img id="type2" srcset="../../images/type/Dragon.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/246.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg246" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/246.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>139 애버라스<br />Larvitar</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Rock.png">
+                <img id="type2" srcset="../../images/type/Ground.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/247.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg247" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/247.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>140 데기라스<br />Pupitar</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Rock.png">
+                <img id="type2" srcset="../../images/type/Ground.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/248.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg248" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/248.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>141 마기라스<br />Tyranitar</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Rock.png">
+                <img id="type2" srcset="../../images/type/Dark.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/712.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg712" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/712.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>142 꽁어름<br />Bergmite</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Ice.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/713.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg713" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/713.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>143 크레베이스<br />Avalugg</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Ice.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/041.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg041" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/041.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>144 주뱃<br />Zubat</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Poison.png">
+                <img id="type2" srcset="../../images/type/Flying.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/042.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg042" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/042.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>145 골뱃<br />Golbat</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Poison.png">
+                <img id="type2" srcset="../../images/type/Flying.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/169.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg169" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/169.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>146 크로뱃<br />Crobat</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Poison.png">
+                <img id="type2" srcset="../../images/type/Flying.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/564.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg564" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/564.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>147 프로토가<br />Tirtouga</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Water.png">
+                <img id="type2" srcset="../../images/type/Rock.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/565.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg565" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/565.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>148 늑골라<br />Carracost</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Water.png">
+                <img id="type2" srcset="../../images/type/Rock.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/566.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg566" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/566.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>149 아켄<br />Archen</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Rock.png">
+                <img id="type2" srcset="../../images/type/Flying.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/567.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg567" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/567.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>150 아케오스<br />Archeops</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Rock.png">
+                <img id="type2" srcset="../../images/type/Flying.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/343.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg343" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/343.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>151 오뚝군<br />Baltoy</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ground.png">
+                <img id="type2" srcset="../../images/type/Psychic.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/344.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg344" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/344.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>152 점토도리<br />Claydol</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ground.png">
+                <img id="type2" srcset="../../images/type/Psychic.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/622.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg622" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/622.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>153 골비람<br />Golett</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ground.png">
+                <img id="type2" srcset="../../images/type/Ghost.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/623.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg623" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/623.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>154 골루그<br />Golurk</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ground.png">
+                <img id="type2" srcset="../../images/type/Ghost.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/835.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg835" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/835.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>155 멍파치<br />Yamper</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Electric.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/836.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg836" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/836.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>156 펄스멍<br />Boltund</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Electric.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/877.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg877" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/877.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>157 모르페코<br />Morpeko</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Electric.png">
+                <img id="type2" srcset="../../images/type/Dark.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/871.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg871" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/871.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>158 찌르성게<br />Pincurchin</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Electric.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/363.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg363" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/363.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>159 대굴레오<br />Spheal</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ice.png">
+                <img id="type2" srcset="../../images/type/Water.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/364.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg364" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/364.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>160 씨레오<br />Sealeo</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ice.png">
+                <img id="type2" srcset="../../images/type/Water.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/365.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg365" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/365.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>161 씨카이저<br />Walrein</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ice.png">
+                <img id="type2" srcset="../../images/type/Water.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/781.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg781" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/781.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>162 타타륜<br />Dhelmise</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ghost.png">
+                <img id="type2" srcset="../../images/type/Grass.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/821.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg821" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/821.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>163 파라꼬<br />Rookidee</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Flying.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/822.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg822" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/822.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>164 파크로우<br />Corvisquire</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Flying.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/823.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg823" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/823.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>165 아머까오<br />Corviknight</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Flying.png">
+                <img id="type2" srcset="../../images/type/Steel.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/826G.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg826G" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/826G.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>165 거다이맥스 아머까오<br />Gigantamax Corviknight</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Flying.png">
+                <img id="type2" srcset="../../images/type/Steel.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/829.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg829" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/829.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>166 꼬모카<br />Gossifleur</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Grass.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/830.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg830" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/830.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>167 백솜모카<br />Eldegoss</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Grass.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/546.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg546" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/546.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>168 소미안<br />Cottonee</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Grass.png">
+                <img id="type2" srcset="../../images/type/Fairy.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/547.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg547" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/547.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>169 엘풍<br />Whimsicott</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Grass.png">
+                <img id="type2" srcset="../../images/type/Fairy.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/213.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg213" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/213.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>170 단단지<br />Shuckle</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Bug.png">
+                <img id="type2" srcset="../../images/type/Rock.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/876.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg876" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/876.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>171 에써르 수컷<br />Indeedee Male</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Psychic.png">
+                <img id="type2" srcset="../../images/type/Normal.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/876f.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg876f" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/876f.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>171 에써르 암컷<br />Indeedee Female</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Psychic.png">
+                <img id="type2" srcset="../../images/type/Normal.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/446.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg446" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/446.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>172 먹고자<br />Muchlax</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Normal.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/143.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg143" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/143.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>173 잠만보<br />Snorlax</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Normal.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/143G.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg143G" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/143G.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>173 거다이맥스 잠만보<br />Gigantamax Snorlax</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Normal.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/302.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg302" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/302.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>174 깜까미<br />Sableye</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Dark.png">
+                <img id="type2" srcset="../../images/type/Ghost.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/303.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg303" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/303.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>175 입치트<br />Mawile</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Steel.png">
+                <img id="type2" srcset="../../images/type/Fairy.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/837.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg837" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/837.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>176 탄동<br />Rolycoly</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Rock.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/838.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg838" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/838.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>177 탄차곤<br />Carkol</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Rock.png">
+                <img id="type2" srcset="../../images/type/Fire.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/839.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg839" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/839.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>178 석탄산<br />Coalossal</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Rock.png">
+                <img id="type2" srcset="../../images/type/Fire.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/839G.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg839G" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/839G.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>178 거다이맥스 석탄산<br />Gigantamax Coalossal</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Rock.png">
+                <img id="type2" srcset="../../images/type/Fire.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/597.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg597" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/597.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>179 철시드<br />Ferroseed</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Grass.png">
+                <img id="type2" srcset="../../images/type/Steel.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/598.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg598" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/598.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>180 너트령<br />Ferrothorn</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Grass.png">
+                <img id="type2" srcset="../../images/type/Steel.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/714.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg714" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/714.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>181 음뱃<br />Noibat</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Flying.png">
+                <img id="type2" srcset="../../images/type/Dragon.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/715.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg715" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/715.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>182 음번<br />Noivern</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Flying.png">
+                <img id="type2" srcset="../../images/type/Dragon.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/345.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg345" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/345.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>183 릴링<br />Lileep</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Rock.png">
+                <img id="type2" srcset="../../images/type/Grass.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/346.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg346" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/346.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>184 릴리요<br />Cradily</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Rock.png">
+                <img id="type2" srcset="../../images/type/Grass.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/347.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg347" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/347.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>185 아노딥스<br />Anorith</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Rock.png">
+                <img id="type2" srcset="../../images/type/Bug.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/348.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg348" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/348.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>186 아말도<br />Armaldo</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Rock.png">
+                <img id="type2" srcset="../../images/type/Bug.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/369.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg369" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/369.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>187 시라칸<br />Relicanth</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Water.png">
+                <img id="type2" srcset="../../images/type/Rock.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/349.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg349" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/349.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>188 빈티나<br />Feebas</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Water.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/350.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg350" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/350.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>189 밀로틱<br />Milotic</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Water.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/131.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg131" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/131.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>190 라프라스<br />Lapras</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Water.png">
+                <img id="type2" srcset="../../images/type/Ice.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/131G.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg131G" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/131G.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>190 거다이맥스 라프라스<br />Gigantamax Lapras</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Water.png">
+                <img id="type2" srcset="../../images/type/Ice.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/304.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg304" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/304.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>191 가보리<br />Aron</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Steel.png">
+                <img id="type2" srcset="../../images/type/Rock.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/305.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg305" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/305.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>192 갱도라<br />Lairon</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Steel.png">
+                <img id="type2" srcset="../../images/type/Rock.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/306.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg306" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/306.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>193 보스로라<br />Aggron</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Steel.png">
+                <img id="type2" srcset="../../images/type/Rock.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/147.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg147" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/147.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>194 미뇽<br />Dratini</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Dragon.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/148.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg148" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/148.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>195 신뇽<br />Dragonair</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Dragon.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/149.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg149" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/149.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    #N/A
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Dragon.png">
+                <img id="type2" srcset="../../images/type/Flying.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/377.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg377" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/377.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>197 레지락<br />Regirock</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Rock.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/378.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg378" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/378.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>198 레지아이스<br />Regice</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Ice.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/379.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg379" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/379.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>199 레지스틸<br />Registeel</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Steel.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/894.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg894" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/894.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>200 레지에레키<br />Regieleki</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Electric.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/895.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg895" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/895.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>201 레지드래고<br />Regidrago</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Dragon.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/144.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg144" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/144.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>202 프리져<br />Articuno</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Ice.png">
+                <img id="type2" srcset="../../images/type/Flying.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/144rG.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg144rG" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/144rG.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>202 가라르 프리져<br />Galarian Articuno</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Psychic.png">
+                <img id="type2" srcset="../../images/type/Flying.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/145.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg145" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/145.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>203 썬더<br />Zapdos</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Electric.png">
+                <img id="type2" srcset="../../images/type/Flying.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/145rG.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg145rG" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/145rG.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>203 가라르 썬더<br />Galarian Zapdos</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Fighting.png">
+                <img id="type2" srcset="../../images/type/Flying.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/146.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg146" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/146.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>204 파이어<br />Moltres</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Fire.png">
+                <img id="type2" srcset="../../images/type/Flying.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/146rG.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg146rG" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/146rG.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>204 가라르 파이어<br />Galarian Moltres</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Dark.png">
+                <img id="type2" srcset="../../images/type/Flying.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/638.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg638" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/638.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>205 코바르온<br />Cobalion</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Steel.png">
+                <img id="type2" srcset="../../images/type/Fighting.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/639.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg639" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/639.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>206 테라키온<br />Terrakion</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Rock.png">
+                <img id="type2" srcset="../../images/type/Fighting.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/640.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg640" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/640.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>207 비리디온<br />Virizion</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Grass.png">
+                <img id="type2" srcset="../../images/type/Fighting.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/896.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg896" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/896.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>208 레이스포스<br />Spectrier</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Ice.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/897.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg897" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/897.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>209 블리자포스<br />Glastrier</span>
+                </div>
+            </div>
+            <div id="type">
+
+
+                <img id="typesole" srcset="../../images/type/Ghost.png">
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/898.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg898" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/898.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>210 버드렉스<br />Calyrex</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Psychic.png">
+                <img id="type2" srcset="../../images/type/Grass.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/898z1.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg898z1" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/898z1.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>210 버드렉스 백마 탄 모습<br />Ice Rider Calyrex</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Psychic.png">
+                <img id="type2" srcset="../../images/type/Ice.png">
+
+            </div>
+        </div>
+        <div id="pkmn" style="cursor:pointer;" OnClick="location.href='../pkmninfo/898z2.html'">
+            <svg class="pkmnmain" viewBox="0 0 266 50">
+                <path id="Bg898z2" d="M 0 0 L 241 0 C 255 0 266 11 266 25 C 266 39 255 50 241 50 L 0 50 L 0 0 Z">
+                </path>
+            </svg>
+            <img id="sprt" srcset="../../images/portrait/898z2.png">
+            <div id="pkmnname">
+                <div id="txtpkmnname">
+                    <span>210 버드렉스 흑마 탄 모습<br />Shadow Rider Calyrex</span>
+                </div>
+            </div>
+            <div id="type">
+                <img id="type1" srcset="../../images/type/Psychic.png">
+                <img id="type2" srcset="../../images/type/Ghost.png">
+
+            </div>
+        </div>
+
+    </div>
+    <div id="title">
+        <svg class="bgtitle">
+            <rect id="fillwhite" width="255" height="60">
+            </rect>
+        </svg>
+        <div id="txttitle">
+            <span>왕관설원도감</span>
+        </div>
+    </div>
+    <div id="header"></div>
+</body>
+</html>

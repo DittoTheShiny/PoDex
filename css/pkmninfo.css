@@ -1,0 +1,1654 @@
+﻿#main {
+    position: fixed;
+    width: 375px;
+    height: 130px;
+    left: 0px;
+    top: 35px;
+    overflow: visible;
+}
+
+.bgmain {
+    position: absolute;
+    overflow: visible;
+    width: 375px;
+    height: 105px;
+    left: 0px;
+    top: 25px;
+}
+
+#name {
+    position: absolute;
+    width: 335px;
+    height: 50px;
+    left: 20px;
+    top: 30px;
+    overflow: visible;
+}
+
+#bgname {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.bgname {
+    overflow: visible;
+    position: absolute;
+    width: 335px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#pkmnname {
+    left: 20px;
+    top: 3px;
+    position: relative;
+    overflow: visible;
+    width: 240px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(0,0,0,1);
+    margin-bottom: -3px;
+}
+
+#ctgr {
+    position: absolute;
+    width: 134px;
+    height: 32px;
+    left: 20px;
+    top: 90px;
+    overflow: visible;
+}
+
+.bgctgr {
+    overflow: visible;
+    position: absolute;
+    width: 134px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#txtctgr {
+    left: 10px;
+    top: 8px;
+    position: absolute;
+    overflow: visible;
+    width: 116px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+
+#type {
+    position: absolute;
+    width: 78px;
+    height: 32px;
+    left: 178px;
+    top: 90px;
+    overflow: visible;
+}
+
+#type1 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: -10px;
+    top: 0px;
+    overflow: visible;
+}
+
+#type2 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 36px;
+    top: 0px;
+    overflow: visible;
+}
+
+#typesole {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 13px;
+    top: 0px;
+    overflow: visible;
+}
+
+#sprt {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 245px;
+    top: 0px;
+    overflow: visible;
+}
+
+#shiny {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 350px;
+    top: 105px;
+    overflow: visible;
+}
+
+#ability {
+    position: absolute;
+    width: 335px;
+    height: 60px;
+    left: 20px;
+    top: 169px;
+    overflow: visible;
+}
+
+.bgability {
+    position: absolute;
+    overflow: visible;
+    width: 335px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+}
+
+#abname {
+    position: absolute;
+    width: 65px;
+    height: 25px;
+    left: 10px;
+    top: 4px;
+    overflow: visible;
+}
+
+#abhname {
+    position: absolute;
+    width: 65px;
+    height: 25px;
+    left: 10px;
+    top: 31px;
+    overflow: visible;
+}
+
+.bgabname {
+    overflow: visible;
+    position: absolute;
+    width: 65px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#txtabname {
+    left: 20px;
+    top: 4.5px;
+    position: absolute;
+    overflow: visible;
+    width: 26px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+
+
+#ab1 {
+    position: absolute;
+    width: 126px;
+    height: 25px;
+    left: 74px;
+    top: 4px;
+    overflow: visible;
+}
+
+#ab2 {
+    position: absolute;
+    width: 126px;
+    height: 25px;
+    left: 199px;
+    top: 4px;
+    overflow: visible;
+}
+
+#abh {
+    position: absolute;
+    width: 251px;
+    height: 25px;
+    left: 74px;
+    top: 31px;
+    overflow: visible;
+}
+
+.bgab1 {
+    overflow: visible;
+    position: absolute;
+    width: 126px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+.bgab2 {
+    overflow: visible;
+    position: absolute;
+    width: 126px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+.bgabh {
+    overflow: visible;
+    position: absolute;
+    width: 251px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#txtab1 {
+    left: 19px;
+    top: 4.5px;
+    position: absolute;
+    overflow: visible;
+    width: 90px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+
+
+#txtab2 {
+    left: 12px;
+    top: 4.5px;
+    position: absolute;
+    overflow: visible;
+    width: 103px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+
+#txtabh {
+    left: 75px;
+    top: 4.5px;
+    position: absolute;
+    overflow: visible;
+    width: 103px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+
+
+#localdex {
+    position: absolute;
+    width: 335px;
+    height: 87px;
+    left: 20px;
+    top: 233px;
+    overflow: visible;
+}
+
+.bglocaldex {
+    position: absolute;
+    overflow: visible;
+    width: 335px;
+    height: 87px;
+    left: 0px;
+    top: 0px;
+}
+
+#reginame {
+    position: absolute;
+    width: 38px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.bgreginame {
+    overflow: visible;
+    position: absolute;
+    width: 38px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#txtreginame {
+    left: 6px;
+    top: 5px;
+    position: absolute;
+    overflow: visible;
+    width: 27px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+
+#regino {
+    position: absolute;
+    width: 38px;
+    height: 25px;
+    left: 37px;
+    top: 0px;
+    overflow: visible;
+}
+
+.bgregino {
+    overflow: visible;
+    position: absolute;
+    width: 38px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#txtregino {
+    left: 6px;
+    top: 5px;
+    position: absolute;
+    overflow: visible;
+    width: 27px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+
+#txtreginame2 {
+    left: 6px;
+    top: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 25px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    color: rgba(0,0,0,1);
+}
+
+#txtreginame3 {
+    left: 2.5px;
+    top: 6px;
+    position: absolute;
+    overflow: visible;
+    width: 33px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+
+#txtreginame4 {
+    left: 10px;
+    top: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 17px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    color: rgba(0,0,0,1);
+}
+
+#regi1 {
+    position: absolute;
+    width: 75px;
+    height: 25px;
+    left: 10px;
+    top: 4px;
+    overflow: visible;
+}
+
+#regi2 {
+    position: absolute;
+    width: 75px;
+    height: 25px;
+    left: 90px;
+    top: 4px;
+    overflow: visible;
+}
+
+#regi3 {
+    position: absolute;
+    width: 75px;
+    height: 25px;
+    left: 170px;
+    top: 4px;
+    overflow: visible;
+}
+
+#regi4 {
+    position: absolute;
+    width: 75px;
+    height: 25px;
+    left: 250px;
+    top: 4px;
+    overflow: visible;
+}
+
+#regi5 {
+    position: absolute;
+    width: 75px;
+    height: 25px;
+    left: 10px;
+    top: 31px;
+    overflow: visible;
+}
+
+#regi6 {
+    position: absolute;
+    width: 75px;
+    height: 25px;
+    left: 90px;
+    top: 31px;
+    overflow: visible;
+}
+
+#regi7 {
+    position: absolute;
+    width: 75px;
+    height: 25px;
+    left: 170px;
+    top: 31px;
+    overflow: visible;
+}
+
+#regi8 {
+    position: absolute;
+    width: 75px;
+    height: 25px;
+    left: 250px;
+    top: 31px;
+    overflow: visible;
+}
+
+#regi9 {
+    position: absolute;
+    width: 75px;
+    height: 25px;
+    left: 10px;
+    top: 58px;
+    overflow: visible;
+}
+
+#regi10 {
+    position: absolute;
+    width: 75px;
+    height: 25px;
+    left: 90px;
+    top: 58px;
+    overflow: visible;
+}
+
+#regi11 {
+    position: absolute;
+    width: 75px;
+    height: 25px;
+    left: 170px;
+    top: 58px;
+    overflow: visible;
+}
+
+#regi12 {
+    position: absolute;
+    width: 75px;
+    height: 25px;
+    left: 250px;
+    top: 58px;
+    overflow: visible;
+}
+
+
+
+#base {
+    position: absolute;
+    width: 335px;
+    height: 87px;
+    left: 20px;
+    top: 324px;
+    overflow: visible;
+}
+
+.bgbase {
+    position: absolute;
+    overflow: visible;
+    width: 335px;
+    height: 87px;
+    left: 0px;
+    top: 0px;
+}
+
+#basestat1 {
+    position: absolute;
+    width: 101px;
+    height: 25px;
+    left: 10px;
+    top: 4px;
+    overflow: visible;
+}
+
+#basestat2 {
+    position: absolute;
+    width: 101px;
+    height: 25px;
+    left: 117px;
+    top: 4px;
+    overflow: visible;
+}
+
+#basestat3 {
+    position: absolute;
+    width: 101px;
+    height: 25px;
+    left: 224px;
+    top: 4px;
+    overflow: visible;
+}
+
+#basestat4 {
+    position: absolute;
+    width: 101px;
+    height: 25px;
+    left: 10px;
+    top: 31px;
+    overflow: visible;
+}
+
+#basestat5 {
+    position: absolute;
+    width: 101px;
+    height: 25px;
+    left: 117px;
+    top: 31px;
+    overflow: visible;
+}
+
+#basestat6 {
+    position: absolute;
+    width: 101px;
+    height: 25px;
+    left: 224px;
+    top: 31px;
+    overflow: visible;
+}
+
+#basestat7 {
+    position: absolute;
+    width: 315px;
+    height: 25px;
+    left: 10px;
+    top: 58px;
+    overflow: visible;
+}
+
+
+#basename {
+    position: absolute;
+    width: 51px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.bgbasename {
+    overflow: visible;
+    position: absolute;
+    width: 51px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+.bgbasenametotal {
+    overflow: visible;
+    position: absolute;
+    width: 158px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#txtbasename {
+    left: 17px;
+    top: 5.5px;
+    position: absolute;
+    overflow: visible;
+    width: 19px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    color: rgba(0,0,0,1);
+}
+
+#txtbasenametwo {
+    left: 15px;
+    top: 5.5px;
+    position: absolute;
+    overflow: visible;
+    width: 19px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    color: rgba(0,0,0,1);
+}
+
+#txtbasename3 {
+    left: 4px;
+    top: 5.5px;
+    position: absolute;
+    overflow: visible;
+    width: 19px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+
+#txtbasename4 {
+    left: 10px;
+    top: 5.5px;
+    position: absolute;
+    overflow: visible;
+    width: 19px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+
+#txtbasenametotal {
+    left: 66px;
+    top: 5px;
+    position: absolute;
+    overflow: visible;
+    width: 27px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+
+#baseno {
+    position: absolute;
+    width: 51px;
+    height: 25px;
+    left: 50px;
+    top: 0px;
+    overflow: visible;
+}
+
+.bgbaseno {
+    overflow: visible;
+    position: absolute;
+    width: 51px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#txtbaseno {
+    left: 12px;
+    top: 5px;
+    position: absolute;
+    overflow: visible;
+    width: 27px;
+    height: 16px;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+
+#txtbasenototal {
+    left: 168px;
+    top: 5px;
+    position: absolute;
+    overflow: visible;
+    width: 37px;
+    height: 16px;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+
+.bgbasenototal {
+    overflow: visible;
+    position: absolute;
+    width: 158px;
+    height: 25px;
+    left: 107px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+
+#infos {
+    position: absolute;
+    width: 335px;
+    height: 222px;
+    left: 20px;
+    top: 415px;
+    overflow: visible;
+}
+
+.bginfos {
+    position: absolute;
+    overflow: visible;
+    width: 335px;
+    height: 222px;
+    left: 0px;
+    top: 0px;
+}
+
+#group1 {
+    position: absolute;
+    width: 315px;
+    height: 79px;
+    left: 10px;
+    top: 4px;
+    overflow: visible;
+}
+
+#infoname {
+    position: absolute;
+    width: 76px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.bginfoname {
+    overflow: visible;
+    position: absolute;
+    width: 76px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#txtinfoname {
+    left: 4px;
+    top: 5px;
+    position: absolute;
+    overflow: visible;
+    width: 70px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+
+#infono {
+    position: absolute;
+    width: 76px;
+    height: 25px;
+    left: 75px;
+    top: 0px;
+    overflow: visible;
+}
+
+.bginfono {
+    overflow: visible;
+    position: absolute;
+    width: 76px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#txtinfono {
+    left: 10px;
+    top: 5px;
+    position: absolute;
+    overflow: visible;
+    width: 55px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+
+#info1 {
+    position: absolute;
+    width: 151px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#info2 {
+    position: absolute;
+    width: 151px;
+    height: 25px;
+    left: 164px;
+    top: 0px;
+    overflow: visible;
+}
+
+#info3 {
+    position: absolute;
+    width: 151px;
+    height: 25px;
+    left: 0px;
+    top: 27px;
+    overflow: visible;
+}
+
+#info4 {
+    position: absolute;
+    width: 151px;
+    height: 25px;
+    left: 164px;
+    top: 27px;
+    overflow: visible;
+}
+
+#info5 {
+    position: absolute;
+    width: 151px;
+    height: 25px;
+    left: 0px;
+    top: 54px;
+    overflow: visible;
+}
+
+#info6 {
+    position: absolute;
+    width: 151px;
+    height: 25px;
+    left: 164px;
+    top: 54px;
+    overflow: visible;
+}
+
+
+#group2 {
+    position: absolute;
+    width: 315px;
+    height: 52px;
+    left: 10px;
+    top: 85px;
+    overflow: visible;
+}
+
+#evyldname {
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.bgevyldname {
+    overflow: visible;
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#txtevyldname {
+    left: 6px;
+    top: 5px;
+    position: absolute;
+    overflow: visible;
+    width: 39px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+
+#evyldno {
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    left: 0px;
+    top: 27px;
+    overflow: visible;
+}
+
+.bgevyldno {
+    overflow: visible;
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#txtevyldno {
+    left: 21px;
+    top: 5px;
+    position: absolute;
+    overflow: visible;
+    width: 9px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+
+#evyld1 {
+    position: absolute;
+    width: 50px;
+    height: 52px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#evyld2 {
+    position: absolute;
+    width: 50px;
+    height: 52px;
+    left: 53px;
+    top: 0px;
+    overflow: visible;
+}
+
+#evyld3 {
+    position: absolute;
+    width: 50px;
+    height: 52px;
+    left: 106px;
+    top: 0px;
+    overflow: visible;
+}
+
+#evyld4 {
+    position: absolute;
+    width: 50px;
+    height: 52px;
+    left: 159px;
+    top: 0px;
+    overflow: visible;
+}
+
+#evyld5 {
+    position: absolute;
+    width: 50px;
+    height: 52px;
+    left: 212px;
+    top: 0px;
+    overflow: visible;
+}
+
+#evyld6 {
+    position: absolute;
+    width: 50px;
+    height: 52px;
+    left: 265px;
+    top: 0px;
+    overflow: visible;
+}
+
+#info7 {
+    position: absolute;
+    width: 315px;
+    height: 25px;
+    left: 10px;
+    top: 139px;
+    overflow: visible;
+}
+
+#iinfoname {
+    position: absolute;
+    width: 101px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.bgiinfoname {
+    overflow: visible;
+    position: absolute;
+    width: 101px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#txtiinfoname {
+    left: 6px;
+    top: 7px;
+    position: absolute;
+    overflow: visible;
+    width: 91px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    color: rgba(0,0,0,1);
+}
+
+#iinfono {
+    position: absolute;
+    width: 101px;
+    height: 25px;
+    left: 107px;
+    top: 0px;
+    overflow: visible;
+}
+
+.bgiinfo1 {
+    overflow: visible;
+    position: absolute;
+    width: 101px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#txtiinfono1 {
+    left: 21px;
+    top: 5px;
+    position: absolute;
+    overflow: visible;
+    width: 61px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+
+#iinfono2 {
+    position: absolute;
+    width: 101px;
+    height: 25px;
+    left: 214px;
+    top: 0px;
+    overflow: visible;
+}
+
+.bgiinfo2 {
+    overflow: visible;
+    position: absolute;
+    width: 101px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#txtiinfo2 {
+    left: 19px;
+    top: 5px;
+    position: absolute;
+    overflow: visible;
+    width: 65px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+
+#info8 {
+    position: absolute;
+    width: 315px;
+    height: 25px;
+    left: 10px;
+    top: 166px;
+    overflow: visible;
+}
+
+#txtiinfoname2 {
+    left: 30px;
+    top: 5px;
+    position: absolute;
+    overflow: visible;
+    width: 43px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+
+#info9 {
+    position: absolute;
+    width: 315px;
+    height: 25px;
+    left: 10px;
+    top: 193px;
+    overflow: visible;
+}
+
+#bgiinfomale {
+    fill: rgba(121,92,239,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+#bgiinfofemale {
+    fill: rgba(229,104,183,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.bgiinfogender {
+    overflow: visible;
+    position: absolute;
+    width: 101px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#txtiinfogender {
+    left: 23px;
+    top: 5px;
+    position: absolute;
+    overflow: visible;
+    width: 57px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+
+#gomove {
+    position: absolute;
+    width: 335px;
+    height: 30px;
+    left: 20px;
+    top: 641px;
+    overflow: visible;
+}
+
+.bggomove {
+    position: absolute;
+    overflow: visible;
+    width: 335px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+}
+
+#txtgomove {
+    left: 68px;
+    top: 7px;
+    position: absolute;
+    overflow: visible;
+    width: 200px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+
+#attack {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 10px;
+    top: 3px;
+    overflow: visible;
+}
+
+#weak {
+    position: absolute;
+    width: 335px;
+    height: 168px;
+    left: 20px;
+    top: 675px;
+    overflow: visible;
+}
+
+.bgweak {
+    position: absolute;
+    overflow: visible;
+    width: 335px;
+    height: 168px;
+    left: 0px;
+    top: 0px;
+}
+
+#weakno {
+    position: absolute;
+    width: 71px;
+    height: 25px;
+    left: 10px;
+    top: 0px;
+    overflow: visible;
+}
+
+.bgweakno {
+    overflow: visible;
+    position: absolute;
+    width: 71px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#txtweakno {
+    left: 22px;
+    top: 6px;
+    position: absolute;
+    overflow: visible;
+    width: 37px;
+    height: 14px;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    color: rgba(0,0,0,1);
+}
+
+#weaktype {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#bgweaktype {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#weakNRM {
+    position: absolute;
+    width: 81px;
+    height: 25px;
+    left: 26px;
+    top: 4px;
+    overflow: visible;
+}
+
+#weakFIR {
+    position: absolute;
+    width: 81px;
+    height: 25px;
+    left: 127px;
+    top: 4px;
+    overflow: visible;
+}
+
+#weakWTR {
+    position: absolute;
+    width: 81px;
+    height: 25px;
+    left: 228px;
+    top: 4px;
+    overflow: visible;
+}
+
+#weakGRS {
+    position: absolute;
+    width: 81px;
+    height: 25px;
+    left: 26px;
+    top: 31px;
+    overflow: visible;
+}
+
+#weakELE {
+    position: absolute;
+    width: 81px;
+    height: 25px;
+    left: 127px;
+    top: 31px;
+    overflow: visible;
+}
+
+#weakICE {
+    position: absolute;
+    width: 81px;
+    height: 25px;
+    left: 228px;
+    top: 31px;
+    overflow: visible;
+}
+
+#weakFGT {
+    position: absolute;
+    width: 81px;
+    height: 25px;
+    left: 26px;
+    top: 58px;
+    overflow: visible;
+}
+
+#weakPSN {
+    position: absolute;
+    width: 81px;
+    height: 25px;
+    left: 127px;
+    top: 58px;
+    overflow: visible;
+}
+
+#weakGRN {
+    position: absolute;
+    width: 81px;
+    height: 25px;
+    left: 228px;
+    top: 58px;
+    overflow: visible;
+}
+
+#weakFLY {
+    position: absolute;
+    width: 81px;
+    height: 25px;
+    left: 26px;
+    top: 85px;
+    overflow: visible;
+}
+
+#weakPSY {
+    position: absolute;
+    width: 81px;
+    height: 25px;
+    left: 127px;
+    top: 85px;
+    overflow: visible;
+}
+
+#weakBUG {
+    position: absolute;
+    width: 81px;
+    height: 25px;
+    left: 228px;
+    top: 85px;
+    overflow: visible;
+}
+
+
+#weakRCK {
+    position: absolute;
+    width: 81px;
+    height: 25px;
+    left: 26px;
+    top: 112px;
+    overflow: visible;
+}
+
+#weakGHO {
+    position: absolute;
+    width: 81px;
+    height: 25px;
+    left: 127px;
+    top: 112px;
+    overflow: visible;
+}
+
+#weakDRK {
+    position: absolute;
+    width: 81px;
+    height: 25px;
+    left: 228px;
+    top: 112px;
+    overflow: visible;
+}
+
+#weakDRA {
+    position: absolute;
+    width: 81px;
+    height: 25px;
+    left: 26px;
+    top: 139px;
+    overflow: visible;
+}
+
+#weakSTL {
+    position: absolute;
+    width: 81px;
+    height: 25px;
+    left: 127px;
+    top: 139px;
+    overflow: visible;
+}
+
+#weakFRY {
+    position: absolute;
+    width: 81px;
+    height: 25px;
+    left: 228px;
+    top: 139px;
+    overflow: visible;
+}
+
+#goto {
+    position: absolute;
+    width: 335px;
+    height: 42px;
+    left: 20px;
+    top: 847px;
+    overflow: visible;
+}
+
+.bggoto {
+    position: absolute;
+    overflow: visible;
+    width: 335px;
+    height: 42px;
+    left: 0px;
+    top: 0px;
+}
+
+#prev {
+    position: absolute;
+    width: 94px;
+    height: 32px;
+    left: 10px;
+    top: 5px;
+    overflow: visible;
+}
+
+.backicon {
+    overflow: visible;
+    position: absolute;
+    width: 32px;
+    height: 28px;
+    transform: translate(-25px, -791px) matrix(1,0,0,1,23,793) rotate(-90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+
+#backsprt {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 43px;
+    top: 0px;
+    overflow: visible;
+}
+
+#prevno {
+    left: 80px;
+    top: 9px;
+    position: absolute;
+    overflow: visible;
+    width: 25px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    color: rgba(0,0,0,1);
+}
+
+#next {
+    position: absolute;
+    width: 94px;
+    height: 32px;
+    left: 232px;
+    top: 4px;
+    overflow: visible;
+}
+
+.nexticon {
+    overflow: visible;
+    position: absolute;
+    width: 32px;
+    height: 28px;
+    transform: translate(-28px, -793px) matrix(1,0,0,1,92,795) rotate(90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+
+#nextsprt {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 19px;
+    top: 0px;
+    overflow: visible;
+}
+
+#nextno {
+    left: -10px;
+    top: 9px;
+    position: absolute;
+    overflow: visible;
+    width: 25px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    color: rgba(0,0,0,1);
+}

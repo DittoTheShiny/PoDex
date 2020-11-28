@@ -1,0 +1,380 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=320, user-scalable=yes">
+	<title>home</title>
+	<link rel="stylesheet" href="css/header.css" />
+	<style id="applicationStylesheet" type="text/css">
+		#home {
+			position: absolute;
+			width: 375px;
+			height: 812px;
+			background-color: white;
+			overflow: hidden;
+		}
+
+		#main {
+			position: absolute;
+			width: 375px;
+			height: 312px;
+			left: 0px;
+			top: 60px;
+			overflow: visible;
+		}
+
+		.bgmain {
+			position: absolute;
+			overflow: visible;
+			width: 375px;
+			height: 312px;
+			left: 0px;
+			top: 0px;
+		}
+
+		#item1 {
+			position: absolute;
+			width: 101px;
+			height: 126px;
+			left: 60px;
+			top: 20px;
+			overflow: visible;
+		}
+
+		#item2 {
+			position: absolute;
+			width: 101px;
+			height: 126px;
+			left: 214px;
+			top: 20px;
+			overflow: visible;
+		}
+
+		#item3 {
+			position: absolute;
+			width: 101px;
+			height: 126px;
+			left: 60px;
+			top: 166px;
+			overflow: visible;
+		}
+
+		#item4 {
+			position: absolute;
+			width: 101px;
+			height: 126px;
+			left: 214px;
+			top: 166px;
+			overflow: visible;
+		}
+
+		#iconmain {
+			position: absolute;
+			width: 101px;
+			height: 101px;
+			left: 0px;
+			top: 0px;
+			overflow: visible;
+		}
+
+		#txtmain {
+			left: 12px;
+			top: 104px;
+			position: absolute;
+			overflow: visible;
+			width: 79px;
+			white-space: nowrap;
+			text-align: center;
+			font-family: NanumSquare;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 20px;
+			color: rgba(0,0,0,1);
+		}
+
+		#sub {
+			position: absolute;
+			width: 375px;
+			height: 380px;
+			left: 0px;
+			top: 372px;
+			overflow: visible;
+		}
+
+		.bgsub {
+			position: absolute;
+			overflow: visible;
+			width: 375px;
+			height: 380px;
+			left: 0px;
+			top: 0px;
+		}
+
+		#iteml1 {
+			position: absolute;
+			width: 155px;
+			height: 50px;
+			left: 0px;
+			top: 190px;
+			overflow: visible;
+		}
+
+		#iteml2 {
+			position: absolute;
+			width: 114px;
+			height: 50px;
+			left: 0px;
+			top: 260px;
+			overflow: visible;
+		}
+
+		#iteml3 {
+			position: absolute;
+			width: 135px;
+			height: 50px;
+			left: 0px;
+			top: 330px;
+			overflow: visible;
+		}
+
+		#sprtsubleft {
+			position: absolute;
+			width: 50px;
+			height: 50px;
+			left: 0px;
+			top: 0px;
+			overflow: visible;
+		}
+
+		#txtsubleft {
+			left: 60px;
+			top: 17px;
+			position: absolute;
+			overflow: visible;
+			width: 96px;
+			white-space: nowrap;
+			text-align: left;
+			font-family: NanumSquare;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 14px;
+			color: rgba(0,0,0,1);
+		}
+
+		#itemr1 {
+			position: absolute;
+			width: 140px;
+			height: 50px;
+			left: 235px;
+			top: 190px;
+			overflow: visible;
+		}
+
+		#itemr2 {
+			position: absolute;
+			width: 124px;
+			height: 50px;
+			left: 235px;
+			top: 260px;
+			overflow: visible;
+		}
+
+		#itemr3 {
+			position: absolute;
+			width: 146px;
+			height: 30px;
+			left: 219px;
+			top: 340px;
+			overflow: visible;
+		}
+
+		#sprtsubright {
+			position: absolute;
+			width: 50px;
+			height: 50px;
+			left: 90px;
+			top: 0px;
+			overflow: visible;
+		}
+
+		#txtsubright {
+			left: 0px;
+			top: 17px;
+			position: absolute;
+			overflow: visible;
+			width: 81px;
+			white-space: nowrap;
+			text-align: right;
+			font-family: NanumSquare;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 14px;
+			color: rgba(0,0,0,1);
+		}
+
+		#txtsubright2 {
+			left: 0px;
+			top: 17px;
+			position: absolute;
+			overflow: visible;
+			width: 81px;
+			white-space: nowrap;
+			text-align: right;
+			font-family: NanumSquare;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 14px;
+			color: rgba(0,0,0,1);
+		}
+
+		#txtsubinfo {
+			left: -10px;
+			top: 0px;
+			position: absolute;
+			overflow: visible;
+			white-space: nowrap;
+			text-align: right;
+			font-family: NanumSquare;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 9px;
+			color: rgba(0,0,0,1);
+		}
+
+		#footer {
+			position: absolute;
+			width: 375px;
+			height: 60px;
+			left: 0px;
+			top: 752px;
+			overflow: visible;
+		}
+
+		.bgfooter {
+			position: absolute;
+			overflow: visible;
+			width: 375px;
+			height: 60px;
+			left: 0px;
+			top: 0px;
+		}
+
+		#copyright {
+			left: 31px;
+			top: 16px;
+			position: absolute;
+			overflow: visible;
+			width: 315px;
+			white-space: nowrap;
+			text-align: left;
+			font-family: NanumSquare;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 12px;
+			color: rgba(0,0,0,1);
+		}
+	</style>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$("#header").load("html/header.html");  // 원하는 파일 경로를 삽입하면 된다
+
+		});
+	</script>
+</head>
+<body id="bodytag">
+	<div id="home">
+		<div id="main">
+			<svg class="bgmain">
+				<rect id="fillwhite" width="375" height="312">
+				</rect>
+			</svg>
+			<div id="item1" style="cursor:pointer;" OnClick="location.href='html/dex/natdex.html'">
+				<img id="iconmain" srcset="images/icon/pokeball.png 1x">
+				<div id="txtmain">
+					<span>전국도감</span>
+				</div>
+			</div>
+			<div id="item2" style="cursor:pointer;" OnClick="location.href='html/dex/movelist.html'">
+				<img id="iconmain" srcset="images/icon/attack.png 1x">
+				<div id="txtmain">
+					<span>기술 목록</span>
+				</div>
+			</div>
+			<div id="item3" style="cursor:pointer;" OnClick="location.href='html/den/denlist.html'">
+				<img id="iconmain" srcset="images/icon/map.png 1x">
+				<div id="txtmain">
+					<span>굴 목록</span>
+				</div>
+			</div>
+			<div id="item4" style="cursor:pointer;" OnClick="location.href='html/ability/abilitylist.html'">
+				<img id="iconmain" srcset="images/icon/stars.png 1x">
+				<div id="txtmain">
+					<span>특성 목록</span>
+				</div>
+			</div>
+		</div>
+		<div id="sub">
+			<svg class="bgsub">
+				<rect id="fillwhite" width="375" height="380">
+				</rect>
+			</svg>
+			<div id="iteml1" style="cursor:pointer;" OnClick="location.href='html/dex/spritesgallery.html'">
+				<img id="sprtsubleft" srcset="images/icon/eggclr.png 1x">
+				<div id="txtsubleft">
+					<span>스프라이트 갤러리</span>
+				</div>
+			</div>
+			<div id="iteml2" style="cursor:pointer;" OnClick="location.href='html/info/external.html'">
+				<img id="sprtsubleft" srcset="images/icon/link.png 1x">
+				<div id="txtsubleft">
+					<span>외부 링크</span>
+				</div>
+			</div>
+			<div id="iteml3" style="cursor:pointer;" OnClick="location.href='html/info/updatelog.html'">
+				<img id="sprtsubleft" srcset="images/icon/update_log.png 1x">
+				<div id="txtsubleft">
+					<span>업데이트 내역</span>
+				</div>
+			</div>
+			<div id="itemr1" style="cursor:pointer;" OnClick="location.href='html/info/calculator.html'">
+				<img id="sprtsubright" srcset="images/icon/calculator.png 1x">
+				<div id="txtsubright">
+					<span>데미지 계산기</span>
+				</div>
+			</div>
+			<div id="itemr2" style="cursor:pointer;" OnClick="location.href='https://www.instagram.com/poga11_dicc/'">
+				<img id="sprtsubright" srcset="images/icon/instagram.png 1x">
+				<div id="txtsubright2">
+					<span>인스타그램</span>
+				</div>
+			</div>
+			<div id="itemr3">
+				<div id="txtsubinfo">
+					<span>2020.11.00 00:00, Ver 2.0<br />이메일 ddunseo@gmail.com<br />디시인사이드 포켓몬스터 갤러리 메타몽</span>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<svg class="bgfooter">
+				<rect id="fillwhitewithborder" width="375" height="60">
+				</rect>
+			</svg>
+			<div id="copyright">
+				<span>©2020 Pokémon.<br />©1995-2020 Nintendo/Creatures Inc./GAME FREAK inc.</span>
+			</div>
+		</div>
+	</div>
+	<div id="title">
+		<svg class="bgtitle">
+			<rect id="fillwhite" width="255" height="60">
+			</rect>
+		</svg>
+		<div id="txttitle">
+			<span>포갤도감</span>
+		</div>
+	</div>
+	<div id="header"></div>
+</body>
+</html>

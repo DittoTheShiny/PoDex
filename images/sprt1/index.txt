@@ -1,0 +1,10 @@
+Listing Method
+i.    National Pokedex No. | xxx
+ii.   Female               | xxxf
+iii.  Gigantamax           | xxxG
+iv.   Eternamax            | xxxE
+v.    Mega Evolution       | xxxM
+vi.   Primal Reversion     | xxxP
+vii.  Alolan Region Form   | xxxrA
+viii. Galarian Region Form | xxxrG
+ix.   Alternative Forms    | xxx.zn

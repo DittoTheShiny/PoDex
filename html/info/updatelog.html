@@ -1,0 +1,363 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=320, user-scalable=yes">
+	<title>Update Log</title>
+	<link rel="stylesheet" href="../../css/header.css" />
+	<style id="applicationStylesheet" type="text/css">
+		#home {
+			position: absolute;
+			width: 375px;
+			height: 812px;
+			background-color: white;
+			overflow: hidden;
+		}
+
+		#main {
+			position: absolute;
+			width: 375px;
+			height: 312px;
+			left: 0px;
+			top: 60px;
+			overflow: visible;
+		}
+
+		.bgmain {
+			position: absolute;
+			overflow: visible;
+			width: 375px;
+			height: 312px;
+			left: 0px;
+			top: 0px;
+		}
+
+		#item1 {
+			position: absolute;
+			width: 101px;
+			height: 126px;
+			left: 60px;
+			top: 20px;
+			overflow: visible;
+		}
+
+		#item2 {
+			position: absolute;
+			width: 101px;
+			height: 126px;
+			left: 214px;
+			top: 20px;
+			overflow: visible;
+		}
+
+		#item3 {
+			position: absolute;
+			width: 101px;
+			height: 126px;
+			left: 60px;
+			top: 166px;
+			overflow: visible;
+		}
+
+		#item4 {
+			position: absolute;
+			width: 101px;
+			height: 126px;
+			left: 214px;
+			top: 166px;
+			overflow: visible;
+		}
+
+		#iconmain {
+			position: absolute;
+			width: 101px;
+			height: 101px;
+			left: 0px;
+			top: 0px;
+			overflow: visible;
+		}
+
+		#txtmain {
+			left: 12px;
+			top: 104px;
+			position: absolute;
+			overflow: visible;
+			width: 79px;
+			white-space: nowrap;
+			text-align: center;
+			font-family: NanumSquare;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 20px;
+			color: rgba(0,0,0,1);
+		}
+
+		#sub {
+			position: absolute;
+			width: 375px;
+			height: 380px;
+			left: 0px;
+			top: 372px;
+			overflow: visible;
+		}
+
+		.bgsub {
+			position: absolute;
+			overflow: visible;
+			width: 375px;
+			height: 380px;
+			left: 0px;
+			top: 0px;
+		}
+
+		#iteml1 {
+			position: absolute;
+			width: 155px;
+			height: 50px;
+			left: 0px;
+			top: 190px;
+			overflow: visible;
+		}
+
+		#iteml2 {
+			position: absolute;
+			width: 114px;
+			height: 50px;
+			left: 0px;
+			top: 260px;
+			overflow: visible;
+		}
+
+		#iteml3 {
+			position: absolute;
+			width: 135px;
+			height: 50px;
+			left: 0px;
+			top: 330px;
+			overflow: visible;
+		}
+
+		#sprtsubleft {
+			position: absolute;
+			width: 50px;
+			height: 50px;
+			left: 0px;
+			top: 0px;
+			overflow: visible;
+		}
+
+		#txtsubleft {
+			left: 60px;
+			top: 17px;
+			position: absolute;
+			overflow: visible;
+			width: 96px;
+			white-space: nowrap;
+			text-align: left;
+			font-family: NanumSquare;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 14px;
+			color: rgba(0,0,0,1);
+		}
+
+		#itemr1 {
+			position: absolute;
+			width: 140px;
+			height: 50px;
+			left: 235px;
+			top: 190px;
+			overflow: visible;
+		}
+
+		#itemr2 {
+			position: absolute;
+			width: 124px;
+			height: 50px;
+			left: 235px;
+			top: 260px;
+			overflow: visible;
+		}
+
+		#itemr3 {
+			position: absolute;
+			width: 146px;
+			height: 30px;
+			left: 219px;
+			top: 340px;
+			overflow: visible;
+		}
+
+		#sprtsubright {
+			position: absolute;
+			width: 50px;
+			height: 50px;
+			left: 90px;
+			top: 0px;
+			overflow: visible;
+		}
+
+		#txtsubright {
+			left: 0px;
+			top: 17px;
+			position: absolute;
+			overflow: visible;
+			width: 81px;
+			white-space: nowrap;
+			text-align: right;
+			font-family: NanumSquare;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 14px;
+			color: rgba(0,0,0,1);
+		}
+
+		#txtsubright2 {
+			left: 0px;
+			top: 17px;
+			position: absolute;
+			overflow: visible;
+			width: 81px;
+			white-space: nowrap;
+			text-align: right;
+			font-family: NanumSquare;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 14px;
+			color: rgba(0,0,0,1);
+		}
+
+		#txtsubinfo {
+			left: -10px;
+			top: 312px;
+			position: absolute;
+			overflow: visible;
+			white-space: nowrap;
+			text-align: right;
+			font-family: NanumSquare;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 9px;
+			color: rgba(0,0,0,1);
+		}
+
+		#footer {
+			position: absolute;
+			width: 375px;
+			height: 60px;
+			left: 0px;
+			top: 752px;
+			overflow: visible;
+		}
+
+		.bgfooter {
+			position: absolute;
+			overflow: visible;
+			width: 375px;
+			height: 60px;
+			left: 0px;
+			top: 0px;
+		}
+
+		#copyright {
+			left: 31px;
+			top: 16px;
+			position: absolute;
+			overflow: visible;
+			width: 315px;
+			white-space: nowrap;
+			text-align: left;
+			font-family: NanumSquare;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 12px;
+			color: rgba(0,0,0,1);
+		}
+
+        #naeyong {
+            position: relative;
+            width: 288px;
+            height: 500px;
+            left: 30px;
+            top: 20px;
+            overflow: visible;
+        }
+
+        #txtnaeyong {
+            font-size: 20px;
+            font-family: NanumSquare;
+            font-style: normal;
+            font-weight: bold;
+			width: 288px;
+			text-align: center;
+            color: rgba(0,0,0,1);
+            word-break: keep-all;
+			display: table-cell;
+        }
+
+        #ditto {
+            position: relative;
+            width: 50px;
+            height: 50px;
+            left: 149px;
+            top: 10px;
+            overflow: visible;
+        }
+	</style>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$("#header").load("../header.html");  // 원하는 파일 경로를 삽입하면 된다
+
+		});
+	</script>
+</head>
+<body id="bodytag">
+	<div id="home">
+		<div id="main">
+			<svg class="bgmain">
+				<rect id="fillwhite" width="375" height="312">
+				</rect>
+			</svg>
+			<div id="naeyong">
+				<span id="txtnaeyong">
+					포갤도감 2.0 버전 업데이트에서는 다음 항목이 변경되었습니다:<br /><br /><br />
+					<a href="../../hamburger_popup.html">검색 기능</a>이 추가되었습니다<br /><br />
+					<a href="../dex/swshdex.html">소드실드에서 사용 가능한 포켓몬 목록</a>이 추가되었습니다<br /><br />
+					<a href="../dex/swshmove.html">소드실드에서 사용 가능한 기술 목록</a>이 추가되었습니다<br /><br />
+					하단 바가 사라졌으며 그 대신 <a href="../../hamburger_popup.html">내비게이션 메뉴</a>가 추가되었습니다<br /><br />
+					<a href="calculator.html">각종 계산기</a>가 추가되었습니다<br /><br />
+					다음 버전에서는 한층 더 유익한 정보로 돌아오겠습니다<br />
+					감사합니다
+				</span>
+			</div>
+			<img id="ditto" srcset="../../images/icon/ditto.gif 1x">
+			<div id="itemr3">
+				<div id="txtsubinfo">
+					<span>2020.11.00 00:00, Ver 2.0<br />이메일 ddunseo@gmail.com<br />디시인사이드 포켓몬스터 갤러리 메타몽</span>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<svg class="bgfooter">
+				<rect id="fillwhitewithborder" width="375" height="60">
+				</rect>
+			</svg>
+			<div id="copyright">
+				<span>©2020 Pokémon.<br />©1995-2020 Nintendo/Creatures Inc./GAME FREAK inc.</span>
+			</div>
+		</div>
+	</div>
+	<div id="title">
+		<svg class="bgtitle">
+			<rect id="fillwhite" width="255" height="60">
+			</rect>
+		</svg>
+		<div id="txttitle">
+			<span>업데이트 내역</span>
+		</div>
+	</div>
+	<div id="header"></div>
+</body>
+</html>

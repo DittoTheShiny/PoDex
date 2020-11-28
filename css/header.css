@@ -1,0 +1,395 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+#bodytag {
+    width: 375px;
+    height: 812px;
+    left: 0px;
+    top: 0px;
+}
+
+#fillblack {
+    fill: rgba(0,0,0,1);
+}
+#fillwhite {
+    fill: rgba(255,255,255,1);
+}
+#fillred {
+    fill: rgba(255,0,0,1);
+}
+#Normal {
+    fill: rgba(253,253,253,1);
+    stroke: grey;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+#Fire {
+    fill: rgba(252,150,89,1);
+    stroke: grey;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+#Water {
+    fill: rgba(100,169,244,1);
+    stroke: grey;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+#Grass {
+    fill: rgba(129,231,119,1);
+    stroke: grey;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+#Electric {
+    fill: rgba(247,205,51,1);
+    stroke: grey;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+#Ice {
+    fill: rgba(125,217,212,1);
+    stroke: grey;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+#Fighting {
+    fill: rgba(216,92,147,1);
+    stroke: grey;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+#Poison {
+    fill: rgba(201,145,228,1);
+    stroke: grey;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+#Ground {
+    fill: rgba(200,150,91,1);
+    stroke: grey;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+#Flying {
+    fill: rgba(146,192,252,1);
+    stroke: grey;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+#Psychic {
+    fill: rgba(255,149,139,1);
+    stroke: grey;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+#Bug {
+    fill: rgba(167,207,67,1);
+    stroke: grey;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+#Rock {
+    fill: rgba(198,181,135,1);
+    stroke: grey;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+#Ghost {
+    fill: rgba(126,149,215,1);
+    stroke: grey;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+#Dragon {
+    fill: rgba(68,154,223,1);
+    stroke: grey;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+#Dark {
+    fill: rgba(82,91,102,1);
+    stroke: grey;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+#Steel {
+    fill: rgba(102,149,167,1);
+    stroke: grey;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+#Fairy {
+    fill: rgba(218,133,220,1);
+    stroke: grey;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+#fillblackwithborder {
+    fill: black;
+    stroke: grey;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+#fillwhitewithborder {
+    fill: white;
+    stroke: grey;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+#fillredwithborder {
+    fill: red;
+    stroke: grey;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+#fillgreywithborder {
+    fill: grey;
+    stroke: grey;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+#filllightgreywithborder {
+    fill: rgba(112,112,112,0.3);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+#filltransparent {
+    fill: transparent;
+}
+
+#filltransparentwithborder {
+    fill: transparent;
+    stroke: grey;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+#bgbody {
+    fill: white;
+    stroke: grey;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.bgbody {
+    position: fixed;
+    overflow: visible;
+    width: 375px;
+    height: 752px;
+    left: 0px;
+    top: 60px;
+}
+
+#header {
+    position: fixed;
+    width: 375px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+
+.bgheader {
+    position: absolute;
+    overflow: visible;
+    width: 375px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+}
+
+#back {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#hamburger {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 315px;
+    top: 0px;
+    overflow: visible;
+}
+
+.bgsolid {
+    position: absolute;
+    overflow: visible;
+    width: 60px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+}
+
+#btnsolid {
+    fill: rgba(0,0,0,1);
+    stroke: rgba(0,0,0,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.btnback {
+    overflow: visible;
+    position: absolute;
+    width: 32px;
+    height: 28px;
+    transform: translate(0px, 0px) matrix(1,0,0,1,14,16) rotate(-90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+
+.btnhmbgr {
+    overflow: visible;
+    position: absolute;
+    width: 32px;
+    height: 30px;
+    left: 14px;
+    top: 15px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#title {
+    position: fixed;
+    width: 255px;
+    height: 60px;
+    left: 60px;
+    top: 0px;
+    overflow: visible;
+}
+
+.bgtitle {
+    position: fixed;
+    overflow: hidden;
+    width: 255px;
+    height: 60px;
+    left: 60px;
+    top: 0px;
+}
+
+#txttitle {
+    left: 0px;
+    top: 19px;
+    position: absolute;
+    overflow: hidden;
+    width: 255px;
+    height: 22px;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(0,0,0,1);
+}
