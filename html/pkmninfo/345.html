@@ -1,0 +1,1176 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=320, user-scalable=yes">
+    <link rel="stylesheet" href="../../css/header.css" />
+    <link rel="stylesheet" href="../../css/BgPkmn.css" />
+    <link rel="stylesheet" href="../../css/pkmninfo.css" />
+    <title>345 릴링</title>
+    <style id="applicationStylesheet" type="text/css">
+        #pkmninfo {
+            position: absolute;
+            width: 375px;
+            height: 893px;
+            background-color: rgba(125, 117, 199, 1);
+            overflow: hidden;
+        }
+    </style>
+</head>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript">
+
+	$(document).ready(function () {
+		$("#header").load("../header.html");  // 원하는 파일 경로를 삽입하면 된다
+
+	});
+</script>
+<script type="text/javascript">
+
+	state = 0;
+	function isShiny() {
+		if (state == 0) {
+		state=1;
+		document.getElementById('shiny').srcset="../../images/icon/shiny.png 1x";
+		document.getElementById('sprt').srcset="../../images/sprt2/345.png 1x";
+		document.getElementById('backsprt').srcset="../../images/sprt2/344.png 1x";
+		document.getElementById('nextsprt').srcset="../../images/sprt2/346.png 1x";
+		}
+		else{
+		state=0;
+		document.getElementById('shiny').srcset="../../images/icon/nshiny.png 1x";
+		document.getElementById('sprt').srcset="../../images/sprt1/345.png 1x";
+		document.getElementById('backsprt').srcset="../../images/sprt1/344.png 1x";
+		document.getElementById('nextsprt').srcset="../../images/sprt1/346.png 1x";
+		}
+	}
+</script>
+<body id="bodytag">
+    <div id="pkmninfo">
+        <div id="ability">
+            <svg class="bgability">
+                <rect id="fillwhitewithborder" rx="20" ry="20" width="335" height="60">
+                </rect>
+            </svg>
+            <div id="abname">
+                <svg class="bgabname" viewBox="0 0 65 25">
+                    <path id="filllightgreywithborder" d="M 12.5 0 L 65 0 L 65 25 L 12.5 25 C 6 25 0 19.5 0 12.5 C 0 5.5 6 0 12.5 0 Z">
+                    </path>
+                </svg>
+                <div id="txtabname">
+                    <span>일반</span>
+                </div>
+            </div>
+            <div id="abhname">
+                <svg class="bgabname" viewBox="0 0 65 25">
+                    <path id="filllightgreywithborder" d="M 12.5 0 L 65 0 L 65 25 L 12.5 25 C 6 25 0 19.5 0 12.5 C 0 5.5 6 0 12.5 0 Z">
+                    </path>
+                </svg>
+                <div id="txtabname">
+                    <span>드림</span>
+                </div>
+            </div>
+            <div id="ab1" style="cursor:pointer;" OnClick="location.href='../ability/흡반.html'">
+                <svg class="bgab1" viewBox="0 0 126 25">
+                    <path id="fillwhitewithborder" d="M 0 0 L 126 0 L 126 25 L 0 25 L 0 0 Z">
+                    </path>
+                </svg>
+                <div id="txtab1">
+                    <span>흡반</span>
+                </div>
+            </div>
+            <div id="ab2">
+                <svg class="bgab2" viewBox="0 0 126 25">
+                    <path id="fillwhitewithborder" d="M 0 0 L 113.5 0 C 120.5 0 126 5.5 126 12.5 C 126 19.5 120.5 25 113.5 25 L 0 25 L 0 0 Z">
+                    </path>
+                </svg>
+                <div id="txtab2">
+                    <span>—</span>
+                </div>
+            </div>
+            <div id="abh" style="cursor:pointer;" OnClick="location.href='../ability/마중물.html'">
+                <svg class="bgabh" viewBox="0 0 251 25">
+                    <path id="fillwhitewithborder" d="M 0 0 L 238.5 0 C 245.5 0 251 5.5 251 12.5 C 251 19.5 245.5 25 238.5 25 L 0 25 L 0 0 Z">
+                    </path>
+                </svg>
+                <div id="txtabh">
+                    <span>마중물</span>
+                </div>
+            </div>
+        </div>
+        <div id="localdex">
+            <svg class="bglocaldex">
+                <rect id="fillwhitewithborder" rx="20" ry="20" width="335" height="87">
+                </rect>
+            </svg>
+            <div id="regi1">
+                <div id="reginame">
+                    <svg class="bgreginame" viewBox="0 0 38 25">
+                        <path id="filllightgreywithborder" d="M 10 0 L 38 0 L 38 25 L 0 25 L 0 10 C 0 4.5 4.5 0 10 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtreginame">
+                        <span>관동</span>
+                    </div>
+                </div>
+                <div id="regino">
+                    <svg class="bgregino" viewBox="0 0 38 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 38 0 L 38 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtregino">
+                        <span>—</span>
+                    </div>
+                </div>
+            </div>
+            <div id="regi2">
+                <div id="reginame">
+                    <svg class="bgreginame" viewBox="0 0 38 25">
+                        <path id="filllightgreywithborder" d="M 0 0 L 38 0 L 38 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtreginame">
+                        <span>성도</span>
+                    </div>
+                </div>
+                <div id="regino">
+                    <svg class="bgregino" viewBox="0 0 38 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 38 0 L 38 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtregino">
+                        <span>—</span>
+                    </div>
+                </div>
+            </div>
+            <div id="regi3">
+                <div id="reginame">
+                    <svg class="bgreginame" viewBox="0 0 38 25">
+                        <path id="filllightgreywithborder" d="M 0 0 L 38 0 L 38 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtreginame">
+                        <span>호연</span>
+                    </div>
+                </div>
+                <div id="regino">
+                    <svg class="bgregino" viewBox="0 0 38 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 38 0 L 38 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtregino">
+                        <span>138</span>
+                    </div>
+                </div>
+            </div>
+            <div id="regi4">
+                <div id="reginame">
+                    <svg class="bgreginame" viewBox="0 0 38 25">
+                        <path id="filllightgreywithborder" d="M 0 0 L 38 0 L 38 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtreginame">
+                        <span>신오</span>
+                    </div>
+                </div>
+                <div id="regino">
+                    <svg class="bgregino" viewBox="0 0 38 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 28 0 C 33.5 0 38 4.5 38 10 L 38 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtregino">
+                        <span>—</span>
+                    </div>
+                </div>
+            </div>
+            <div id="regi5">
+                <div id="reginame">
+                    <svg class="bgreginame" viewBox="0 0 38 25">
+                        <path id="filllightgreywithborder" d="M 0 0 L 38 0 L 38 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtreginame">
+                        <span>하나</span>
+                    </div>
+                </div>
+                <div id="regino">
+                    <svg class="bgregino" viewBox="0 0 38 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 38 0 L 38 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtregino">
+                        <span>—</span>
+                    </div>
+                </div>
+            </div>
+            <div id="regi6">
+                <div id="reginame">
+                    <svg class="bgreginame" viewBox="0 0 38 25">
+                        <path id="filllightgreywithborder" d="M 0 0 L 38 0 L 38 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtreginame2">
+                        <span>센트럴<br />칼로스</span>
+                    </div>
+                </div>
+                <div id="regino">
+                    <svg class="bgregino" viewBox="0 0 38 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 38 0 L 38 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtregino">
+                        <span>—</span>
+                    </div>
+                </div>
+            </div>
+            <div id="regi7">
+                <div id="reginame">
+                    <svg class="bgreginame" viewBox="0 0 38 25">
+                        <path id="filllightgreywithborder" d="M 0 0 L 38 0 L 38 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtreginame2">
+                        <span>코스트<br />칼로스</span>
+                    </div>
+                </div>
+                <div id="regino">
+                    <svg class="bgregino" viewBox="0 0 38 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 38 0 L 38 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtregino">
+                        <span>—</span>
+                    </div>
+                </div>
+            </div>
+            <div id="regi8">
+                <div id="reginame">
+                    <svg class="bgreginame" viewBox="0 0 38 25">
+                        <path id="filllightgreywithborder" d="M 0 0 L 38 0 L 38 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtreginame2">
+                        <span>마운틴<br />칼로스</span>
+                    </div>
+                </div>
+                <div id="regino">
+                    <svg class="bgregino" viewBox="0 0 38 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 38 0 L 38 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtregino">
+                        <span>—</span>
+                    </div>
+                </div>
+            </div>
+            <div id="regi9">
+                <div id="reginame">
+                    <svg class="bgreginame" viewBox="0 0 38 25">
+                        <path id="filllightgreywithborder" d="M 0 0 L 38 0 L 38 25 L 10 25 C 4.5 25 0 20.5 0 15 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtreginame3">
+                        <span>알로라</span>
+                    </div>
+                </div>
+                <div id="regino">
+                    <svg class="bgregino" viewBox="0 0 38 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 38 0 L 38 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtregino">
+                        <span>231</span>
+                    </div>
+                </div>
+            </div>
+            <div id="regi10">
+                <div id="reginame">
+                    <svg class="bgreginame" viewBox="0 0 38 25">
+                        <path id="filllightgreywithborder" d="M 0 0 L 38 0 L 38 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtreginame3">
+                        <span>가라르</span>
+                    </div>
+                </div>
+                <div id="regino">
+                    <svg class="bgregino" viewBox="0 0 38 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 38 0 L 38 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtregino">
+                        <span>—</span>
+                    </div>
+                </div>
+            </div>
+            <div id="regi11">
+                <div id="reginame">
+                    <svg class="bgreginame" viewBox="0 0 38 25">
+                        <path id="filllightgreywithborder" d="M 0 0 L 38 0 L 38 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtreginame3">
+                        <span>갑옷섬</span>
+                    </div>
+                </div>
+                <div id="regino">
+                    <svg class="bgregino" viewBox="0 0 38 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 38 0 L 38 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtregino">
+                        <span>—</span>
+                    </div>
+                </div>
+            </div>
+            <div id="regi12">
+                <div id="reginame">
+                    <svg class="bgreginame" viewBox="0 0 38 25">
+                        <path id="filllightgreywithborder" d="M 0 0 L 38 0 L 38 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtreginame4">
+                        <span>왕관<br />설원</span>
+                    </div>
+                </div>
+                <div id="regino">
+                    <svg class="bgregino" viewBox="0 0 38 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 38 0 L 38 15 C 38 20.5 33.5 25 28 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtregino">
+                        <span>183</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="base">
+            <svg class="bgbase">
+                <rect id="fillwhitewithborder" rx="20" ry="20" width="335" height="87">
+                </rect>
+            </svg>
+            <div id="basestat1">
+                <div id="basename">
+                    <svg class="bgbasename" viewBox="0 0 51 25">
+                        <path id="filllightgreywithborder" d="M 12.5 0 L 51 0 L 51 25 L 12.5 25 C 5.5 25 0 19.5 0 12.5 C 0 5.5 5.5 0 12.5 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtbasename">
+                        <span>HP</span>
+                    </div>
+                </div>
+                <div id="baseno">
+                    <svg class="bgbaseno" viewBox="0 0 51 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 38.5 0 C 45.5 0 51 5.5 51 12.5 C 51 19.5 45.5 25 38.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtbaseno">
+                        <span>66</span>
+                    </div>
+                </div>
+            </div>
+            <div id="basestat2">
+                <div id="basename">
+                    <svg class="bgbasename" viewBox="0 0 51 25">
+                        <path id="filllightgreywithborder" d="M 12.5 0 L 51 0 L 51 25 L 12.5 25 C 5.5 25 0 19.5 0 12.5 C 0 5.5 5.5 0 12.5 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtbasenametwo">
+                        <span>공격</span>
+                    </div>
+                </div>
+                <div id="baseno">
+                    <svg class="bgbaseno" viewBox="0 0 51 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 38.5 0 C 45.5 0 51 5.5 51 12.5 C 51 19.5 45.5 25 38.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtbaseno">
+                        <span>41</span>
+                    </div>
+                </div>
+            </div>
+            <div id="basestat3">
+                <div id="basename">
+                    <svg class="bgbasename" viewBox="0 0 51 25">
+                        <path id="filllightgreywithborder" d="M 12.5 0 L 51 0 L 51 25 L 12.5 25 C 5.5 25 0 19.5 0 12.5 C 0 5.5 5.5 0 12.5 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtbasenametwo">
+                        <span>방어</span>
+                    </div>
+                </div>
+                <div id="baseno">
+                    <svg class="bgbaseno" viewBox="0 0 51 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 38.5 0 C 45.5 0 51 5.5 51 12.5 C 51 19.5 45.5 25 38.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtbaseno">
+                        <span>77</span>
+                    </div>
+                </div>
+            </div>
+            <div id="basestat4">
+                <div id="basename">
+                    <svg class="bgbasename" viewBox="0 0 51 25">
+                        <path id="filllightgreywithborder" d="M 12.5 0 L 51 0 L 51 25 L 12.5 25 C 5.5 25 0 19.5 0 12.5 C 0 5.5 5.5 0 12.5 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtbasename3">
+                        <span>특수공격</span>
+                    </div>
+                </div>
+                <div id="baseno">
+                    <svg class="bgbaseno" viewBox="0 0 51 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 38.5 0 C 45.5 0 51 5.5 51 12.5 C 51 19.5 45.5 25 38.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtbaseno">
+                        <span>61</span>
+                    </div>
+                </div>
+            </div>
+            <div id="basestat5">
+                <div id="basename">
+                    <svg class="bgbasename" viewBox="0 0 51 25">
+                        <path id="filllightgreywithborder" d="M 12.5 0 L 51 0 L 51 25 L 12.5 25 C 5.5 25 0 19.5 0 12.5 C 0 5.5 5.5 0 12.5 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtbasename3">
+                        <span>특수방어</span>
+                    </div>
+                </div>
+                <div id="baseno">
+                    <svg class="bgbaseno" viewBox="0 0 51 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 38.5 0 C 45.5 0 51 5.5 51 12.5 C 51 19.5 45.5 25 38.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtbaseno">
+                        <span>87</span>
+                    </div>
+                </div>
+            </div>
+            <div id="basestat6">
+                <div id="basename">
+                    <svg class="bgbasename" viewBox="0 0 51 25">
+                        <path id="filllightgreywithborder" d="M 12.5 0 L 51 0 L 51 25 L 12.5 25 C 5.5 25 0 19.5 0 12.5 C 0 5.5 5.5 0 12.5 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtbasename4">
+                        <span>스피드</span>
+                    </div>
+                </div>
+                <div id="baseno">
+                    <svg class="bgbaseno" viewBox="0 0 51 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 38.5 0 C 45.5 0 51 5.5 51 12.5 C 51 19.5 45.5 25 38.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtbaseno">
+                        <span>23</span>
+                    </div>
+                </div>
+            </div>
+            <div id="basestat7">
+                <div id="basename">
+                    <svg class="bgbasenametotal" viewBox="0 0 158 25">
+                        <path id="filllightgreywithborder" d="M 12.5 0 L 158 0 L 158 25 L 12.5 25 C 5.5 25 0 19.5 0 12.5 C 0 5.5 5.5 0 12.5 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtbasenametotal">
+                        <span>총합</span>
+                    </div>
+                </div>
+                <div id="baseno">
+                    <svg class="bgbasenototal" viewBox="0 0 158 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 145.5 0 C 152.5 0 158 5.5 158 12.5 C 158 19.5 152.5 25 145.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtbasenototal">
+                        <span>355</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="infos">
+            <svg class="bginfos">
+                <rect id="fillwhitewithborder" rx="20" ry="20" width="335" height="222">
+                </rect>
+            </svg>
+            <div id="group1">
+                <div id="info1">
+                    <div id="infoname">
+                        <svg class="bginfoname" viewBox="0 0 76 25">
+                            <path id="filllightgreywithborder" d="M 12.5 0 L 76 0 L 76 25 L 12.5 25 C 5.5 25 0 19.5 0 12.5 C 0 5.5 5.5 0 12.5 0 Z">
+                            </path>
+                        </svg>
+                        <div id="txtinfoname">
+                            <span>키</span>
+                        </div>
+                    </div>
+                    <div id="infono">
+                        <svg class="bginfono" viewBox="0 0 76 25">
+                            <path id="fillwhitewithborder" d="M 0 0 L 63.5 0 C 70.5 0 76 5.5 76 12.5 C 76 19.5 70.5 25 63.5 25 L 0 25 L 0 0 Z">
+                            </path>
+                        </svg>
+                        <div id="txtinfono">
+                            <span>1m</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="info2">
+                    <div id="infoname">
+                        <svg class="bginfoname" viewBox="0 0 76 25">
+                            <path id="filllightgreywithborder" d="M 12.5 0 L 76 0 L 76 25 L 12.5 25 C 5.5 25 0 19.5 0 12.5 C 0 5.5 5.5 0 12.5 0 Z">
+                            </path>
+                        </svg>
+                        <div id="txtinfoname">
+                            <span>몸무게</span>
+                        </div>
+                    </div>
+                    <div id="infono">
+                        <svg class="bginfono" viewBox="0 0 76 25">
+                            <path id="fillwhitewithborder" d="M 0 0 L 63.5 0 C 70.5 0 76 5.5 76 12.5 C 76 19.5 70.5 25 63.5 25 L 0 25 L 0 0 Z">
+                            </path>
+                        </svg>
+                        <div id="txtinfono">
+                            <span>23.8kg</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="info3">
+                    <div id="infoname">
+                        <svg class="bginfoname" viewBox="0 0 76 25">
+                            <path id="filllightgreywithborder" d="M 12.5 0 L 76 0 L 76 25 L 12.5 25 C 5.5 25 0 19.5 0 12.5 C 0 5.5 5.5 0 12.5 0 Z">
+                            </path>
+                        </svg>
+                        <div id="txtinfoname">
+                            <span>기초 친밀도</span>
+                        </div>
+                    </div>
+                    <div id="infono">
+                        <svg class="bginfono" viewBox="0 0 76 25">
+                            <path id="fillwhitewithborder" d="M 0 0 L 63.5 0 C 70.5 0 76 5.5 76 12.5 C 76 19.5 70.5 25 63.5 25 L 0 25 L 0 0 Z">
+                            </path>
+                        </svg>
+                        <div id="txtinfono">
+                            <span>50</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="info4">
+                    <div id="infoname">
+                        <svg class="bginfoname" viewBox="0 0 76 25">
+                            <path id="filllightgreywithborder" d="M 12.5 0 L 76 0 L 76 25 L 12.5 25 C 5.5 25 0 19.5 0 12.5 C 0 5.5 5.5 0 12.5 0 Z">
+                            </path>
+                        </svg>
+                        <div id="txtinfoname">
+                            <span>부화 걸음수</span>
+                        </div>
+                    </div>
+                    <div id="infono">
+                        <svg class="bginfono" viewBox="0 0 76 25">
+                            <path id="fillwhitewithborder" d="M 0 0 L 63.5 0 C 70.5 0 76 5.5 76 12.5 C 76 19.5 70.5 25 63.5 25 L 0 25 L 0 0 Z">
+                            </path>
+                        </svg>
+                        <div id="txtinfono">
+                            <span>7680</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="info5">
+                    <div id="infoname">
+                        <svg class="bginfoname" viewBox="0 0 76 25">
+                            <path id="filllightgreywithborder" d="M 12.5 0 L 76 0 L 76 25 L 12.5 25 C 5.5 25 0 19.5 0 12.5 C 0 5.5 5.5 0 12.5 0 Z">
+                            </path>
+                        </svg>
+                        <div id="txtinfoname">
+                            <span>포획률</span>
+                        </div>
+                    </div>
+                    <div id="infono">
+                        <svg class="bginfono" viewBox="0 0 76 25">
+                            <path id="fillwhitewithborder" d="M 0 0 L 63.5 0 C 70.5 0 76 5.5 76 12.5 C 76 19.5 70.5 25 63.5 25 L 0 25 L 0 0 Z">
+                            </path>
+                        </svg>
+                        <div id="txtinfono">
+                            <span>45</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="info6">
+                    <div id="infoname">
+                        <svg class="bginfoname" viewBox="0 0 76 25">
+                            <path id="filllightgreywithborder" d="M 12.5 0 L 76 0 L 76 25 L 12.5 25 C 5.5 25 0 19.5 0 12.5 C 0 5.5 5.5 0 12.5 0 Z">
+                            </path>
+                        </svg>
+                        <div id="txtinfoname">
+                            <span>색</span>
+                        </div>
+                    </div>
+                    <div id="infono">
+                        <svg class="bginfono" viewBox="0 0 76 25">
+                            <path id="fillwhitewithborder" d="M 0 0 L 63.5 0 C 70.5 0 76 5.5 76 12.5 C 76 19.5 70.5 25 63.5 25 L 0 25 L 0 0 Z">
+                            </path>
+                        </svg>
+                        <div id="txtinfono">
+                            <span>보라</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="group2">
+                <div id="evyld1">
+                    <div id="evyldname">
+                        <svg class="bgevyldname" viewBox="0 0 50 25">
+                            <path id="filllightgreywithborder" d="M 10 0 L 50 0 L 50 25 L 0 25 L 0 10 C 0 4.5 4.5 0 10 0 Z">
+                            </path>
+                        </svg>
+                        <div id="txtevyldname">
+                            <span>HP</span>
+                        </div>
+                    </div>
+                    <div id="evyldno">
+                        <svg class="bgevyldno" viewBox="0 0 50 25">
+                            <path id="fillwhitewithborder" d="M 0 0 L 50 0 L 50 25 L 10 25 C 4.5 25 0 20.5 0 15 L 0 0 Z">
+                            </path>
+                        </svg>
+                        <div id="txtevyldno">
+                            <span>0</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="evyld2">
+                    <div id="evyldname">
+                        <svg class="bgevyldname" viewBox="0 0 50 25">
+                            <path id="filllightgreywithborder" d="M 0 0 L 50 0 L 50 25 L 0 25 L 0 0 Z">
+                            </path>
+                        </svg>
+                        <div id="txtevyldname">
+                            <span>공격</span>
+                        </div>
+                    </div>
+                    <div id="evyldno">
+                        <svg class="bgevyldno" viewBox="0 0 50 25">
+                            <path id="fillwhitewithborder" d="M 0 0 L 50 0 L 50 25 L 0 25 L 0 0 Z">
+                            </path>
+                        </svg>
+                        <div id="txtevyldno">
+                            <span>0</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="evyld3">
+                    <div id="evyldname">
+                        <svg class="bgevyldname" viewBox="0 0 50 25">
+                            <path id="filllightgreywithborder" d="M 0 0 L 50 0 L 50 25 L 0 25 L 0 0 Z">
+                            </path>
+                        </svg>
+                        <div id="txtevyldname">
+                            <span>방어</span>
+                        </div>
+                    </div>
+                    <div id="evyldno">
+                        <svg class="bgevyldno" viewBox="0 0 50 25">
+                            <path id="fillwhitewithborder" d="M 0 0 L 50 0 L 50 25 L 0 25 L 0 0 Z">
+                            </path>
+                        </svg>
+                        <div id="txtevyldno">
+                            <span>0</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="evyld4">
+                    <div id="evyldname">
+                        <svg class="bgevyldname" viewBox="0 0 50 25">
+                            <path id="filllightgreywithborder" d="M 0 0 L 50 0 L 50 25 L 0 25 L 0 0 Z">
+                            </path>
+                        </svg>
+                        <div id="txtevyldname">
+                            <span>특공</span>
+                        </div>
+                    </div>
+                    <div id="evyldno">
+                        <svg class="bgevyldno" viewBox="0 0 50 25">
+                            <path id="fillwhitewithborder" d="M 0 0 L 50 0 L 50 25 L 0 25 L 0 0 Z">
+                            </path>
+                        </svg>
+                        <div id="txtevyldno">
+                            <span>0</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="evyld5">
+                    <div id="evyldname">
+                        <svg class="bgevyldname" viewBox="0 0 50 25">
+                            <path id="filllightgreywithborder" d="M 0 0 L 50 0 L 50 25 L 0 25 L 0 0 Z">
+                            </path>
+                        </svg>
+                        <div id="txtevyldname">
+                            <span>특방</span>
+                        </div>
+                    </div>
+                    <div id="evyldno">
+                        <svg class="bgevyldno" viewBox="0 0 50 25">
+                            <path id="fillwhitewithborder" d="M 0 0 L 50 0 L 50 25 L 0 25 L 0 0 Z">
+                            </path>
+                        </svg>
+                        <div id="txtevyldno">
+                            <span>1</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="evyld6">
+                    <div id="evyldname">
+                        <svg class="bgevyldname" viewBox="0 0 50 25">
+                            <path id="filllightgreywithborder" d="M 0 0 L 40 0 C 45.5 0 50 4.5 50 10 L 50 25 L 0 25 L 0 0 Z">
+                            </path>
+                        </svg>
+                        <div id="txtevyldname">
+                            <span>스피드</span>
+                        </div>
+                    </div>
+                    <div id="evyldno">
+                        <svg class="bgevyldno" viewBox="0 0 50 25">
+                            <path id="fillwhitewithborder" d="M 0 0 L 50 0 L 50 15 C 50 20.5 45.5 25 40 25 L 0 25 L 0 0 Z">
+                            </path>
+                        </svg>
+                        <div id="txtevyldno">
+                            <span>0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="info7">
+                <div id="iinfoname">
+                    <svg class="bgiinfoname" viewBox="0 0 101 25">
+                        <path id="filllightgreywithborder" d="M 12.5 0 L 101 0 L 101 25 L 12.5 25 C 5.5 25 0 19.5 0 12.5 C 0 5.5 5.5 0 12.5 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtiinfoname">
+                        <span>레벨 100 요구 경험치</span>
+                    </div>
+                </div>
+                <div id="iinfono">
+                    <svg class="bgiinfo1" viewBox="0 0 101 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 101 0 L 101 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtiinfono1">
+                        <span>600000</span>
+                    </div>
+                </div>
+                <div id="iinfono2">
+                    <svg class="bgiinfo2" viewBox="0 0 101 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 88.5 0 C 95.5 0 101 5.5 101 12.5 C 101 19.5 95.5 25 88.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtiinfo2">
+                        <span>이상한</span>
+                    </div>
+                </div>
+            </div>
+            <div id="info8">
+                <div id="iinfoname">
+                    <svg class="bgiinfoname" viewBox="0 0 101 25">
+                        <path id="filllightgreywithborder" d="M 12.5 0 L 101 0 L 101 25 L 12.5 25 C 5.5 25 0 19.5 0 12.5 C 0 5.5 5.5 0 12.5 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtiinfoname2">
+                        <span>알그룹</span>
+                    </div>
+                </div>
+                <div id="iinfono">
+                    <svg class="bgiinfo1" viewBox="0 0 101 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 101 0 L 101 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtiinfono1">
+                        <span>수중 3</span>
+                    </div>
+                </div>
+                <div id="iinfono2">
+                    <svg class="bgiinfo2" viewBox="0 0 101 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 88.5 0 C 95.5 0 101 5.5 101 12.5 C 101 19.5 95.5 25 88.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtiinfo2">
+                        <span>—</span>
+                    </div>
+                </div>
+            </div>
+            <div id="info9">
+                <div id="bgiinfoname">
+                    <svg class="bgiinfogender" viewBox="0 0 101 25">
+                        <path id="bgiinfomale" d="M 12.5 0 L 101 0 L 101 25 L 12.5 25 C 5.5 25 0 19.5 0 12.5 C 0 5.5 5.5 0 12.5 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtiinfogender">
+                        <span>♂ 87.5%</span>
+                    </div>
+                </div>
+                <div id="iinfono">
+                    <svg class="bgiinfo1" viewBox="0 0 101 25">
+                        <path id="filllightgreywithborder" d="M 0 0 L 101 0 L 101 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtiinfogender">
+                        <span>성비</span>
+                    </div>
+                </div>
+                <div id="iinfono2">
+                    <svg class="bgiinfogender" viewBox="0 0 101 25">
+                        <path id="bgiinfofemale" d="M 0 0 L 88.5 0 C 95.5 0 101 5.5 101 12.5 C 101 19.5 95.5 25 88.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtiinfogender">
+                        <span>12.5% ♀</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="gomove" style="cursor:pointer;" OnClick="location.href='../pkmnmove/345.html'">
+            <svg class="bggomove">
+                <rect id="fillwhitewithborder" rx="13" ry="13" width="335" height="30">
+                </rect>
+            </svg>
+            <div id="txtgomove">
+                <span>이 포켓몬이 배울 수 있는 기술 목록</span>
+            </div>
+            <img id="attack" srcset="../../images/icon/attack.png 1x">
+
+        </div>
+        <div id="weak">
+            <svg class="bgweak">
+                <rect id="fillwhitewithborder" rx="20" ry="20" width="335" height="168">
+                </rect>
+            </svg>
+            <div id="weakNRM">
+                <div id="weakno">
+                    <svg class="bgweakno" viewBox="0 0 71 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 55.5 0 C 64 0 71 5.5 71 12.5 C 71 19.5 64 25 55.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtweakno">
+                        <span>×0.5</span>
+                    </div>
+                </div>
+                <div id="weaktype">
+                    <img id="bgweaktype" srcset="../../images/type/Normal.png 1x">
+                </div>
+            </div>
+            <div id="weakFIR">
+                <div id="weakno">
+                    <svg class="bgweakno" viewBox="0 0 71 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 55.5 0 C 64 0 71 5.5 71 12.5 C 71 19.5 64 25 55.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtweakno">
+                        <span>×1</span>
+                    </div>
+                </div>
+                <div id="weaktype">
+                    <img id="bgweaktype" srcset="../../images/type/Fire.png 1x">
+                </div>
+            </div>
+            <div id="weakWTR">
+                <div id="weakno">
+                    <svg class="bgweakno" viewBox="0 0 71 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 55.5 0 C 64 0 71 5.5 71 12.5 C 71 19.5 64 25 55.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtweakno">
+                        <span>×1</span>
+                    </div>
+                </div>
+                <div id="weaktype">
+                    <img id="bgweaktype" srcset="../../images/type/Water.png 1x">
+                </div>
+            </div>
+            <div id="weakGRS">
+                <div id="weakno">
+                    <svg class="bgweakno" viewBox="0 0 71 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 55.5 0 C 64 0 71 5.5 71 12.5 C 71 19.5 64 25 55.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtweakno">
+                        <span>×1</span>
+                    </div>
+                </div>
+                <div id="weaktype">
+                    <img id="bgweaktype" srcset="../../images/type/Grass.png 1x">
+                </div>
+            </div>
+            <div id="weakELE">
+                <div id="weakno">
+                    <svg class="bgweakno" viewBox="0 0 71 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 55.5 0 C 64 0 71 5.5 71 12.5 C 71 19.5 64 25 55.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtweakno">
+                        <span>×0.5</span>
+                    </div>
+                </div>
+                <div id="weaktype">
+                    <img id="bgweaktype" srcset="../../images/type/Electric.png 1x">
+                </div>
+            </div>
+            <div id="weakICE">
+                <div id="weakno">
+                    <svg class="bgweakno" viewBox="0 0 71 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 55.5 0 C 64 0 71 5.5 71 12.5 C 71 19.5 64 25 55.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtweakno">
+                        <span>×2</span>
+                    </div>
+                </div>
+                <div id="weaktype">
+                    <img id="bgweaktype" srcset="../../images/type/Ice.png 1x">
+                </div>
+            </div>
+            <div id="weakFGT">
+                <div id="weakno">
+                    <svg class="bgweakno" viewBox="0 0 71 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 55.5 0 C 64 0 71 5.5 71 12.5 C 71 19.5 64 25 55.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtweakno">
+                        <span>×2</span>
+                    </div>
+                </div>
+                <div id="weaktype">
+                    <img id="bgweaktype" srcset="../../images/type/Fighting.png 1x">
+                </div>
+            </div>
+            <div id="weakPSN">
+                <div id="weakno">
+                    <svg class="bgweakno" viewBox="0 0 71 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 55.5 0 C 64 0 71 5.5 71 12.5 C 71 19.5 64 25 55.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtweakno">
+                        <span>×1</span>
+                    </div>
+                </div>
+                <div id="weaktype">
+                    <img id="bgweaktype" srcset="../../images/type/Poison.png 1x">
+                </div>
+            </div>
+            <div id="weakGRN">
+                <div id="weakno">
+                    <svg class="bgweakno" viewBox="0 0 71 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 55.5 0 C 64 0 71 5.5 71 12.5 C 71 19.5 64 25 55.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtweakno">
+                        <span>×1</span>
+                    </div>
+                </div>
+                <div id="weaktype">
+                    <img id="bgweaktype" srcset="../../images/type/Ground.png 1x">
+                </div>
+            </div>
+            <div id="weakFLY">
+                <div id="weakno">
+                    <svg class="bgweakno" viewBox="0 0 71 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 55.5 0 C 64 0 71 5.5 71 12.5 C 71 19.5 64 25 55.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtweakno">
+                        <span>×1</span>
+                    </div>
+                </div>
+                <div id="weaktype">
+                    <img id="bgweaktype" srcset="../../images/type/Flying.png 1x">
+                </div>
+            </div>
+            <div id="weakPSY">
+                <div id="weakno">
+                    <svg class="bgweakno" viewBox="0 0 71 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 55.5 0 C 64 0 71 5.5 71 12.5 C 71 19.5 64 25 55.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtweakno">
+                        <span>×1</span>
+                    </div>
+                </div>
+                <div id="weaktype">
+                    <img id="bgweaktype" srcset="../../images/type/Psychic.png 1x">
+                </div>
+            </div>
+            <div id="weakBUG">
+                <div id="weakno">
+                    <svg class="bgweakno" viewBox="0 0 71 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 55.5 0 C 64 0 71 5.5 71 12.5 C 71 19.5 64 25 55.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtweakno">
+                        <span>×2</span>
+                    </div>
+                </div>
+                <div id="weaktype">
+                    <img id="bgweaktype" srcset="../../images/type/Bug.png 1x">
+                </div>
+            </div>
+            <div id="weakRCK">
+                <div id="weakno">
+                    <svg class="bgweakno" viewBox="0 0 71 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 55.5 0 C 64 0 71 5.5 71 12.5 C 71 19.5 64 25 55.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtweakno">
+                        <span>×1</span>
+                    </div>
+                </div>
+                <div id="weaktype">
+                    <img id="bgweaktype" srcset="../../images/type/Rock.png 1x">
+                </div>
+            </div>
+            <div id="weakGHO">
+                <div id="weakno">
+                    <svg class="bgweakno" viewBox="0 0 71 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 55.5 0 C 64 0 71 5.5 71 12.5 C 71 19.5 64 25 55.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtweakno">
+                        <span>×1</span>
+                    </div>
+                </div>
+                <div id="weaktype">
+                    <img id="bgweaktype" srcset="../../images/type/Ghost.png 1x">
+                </div>
+            </div>
+            <div id="weakDRK">
+                <div id="weakno">
+                    <svg class="bgweakno" viewBox="0 0 71 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 55.5 0 C 64 0 71 5.5 71 12.5 C 71 19.5 64 25 55.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtweakno">
+                        <span>×1</span>
+                    </div>
+                </div>
+                <div id="weaktype">
+                    <img id="bgweaktype" srcset="../../images/type/Dark.png 1x">
+                </div>
+            </div>
+            <div id="weakDRA">
+                <div id="weakno">
+                    <svg class="bgweakno" viewBox="0 0 71 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 55.5 0 C 64 0 71 5.5 71 12.5 C 71 19.5 64 25 55.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtweakno">
+                        <span>×1</span>
+                    </div>
+                </div>
+                <div id="weaktype">
+                    <img id="bgweaktype" srcset="../../images/type/Dragon.png 1x">
+                </div>
+            </div>
+            <div id="weakSTL">
+                <div id="weakno">
+                    <svg class="bgweakno" viewBox="0 0 71 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 55.5 0 C 64 0 71 5.5 71 12.5 C 71 19.5 64 25 55.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtweakno">
+                        <span>×2</span>
+                    </div>
+                </div>
+                <div id="weaktype">
+                    <img id="bgweaktype" srcset="../../images/type/Steel.png 1x">
+                </div>
+            </div>
+            <div id="weakFRY">
+                <div id="weakno">
+                    <svg class="bgweakno" viewBox="0 0 71 25">
+                        <path id="fillwhitewithborder" d="M 0 0 L 55.5 0 C 64 0 71 5.5 71 12.5 C 71 19.5 64 25 55.5 25 L 0 25 L 0 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtweakno">
+                        <span>×1</span>
+                    </div>
+                </div>
+                <div id="weaktype">
+                    <img id="bgweaktype" srcset="../../images/type/Fairy.png 1x">
+                </div>
+            </div>
+        </div>
+        <div id="goto">
+            <svg class="bggoto">
+                <rect id="fillwhitewithborder" rx="12" ry="12" width="335" height="42">
+                </rect>
+            </svg>
+            <div id="prev" style="cursor:pointer;" OnClick="location.href='344.html'">
+                <svg class="backicon" viewBox="0 0 32 28">
+                    <path id="fillblack" d="M 16 0 L 32 28 L 26 28 L 16 10 L 6 28 L 0 28 L 16 0 Z">
+                    </path>
+                </svg>
+                <img id="backsprt" srcset="../../images/sprt1/344.png 1x">
+                <div id="prevno">
+                    <span>344</span>
+                </div>
+            </div>
+            <div id="next" style="cursor:pointer;" OnClick="location.href='346.html'">
+                <svg class="nexticon" viewBox="0 0 32 28">
+                    <path id="fillblack" d="M 16 0 L 32 28 L 26 28 L 16 10 L 6 28 L 0 28 L 16 0 Z">
+                    </path>
+                </svg>
+                <img id="nextsprt" srcset="../../images/sprt1/346.png 1x">
+                <div id="nextno">
+                    <span>346</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="title">
+        <svg class="bgtitle">
+            <rect id="fillwhite" width="255" height="60">
+            </rect>
+        </svg>
+        <div id="txttitle">
+            <span>345 릴링</span>
+        </div>
+    </div>
+    <div id="header"></div>
+    <div id="main">
+        <svg class="bgmain">
+            <rect id="Bg345" width="375" height="105">
+            </rect>
+        </svg>
+        <div id="name">
+            <svg class="bgname" viewBox="0 0 335 50">
+                <path id="fillwhitewithborder" d="M 20 0 L 315 0 C 326 0 335 9 335 20 L 335 30 C 335 41 326 50 315 50 L 20 50 C 9 50 0 41 0 30 L 0 20 C 0 9 9 0 20 0 Z">
+                </path>
+            </svg>
+            <div id="pkmnname">
+                <span>릴링</span>
+            </div>
+            <div id="pkmnname">
+                <span style="font-size:11px;">Lileep</span>
+            </div>
+            <div id="pkmnname">
+                <span style="font-family:NanumGothic; font-size:11px;">リリーラ</span>
+            </div>
+        </div>
+        <div id="ctgr">
+            <svg class="bgctgr" viewBox="0 0 134 32">
+                <path id="fillwhitewithborder" d="M 15 0 L 119 0 C 127 0 134 7 134 15 L 134 17 C 134 25 127 32 119 32 L 15 32 C 7 32 0 25 0 17 L 0 15 C 0 7 7 0 15 0 Z">
+                </path>
+            </svg>
+            <div id="txtctgr">
+                <span>바다나리포켓몬</span>
+            </div>
+        </div>
+        <div id="type">
+            <img id="type1" srcset="../../images/type/Rock.png 1x">
+            <img id="type2" srcset="../../images/type/Grass.png 1x">
+
+        </div>
+        <img id="sprt" srcset="../../images/sprt1/345.png 1x">
+        <img id="shiny" onclick="isShiny()" srcset="../../images/icon/nshiny.png 1x" />
+    </div>
+</body>
+
+</html>
