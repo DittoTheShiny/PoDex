@@ -828,17 +828,6 @@
                 </div>
             </div>
         </div>
-        <div id="gomove" style="cursor:pointer;" OnClick="location.href='../pkmnmove/238.html'">
-            <svg class="bggomove">
-                <rect id="fillwhitewithborder" rx="13" ry="13" width="335" height="30">
-                </rect>
-            </svg>
-            <div id="txtgomove">
-                <span>이 포켓몬이 배울 수 있는 기술 목록</span>
-            </div>
-            <img id="attack" srcset="../../images/icon/attack.png 1x">
-
-        </div>
         <div id="weak">
             <svg class="bgweak">
                 <rect id="fillwhitewithborder" rx="20" ry="20" width="335" height="168">
@@ -1170,6 +1159,32 @@
         </div>
         <img id="sprt" srcset="../../images/sprt1/238.png 1x">
         <img id="shiny" onclick="isShiny()" srcset="../../images/icon/nshiny.png 1x" />
+    </div>
+    <div id="gomove">
+        <svg class="bggomove">
+            <rect id="fillwhitewithborder" width="375" height="30">
+            </rect>
+        </svg>
+        <svg class="infogogo" style="cursor:pointer;" OnClick="location.href='238.html'">
+            <rect id="fillwhitewithborder" width="188" height="30">
+                <img id="goinfo" srcset="../../images/icon/info.png 1x">
+                <div id="infotext">
+                    <span>포켓몬 정보</span>
+                </div>
+            </rect>
+        </svg>
+        <svg class="bar" viewBox="0 0 1 30">
+            <path id="bar" d="M 0 0 L 0 30">
+            </path>
+        </svg>
+        <svg class="movegogo" style="cursor:pointer;" OnClick="location.href='../pkmnmove/238.html'">
+            <rect id="fillwhitewithborder" width="188" height="30">
+                <img id="attack" srcset="../../images/icon/circleattack.png 1x">
+                <div id="movetext">
+                    <span>배울 수 있는 기술</span>
+                </div>
+            </rect>
+        </svg>
     </div>
 </body>
 

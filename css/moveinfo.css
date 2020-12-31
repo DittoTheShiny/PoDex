@@ -1,0 +1,541 @@
+﻿#main1 {
+    position: absolute;
+    width: 335px;
+    height: 40px;
+    left: 20px;
+    top: 64px;
+    overflow: visible;
+}
+
+.bgmain1 {
+    position: absolute;
+    overflow: visible;
+    width: 335px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+
+#txtmain1 {
+    left: 20px;
+    top: 7px;
+    position: absolute;
+    overflow: visible;
+    width: 227px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+
+#main2 {
+    position: absolute;
+    width: 336px;
+    height: 154px;
+    left: 20px;
+    top: 108px;
+    overflow: visible;
+}
+
+.bginfo {
+    position: absolute;
+    overflow: visible;
+    width: 100px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+}
+
+#bar {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.bar {
+    overflow: visible;
+    position: absolute;
+    width: 80px;
+    height: 1px;
+    left: 10px;
+    top: 16px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#txtinfoname {
+    left: 16px;
+    top: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 70px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+
+#txtinfono {
+    left: 28px;
+    top: 20px;
+    position: absolute;
+    overflow: visible;
+    width: 45px;
+    height: 26px;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgba(0,0,0,1);
+}
+
+#txtinfono_cntct {
+    left: 25px;
+    top: 23px;
+    position: absolute;
+    overflow: visible;
+    width: 50px;
+    height: 26px;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+
+#txtinfono_crit {
+    left: 24px;
+    top: 20px;
+    position: absolute;
+    overflow: visible;
+    width: 53px;
+    height: 26px;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgba(0,0,0,1);
+}
+
+#txtinfono_spec {
+    left: 16px;
+    top: 23px;
+    position: absolute;
+    overflow: visible;
+    width: 70px;
+    height: 26px;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(0,0,0,1);
+}
+
+#power {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#accuracy {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 118px;
+    top: 0px;
+    overflow: visible;
+}
+
+#PP {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 236px;
+    top: 0px;
+    overflow: visible;
+}
+
+#maxpower {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 0px;
+    top: 52px;
+    overflow: visible;
+}
+
+#typectgr {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 118px;
+    top: 52px;
+    overflow: visible;
+}
+
+#movetype {
+    position: absolute;
+    overflow: visible;
+    width: 26px;
+    height: 26px;
+    left: 18px;
+    top: 20px;
+}
+
+#ctgr {
+    position: absolute;
+    overflow: visible;
+    width: 26px;
+    height: 26px;
+    left: 55px;
+    top: 20px;
+}
+
+#contact {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 236px;
+    top: 52px;
+    overflow: visible;
+}
+
+#crit {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 0px;
+    top: 104px;
+    overflow: visible;
+}
+
+#prior {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 118px;
+    top: 104px;
+    overflow: visible;
+}
+
+#spec {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 236px;
+    top: 104px;
+    overflow: visible;
+}
+
+
+#main3 {
+    position: absolute;
+    width: 335px;
+    height: 100px;
+    left: 21px;
+    top: 266px;
+    overflow: visible;
+}
+
+#bgmain3 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.bgmain3 {
+    position: absolute;
+    overflow: visible;
+    width: 335px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+}
+
+.bar_long {
+    overflow: visible;
+    position: absolute;
+    width: 281px;
+    height: 1px;
+    left: 26px;
+    top: 16px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#txteffectname {
+    left: 156px;
+    top: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 23px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+
+#txteffect {
+    left: 16px;
+    top: 22px;
+    position: absolute;
+    overflow: visible;
+    width: 302px;
+    height: 72px;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+    word-break: keep-all;
+}
+
+#main4 {
+    position: absolute;
+    width: 160px;
+    height: 120px;
+    left: 21px;
+    top: 370px;
+    overflow: visible;
+}
+
+.bgmain4 {
+    position: absolute;
+    overflow: visible;
+    width: 160px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+}
+
+.bar_mid {
+    overflow: visible;
+    position: absolute;
+    width: 126px;
+    height: 1px;
+    left: 17px;
+    top: 16px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#txtingamename {
+    left: 51px;
+    top: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 59px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+
+#txtingame {
+    left: 7px;
+    top: 22px;
+    position: absolute;
+    overflow: visible;
+    width: 147px;
+    height: 96px;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+    word-break: keep-all;
+}
+
+#main5 {
+    position: absolute;
+    width: 160px;
+    height: 120px;
+    left: 195px;
+    top: 370px;
+    overflow: visible;
+}
+
+.bgmain5 {
+    position: absolute;
+    overflow: visible;
+    width: 160px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+}
+
+#txtrangename {
+    left: 69px;
+    top: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 23px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+
+#txtrange {
+    left: 21px;
+    top: 92px;
+    position: absolute;
+    overflow: visible;
+    width: 119px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+
+#range {
+    position: absolute;
+    width: 142px;
+    height: 54px;
+    left: 9px;
+    top: 27px;
+    overflow: visible;
+}
+
+.bglearnset {
+    position: absolute;
+    overflow: visible;
+    width: 335px;
+    left: 0px;
+    top: 0px;
+}
+
+#txtlearnset {
+    left: 70px;
+    top: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 200px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+
+#pkmn {
+    position: relative;
+    width: 266px;
+    height: 50px;
+    left: 10px;
+    top: 18px;
+    overflow: visible;
+    margin-top: 3px;
+}
+
+.pkmnmain {
+    position: absolute;
+    overflow: visible;
+    width: 266px;
+    height: 50px;
+    left: 50px;
+    top: 0px;
+}
+
+#sprt {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#pkmnname {
+    position: absolute;
+    width: 141px;
+    height: 34px;
+    left: 60px;
+    top: 8px;
+    overflow: visible;
+}
+
+#txtpkmnname {
+    left: 8px;
+    top: 4px;
+    position: absolute;
+    overflow: visible;
+    width: 108px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+
+#type {
+    position: absolute;
+    width: 80px;
+    height: 34px;
+    left: 218px;
+    top: 8px;
+    overflow: visible;
+}
+
+#type1 {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#type2 {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 46px;
+    top: 0px;
+    overflow: visible;
+}
+
+#typesole {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 23px;
+    top: 0px;
+    overflow: visible;
+}

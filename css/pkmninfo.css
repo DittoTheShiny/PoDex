@@ -154,7 +154,7 @@
     width: 335px;
     height: 60px;
     left: 20px;
-    top: 169px;
+    top: 199px;
     overflow: visible;
 }
 
@@ -320,7 +320,7 @@
     width: 335px;
     height: 87px;
     left: 20px;
-    top: 233px;
+    top: 263px;
     overflow: visible;
 }
 
@@ -561,7 +561,7 @@
     width: 335px;
     height: 87px;
     left: 20px;
-    top: 324px;
+    top: 354px;
     overflow: visible;
 }
 
@@ -807,7 +807,7 @@
     width: 335px;
     height: 222px;
     left: 20px;
-    top: 415px;
+    top: 445px;
     overflow: visible;
 }
 
@@ -1272,30 +1272,49 @@
     color: rgba(0,0,0,1);
 }
 
+
 #gomove {
-    position: absolute;
-    width: 335px;
+    position: fixed;
+    width: 375px;
     height: 30px;
-    left: 20px;
-    top: 641px;
+    left: 0px;
+    top: 165px;
     overflow: visible;
 }
 
 .bggomove {
     position: absolute;
     overflow: visible;
-    width: 335px;
+    width: 375px;
     height: 30px;
     left: 0px;
     top: 0px;
 }
 
-#txtgomove {
-    left: 68px;
+.movegogo {
+    position: absolute;
+    overflow: visible;
+    width: 188px;
+    height: 30px;
+    left: 187px;
+    top: 0px;
+}
+
+#attack {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 199px;
+    top: 3px;
+    overflow: visible;
+}
+
+#movetext {
+    left: 240px;
     top: 7px;
     position: absolute;
     overflow: visible;
-    width: 200px;
+    width: 101px;
     white-space: nowrap;
     text-align: left;
     font-family: NanumSquare;
@@ -1305,13 +1324,67 @@
     color: rgba(0,0,0,1);
 }
 
-#attack {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 10px;
-    top: 3px;
+#bar {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.bar {
     overflow: visible;
+    position: absolute;
+    width: 1px;
+    height: 30px;
+    left: 187.5px;
+    top: 0.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+.bar_move {
+    overflow: visible;
+    position: absolute;
+    width: 281px;
+    height: 1px;
+    left: 27px;
+    top: 16px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+.infogogo {
+    position: absolute;
+    overflow: visible;
+    width: 188px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+}
+
+#goinfo {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 13px;
+    top: 5px;
+    overflow: visible;
+}
+
+#infotext {
+    left: 64px;
+    top: 7px;
+    position: absolute;
+    overflow: visible;
+    width: 68px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
 }
 
 #weak {

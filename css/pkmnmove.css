@@ -1,0 +1,212 @@
+﻿
+#move {
+    position: relative;
+    width: 315px;
+    height: 30px;
+    left: 10px;
+    top: 16px;
+    overflow: visible;
+    margin-top: 3px;
+}
+
+.movemain {
+    position: absolute;
+    overflow: visible;
+    width: 169px;
+    height: 30px;
+    left: 29px;
+    top: -2px;
+}
+
+.moveinfo {
+    overflow: visible;
+    position: absolute;
+    width: 118px;
+    height: 30px;
+    left: 197px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#movehead {
+    position: absolute;
+    width: 49px;
+    height: 22px;
+    left: 35px;
+    top: 4px;
+    overflow: visible;
+}
+
+
+#movetype {
+    position: absolute;
+    overflow: visible;
+    width: 22px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+}
+
+#movectgr {
+    position: absolute;
+    overflow: visible;
+    width: 22px;
+    height: 22px;
+    left: 27px;
+    top: 0px;
+}
+
+#movename {
+    position: absolute;
+    width: 125px;
+    height: 22px;
+    left: 4px;
+    top: 4px;
+    overflow: visible;
+}
+
+.bgmovename {
+    position: absolute;
+    overflow: visible;
+    width: 94px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+}
+
+#txtmovename {
+    left: 90px;
+    position: absolute;
+    overflow: visible;
+    width: 74px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    color: rgba(0,0,0,1);
+}
+
+#txtmovename2 {
+    top: 12px;
+    left: 90px;
+    position: absolute;
+    overflow: visible;
+    width: 74px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 7px;
+    color: rgba(0,0,0,1);
+}
+
+#txtinfo {
+    position: absolute;
+    width: 104px;
+    height: 16px;
+    left: 202px;
+    top: 8px;
+    overflow: visible;
+}
+
+#txt {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 27px;
+    height: 16px;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+
+#power {
+    position: absolute;
+    width: 26px;
+    height: 16px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#accu {
+    position: absolute;
+    width: 26px;
+    height: 16px;
+    left: 39px;
+    top: 0px;
+    overflow: visible;
+}
+
+#pp {
+    position: absolute;
+    width: 26px;
+    height: 16px;
+    left: 78px;
+    top: 0px;
+    overflow: visible;
+}
+
+#moveno {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.bgmoveno {
+    position: absolute;
+    overflow: visible;
+    width: 30px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+}
+
+#txtmoveno {
+    left: 4px;
+    top: 7px;
+    position: absolute;
+    overflow: visible;
+    width: 20px;
+    height: 16px;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+}
+
+#txtinfoname {
+    left: 79px;
+    top: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 179px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: NanumSquare;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgba(0,0,0,1);
+}
+
+.bgmove {
+    position: absolute;
+    overflow: visible;
+    width: 335px;
+    height: 217px;
+    left: 0px;
+    top: 0px;
+}
