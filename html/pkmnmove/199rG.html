@@ -8,20 +8,20 @@
     <link rel="stylesheet" href="../../css/BgPkmn.css" />
     <link rel="stylesheet" href="../../css/pkmninfo.css" />
     <link rel="stylesheet" href="../../css/pkmnmove.css" />
-    <title>199 야도킹 - 기술</title>
+    <title>199 가라르 야도킹 - 기술</title>
     <style id="applicationStylesheet" type="text/css">
         #pkmnmove {
             position: absolute;
             width: 375px;
-            height: 3429px;
-            background-color: rgba(230, 159, 175, 1);
+            height: 3660px;
+            background-color: rgba(226, 182, 207, 1);
             overflow: hidden;
         }
 
         #learnset_lvl {
             position: absolute;
             width: 335px;
-            height: 679px;
+            height: 745px;
             left: 20px;
             top: 200px;
             overflow: visible;
@@ -33,7 +33,7 @@
             width: 335px;
             height: 217px;
             left: 20px;
-            top: 883px;
+            top: 949px;
             overflow: visible;
             margin-bottom: 4px;
         }
@@ -43,7 +43,7 @@
             width: 335px;
             height: 217px;
             left: 20px;
-            top: 2094px;
+            top: 2226px;
             overflow: visible;
             margin-bottom: 4px;
         }
@@ -53,7 +53,7 @@
             width: 335px;
             height: 217px;
             left: 20px;
-            top: 3173px;
+            top: 3404px;
             overflow: visible;
             margin-bottom: 4px;
         }
@@ -63,7 +63,7 @@
             width: 335px;
             height: 217px;
             left: 20px;
-            top: 3328px;
+            top: 3559px;
             overflow: visible;
             margin-bottom: 4px;
         }
@@ -73,7 +73,7 @@
             width: 335px;
             height: 42px;
             left: 20px;
-            top: 3384px;
+            top: 3615px;
             overflow: visible;
             margin-bottom: 3px;
         }
@@ -81,37 +81,35 @@
 </head>
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript">
-
-	$(document).ready(function () {
-		$("#header").load("../header.html");  // 원하는 파일 경로를 삽입하면 된다
-	});
+    $(document).ready(function () {
+        $("#header").load("../header.html");  // 원하는 파일 경로를 삽입하면 된다
+    });
 </script>
 <script type="text/javascript">
-
-	state = 0;
-	function isShiny() {
-		if (state == 0) {
-			state = 1;
-			document.getElementById('shiny').srcset = "../../images/icon/shiny.png 1x";
-			document.getElementById('sprt').srcset = "../../images/sprt2/199.png 1x";
-			document.getElementById('backsprt').srcset = "../../images/sprt2/198.png 1x";
-			document.getElementById('nextsprt').srcset = "../../images/sprt2/199rG.png 1x";
-		}
-		else {
-			state = 0;
-			document.getElementById('shiny').srcset = "../../images/icon/nshiny.png 1x";
-			document.getElementById('sprt').srcset = "../../images/sprt1/199.png 1x";
-			document.getElementById('backsprt').srcset = "../../images/sprt1/198.png 1x";
-			document.getElementById('nextsprt').srcset = "../../images/sprt1/199rG.png 1x";
-		}
-	}
+    state = 0;
+    function isShiny() {
+        if (state == 0) {
+            state = 1;
+            document.getElementById('shiny').srcset = "../../images/icon/shiny.png 1x";
+            document.getElementById('sprt').srcset = "../../images/sprt2/199rG.png 1x";
+            document.getElementById('backsprt').srcset = "../../images/sprt2/199.png 1x";
+            document.getElementById('nextsprt').srcset = "../../images/sprt2/200.png 1x";
+        }
+        else {
+            state = 0;
+            document.getElementById('shiny').srcset = "../../images/icon/nshiny.png 1x";
+            document.getElementById('sprt').srcset = "../../images/sprt1/199rG.png 1x";
+            document.getElementById('backsprt').srcset = "../../images/sprt1/199.png 1x";
+            document.getElementById('nextsprt').srcset = "../../images/sprt1/200.png 1x";
+        }
+    }
 </script>
 <body id="bodytag">
     <div id="pkmnmove">
         <div id="learnset_lvl">
             <!--레벨 업-->
             <svg class="bgmove">
-                <rect id="fillwhitewithborder" rx="12" ry="12" x="0" y="0" width="335" height="679">
+                <rect id="fillwhitewithborder" rx="12" ry="12" x="0" y="0" width="335" height="745">
                 </rect>
             </svg>
             <svg class="bar_move" viewBox="0 0 281 1">
@@ -120,6 +118,58 @@
             </svg>
             <div id="txtinfoname">
                 <span>이 포켓몬이 레벨 업으로 배우는 기술</span>
+            </div>
+            <div id="move" style="cursor:pointer;" OnClick="location.href='../move/섬뜩한주문.html'">
+                <div id="moveno">
+                    <svg class="bgmoveno">
+                        <path id="fillwhitewithborder" d="M 15 0 L 30 0 L 30 30 L 15 30 C 7 30 0 23 0 15 C 0 7 7 0 15 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtmoveno">
+                        <span>1</span>
+                    </div>
+                </div>
+                <svg class="movemain" viewBox="0 0 198 30">
+                    <rect id="Psychic" width="198" height="35">
+                    </rect>
+                </svg>
+                <svg class="moveinfo" viewBox="0 0 118 30">
+                    <path id="fillblack" d="M 0 0 L 103 0 C 111 0 118 7 118 15 C 118 23 111 30 103 30 L 0 30 L 0 0 Z">
+                    </path>
+                </svg>
+                <div id="movehead">
+                    <img id="movetype" srcset="../../images/type/Psychic.png 1x">
+                    <img id="movectgr" srcset="../../images/ctgr/Spe.png 1x">
+                </div>
+                <div id="movename">
+                    <svg class="bgmovename">
+                        <rect id="filltransparent" width="125" height="22">
+                        </rect>
+                    </svg>
+                    <div id="txtmovename">
+                        <span>섬뜩한주문</span>
+                    </div>
+                    <div id="txtmovename2">
+                        <span>Eerie Spell</span>
+                    </div>
+                </div>
+                <div id="txtinfo">
+                    <div id="power">
+                        <div id="txt">
+                            <span>80</span>
+                        </div>
+                    </div>
+                    <div id="accu">
+                        <div id="txt">
+                            <span>100</span>
+                        </div>
+                    </div>
+                    <div id="pp">
+                        <div id="txt">
+                            <span>5</span>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div id="move" style="cursor:pointer;" OnClick="location.href='../move/파워젬.html'">
                 <div id="moveno">
@@ -433,7 +483,7 @@
                     </div>
                 </div>
             </div>
-            <div id="move" style="cursor:pointer;" OnClick="location.href='../move/물대포.html'">
+            <div id="move" style="cursor:pointer;" OnClick="location.href='../move/용해액.html'">
                 <div id="moveno">
                     <svg class="bgmoveno">
                         <path id="fillwhitewithborder" d="M 15 0 L 30 0 L 30 30 L 15 30 C 7 30 0 23 0 15 C 0 7 7 0 15 0 Z">
@@ -444,7 +494,7 @@
                     </div>
                 </div>
                 <svg class="movemain" viewBox="0 0 198 30">
-                    <rect id="Water" width="198" height="35">
+                    <rect id="Poison" width="198" height="35">
                     </rect>
                 </svg>
                 <svg class="moveinfo" viewBox="0 0 118 30">
@@ -452,7 +502,7 @@
                     </path>
                 </svg>
                 <div id="movehead">
-                    <img id="movetype" srcset="../../images/type/Water.png 1x">
+                    <img id="movetype" srcset="../../images/type/Poison.png 1x">
                     <img id="movectgr" srcset="../../images/ctgr/Spe.png 1x">
                 </div>
                 <div id="movename">
@@ -461,10 +511,10 @@
                         </rect>
                     </svg>
                     <div id="txtmovename">
-                        <span>물대포</span>
+                        <span>용해액</span>
                     </div>
                     <div id="txtmovename2">
-                        <span>Water Gun</span>
+                        <span>Acid</span>
                     </div>
                 </div>
                 <div id="txtinfo">
@@ -480,7 +530,59 @@
                     </div>
                     <div id="pp">
                         <div id="txt">
-                            <span>25</span>
+                            <span>30</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="move" style="cursor:pointer;" OnClick="location.href='../move/섬뜩한주문.html'">
+                <div id="moveno">
+                    <svg class="bgmoveno">
+                        <path id="fillwhitewithborder" d="M 15 0 L 30 0 L 30 30 L 15 30 C 7 30 0 23 0 15 C 0 7 7 0 15 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtmoveno">
+                        <span>Evo</span>
+                    </div>
+                </div>
+                <svg class="movemain" viewBox="0 0 198 30">
+                    <rect id="Psychic" width="198" height="35">
+                    </rect>
+                </svg>
+                <svg class="moveinfo" viewBox="0 0 118 30">
+                    <path id="fillblack" d="M 0 0 L 103 0 C 111 0 118 7 118 15 C 118 23 111 30 103 30 L 0 30 L 0 0 Z">
+                    </path>
+                </svg>
+                <div id="movehead">
+                    <img id="movetype" srcset="../../images/type/Psychic.png 1x">
+                    <img id="movectgr" srcset="../../images/ctgr/Spe.png 1x">
+                </div>
+                <div id="movename">
+                    <svg class="bgmovename">
+                        <rect id="filltransparent" width="125" height="22">
+                        </rect>
+                    </svg>
+                    <div id="txtmovename">
+                        <span>섬뜩한주문</span>
+                    </div>
+                    <div id="txtmovename2">
+                        <span>Eerie Spell</span>
+                    </div>
+                </div>
+                <div id="txtinfo">
+                    <div id="power">
+                        <div id="txt">
+                            <span>80</span>
+                        </div>
+                    </div>
+                    <div id="accu">
+                        <div id="txt">
+                            <span>100</span>
+                        </div>
+                    </div>
+                    <div id="pp">
+                        <div id="txt">
+                            <span>5</span>
                         </div>
                     </div>
                 </div>
@@ -1577,115 +1679,11 @@
                     </div>
                 </div>
             -->
-            <!--
-                <div id="moveno">
-                    <svg class="bgmoveno">
-                        <path id="fillwhitewithborder" d="M 15 0 L 30 0 L 30 30 L 15 30 C 7 30 0 23 0 15 C 0 7 7 0 15 0 Z">
-                        </path>
-                    </svg>
-                    <div id="txtmoveno">
-                        <span></span>
-                    </div>
-                </div>
-                <svg class="movemain" viewBox="0 0 198 30">
-                    #N/A
-                    </rect>
-                </svg>
-                <svg class="moveinfo" viewBox="0 0 118 30">
-                    <path id="fillblack" d="M 0 0 L 103 0 C 111 0 118 7 118 15 C 118 23 111 30 103 30 L 0 30 L 0 0 Z">
-                    </path>
-                </svg>
-                <div id="movehead">
-                    #N/A
-                    #N/A
-                </div>
-                <div id="movename">
-                    <svg class="bgmovename">
-                        <rect id="filltransparent" width="125" height="22">
-                        </rect>
-                    </svg>
-                    <div id="txtmovename">
-                        <span></span>
-                    </div>
-                    <div id="txtmovename2">
-                        #N/A
-                    </div>
-                </div>
-                <div id="txtinfo">
-                    <div id="power">
-                        <div id="txt">
-                            #N/A
-                        </div>
-                    </div>
-                    <div id="accu">
-                        <div id="txt">
-                            #N/A
-                        </div>
-                    </div>
-                    <div id="pp">
-                        <div id="txt">
-                            #N/A
-                        </div>
-                    </div>
-                </div>
-            -->
-            <!--
-                <div id="moveno">
-                    <svg class="bgmoveno">
-                        <path id="fillwhitewithborder" d="M 15 0 L 30 0 L 30 30 L 15 30 C 7 30 0 23 0 15 C 0 7 7 0 15 0 Z">
-                        </path>
-                    </svg>
-                    <div id="txtmoveno">
-                        <span></span>
-                    </div>
-                </div>
-                <svg class="movemain" viewBox="0 0 198 30">
-                    #N/A
-                    </rect>
-                </svg>
-                <svg class="moveinfo" viewBox="0 0 118 30">
-                    <path id="fillblack" d="M 0 0 L 103 0 C 111 0 118 7 118 15 C 118 23 111 30 103 30 L 0 30 L 0 0 Z">
-                    </path>
-                </svg>
-                <div id="movehead">
-                    #N/A
-                    #N/A
-                </div>
-                <div id="movename">
-                    <svg class="bgmovename">
-                        <rect id="filltransparent" width="125" height="22">
-                        </rect>
-                    </svg>
-                    <div id="txtmovename">
-                        <span></span>
-                    </div>
-                    <div id="txtmovename2">
-                        #N/A
-                    </div>
-                </div>
-                <div id="txtinfo">
-                    <div id="power">
-                        <div id="txt">
-                            #N/A
-                        </div>
-                    </div>
-                    <div id="accu">
-                        <div id="txt">
-                            #N/A
-                        </div>
-                    </div>
-                    <div id="pp">
-                        <div id="txt">
-                            #N/A
-                        </div>
-                    </div>
-                </div>
-            -->
         </div>
         <div id="learnset_tm">
             <!--기술머신 TM-->
             <svg class="bgmove">
-                <rect id="fillwhitewithborder" rx="12" ry="12" x="0" y="0" width="335" height="1207">
+                <rect id="fillwhitewithborder" rx="12" ry="12" x="0" y="0" width="335" height="1273">
                 </rect>
             </svg>
             <svg class="bar_move" viewBox="0 0 281 1">
@@ -3359,6 +3357,58 @@
                     </div>
                 </div>
             </div>
+            <div id="move" style="cursor:pointer;" OnClick="location.href='../move/베놈쇼크.html'">
+                <div id="moveno">
+                    <svg class="bgmoveno">
+                        <path id="fillwhitewithborder" d="M 15 0 L 30 0 L 30 30 L 15 30 C 7 30 0 23 0 15 C 0 7 7 0 15 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtmoveno">
+                        <span>74</span>
+                    </div>
+                </div>
+                <svg class="movemain" viewBox="0 0 198 30">
+                    <rect id="Poison" width="198" height="35">
+                    </rect>
+                </svg>
+                <svg class="moveinfo" viewBox="0 0 118 30">
+                    <path id="fillblack" d="M 0 0 L 103 0 C 111 0 118 7 118 15 C 118 23 111 30 103 30 L 0 30 L 0 0 Z">
+                    </path>
+                </svg>
+                <div id="movehead">
+                    <img id="movetype" srcset="../../images/type/Poison.png 1x">
+                    <img id="movectgr" srcset="../../images/ctgr/Spe.png 1x">
+                </div>
+                <div id="movename">
+                    <svg class="bgmovename">
+                        <rect id="filltransparent" width="125" height="22">
+                        </rect>
+                    </svg>
+                    <div id="txtmovename">
+                        <span>베놈쇼크</span>
+                    </div>
+                    <div id="txtmovename2">
+                        <span>Venoshock</span>
+                    </div>
+                </div>
+                <div id="txtinfo">
+                    <div id="power">
+                        <div id="txt">
+                            <span>65</span>
+                        </div>
+                    </div>
+                    <div id="accu">
+                        <div id="txt">
+                            <span>100</span>
+                        </div>
+                    </div>
+                    <div id="pp">
+                        <div id="txt">
+                            <span>10</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div id="move" style="cursor:pointer;" OnClick="location.href='../move/돌림노래.html'">
                 <div id="moveno">
                     <svg class="bgmoveno">
@@ -3407,6 +3457,58 @@
                     <div id="pp">
                         <div id="txt">
                             <span>15</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="move" style="cursor:pointer;" OnClick="location.href='../move/병상첨병.html'">
+                <div id="moveno">
+                    <svg class="bgmoveno">
+                        <path id="fillwhitewithborder" d="M 15 0 L 30 0 L 30 30 L 15 30 C 7 30 0 23 0 15 C 0 7 7 0 15 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtmoveno">
+                        <span>77</span>
+                    </div>
+                </div>
+                <svg class="movemain" viewBox="0 0 198 30">
+                    <rect id="Ghost" width="198" height="35">
+                    </rect>
+                </svg>
+                <svg class="moveinfo" viewBox="0 0 118 30">
+                    <path id="fillblack" d="M 0 0 L 103 0 C 111 0 118 7 118 15 C 118 23 111 30 103 30 L 0 30 L 0 0 Z">
+                    </path>
+                </svg>
+                <div id="movehead">
+                    <img id="movetype" srcset="../../images/type/Ghost.png 1x">
+                    <img id="movectgr" srcset="../../images/ctgr/Spe.png 1x">
+                </div>
+                <div id="movename">
+                    <svg class="bgmovename">
+                        <rect id="filltransparent" width="125" height="22">
+                        </rect>
+                    </svg>
+                    <div id="txtmovename">
+                        <span>병상첨병</span>
+                    </div>
+                    <div id="txtmovename2">
+                        <span>Hex</span>
+                    </div>
+                </div>
+                <div id="txtinfo">
+                    <div id="power">
+                        <div id="txt">
+                            <span>65</span>
+                        </div>
+                    </div>
+                    <div id="accu">
+                        <div id="txt">
+                            <span>100</span>
+                        </div>
+                    </div>
+                    <div id="pp">
+                        <div id="txt">
+                            <span>10</span>
                         </div>
                     </div>
                 </div>
@@ -6791,115 +6893,11 @@
                     </div>
                 </div>
             -->
-            <!--
-                <div id="moveno">
-                    <svg class="bgmoveno">
-                        <path id="fillwhitewithborder" d="M 15 0 L 30 0 L 30 30 L 15 30 C 7 30 0 23 0 15 C 0 7 7 0 15 0 Z">
-                        </path>
-                    </svg>
-                    <div id="txtmoveno">
-                        <span></span>
-                    </div>
-                </div>
-                <svg class="movemain" viewBox="0 0 198 30">
-                    #N/A
-                    </rect>
-                </svg>
-                <svg class="moveinfo" viewBox="0 0 118 30">
-                    <path id="fillblack" d="M 0 0 L 103 0 C 111 0 118 7 118 15 C 118 23 111 30 103 30 L 0 30 L 0 0 Z">
-                    </path>
-                </svg>
-                <div id="movehead">
-                    #N/A
-                    #N/A
-                </div>
-                <div id="movename">
-                    <svg class="bgmovename">
-                        <rect id="filltransparent" width="125" height="22">
-                        </rect>
-                    </svg>
-                    <div id="txtmovename">
-                        #N/A
-                    </div>
-                    <div id="txtmovename2">
-                        #N/A
-                    </div>
-                </div>
-                <div id="txtinfo">
-                    <div id="power">
-                        <div id="txt">
-                            #N/A
-                        </div>
-                    </div>
-                    <div id="accu">
-                        <div id="txt">
-                            #N/A
-                        </div>
-                    </div>
-                    <div id="pp">
-                        <div id="txt">
-                            #N/A
-                        </div>
-                    </div>
-                </div>
-            -->
-            <!--
-                <div id="moveno">
-                    <svg class="bgmoveno">
-                        <path id="fillwhitewithborder" d="M 15 0 L 30 0 L 30 30 L 15 30 C 7 30 0 23 0 15 C 0 7 7 0 15 0 Z">
-                        </path>
-                    </svg>
-                    <div id="txtmoveno">
-                        <span></span>
-                    </div>
-                </div>
-                <svg class="movemain" viewBox="0 0 198 30">
-                    #N/A
-                    </rect>
-                </svg>
-                <svg class="moveinfo" viewBox="0 0 118 30">
-                    <path id="fillblack" d="M 0 0 L 103 0 C 111 0 118 7 118 15 C 118 23 111 30 103 30 L 0 30 L 0 0 Z">
-                    </path>
-                </svg>
-                <div id="movehead">
-                    #N/A
-                    #N/A
-                </div>
-                <div id="movename">
-                    <svg class="bgmovename">
-                        <rect id="filltransparent" width="125" height="22">
-                        </rect>
-                    </svg>
-                    <div id="txtmovename">
-                        #N/A
-                    </div>
-                    <div id="txtmovename2">
-                        #N/A
-                    </div>
-                </div>
-                <div id="txtinfo">
-                    <div id="power">
-                        <div id="txt">
-                            #N/A
-                        </div>
-                    </div>
-                    <div id="accu">
-                        <div id="txt">
-                            #N/A
-                        </div>
-                    </div>
-                    <div id="pp">
-                        <div id="txt">
-                            #N/A
-                        </div>
-                    </div>
-                </div>
-            -->
         </div>
         <div id="learnset_tr">
             <!--기술레코드 TR-->
             <svg class="bgmove">
-                <rect id="fillwhitewithborder" rx="12" ry="12" x="0" y="0" width="335" height="1075">
+                <rect id="fillwhitewithborder" rx="12" ry="12" x="0" y="0" width="335" height="1174">
                 </rect>
             </svg>
             <svg class="bar_move" viewBox="0 0 281 1">
@@ -7524,6 +7522,58 @@
                     <div id="accu">
                         <div id="txt">
                             <span>—</span>
+                        </div>
+                    </div>
+                    <div id="pp">
+                        <div id="txt">
+                            <span>10</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="move" style="cursor:pointer;" OnClick="location.href='../move/오물폭탄.html'">
+                <div id="moveno">
+                    <svg class="bgmoveno">
+                        <path id="fillwhitewithborder" d="M 15 0 L 30 0 L 30 30 L 15 30 C 7 30 0 23 0 15 C 0 7 7 0 15 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtmoveno">
+                        <span>22</span>
+                    </div>
+                </div>
+                <svg class="movemain" viewBox="0 0 198 30">
+                    <rect id="Poison" width="198" height="35">
+                    </rect>
+                </svg>
+                <svg class="moveinfo" viewBox="0 0 118 30">
+                    <path id="fillblack" d="M 0 0 L 103 0 C 111 0 118 7 118 15 C 118 23 111 30 103 30 L 0 30 L 0 0 Z">
+                    </path>
+                </svg>
+                <div id="movehead">
+                    <img id="movetype" srcset="../../images/type/Poison.png 1x">
+                    <img id="movectgr" srcset="../../images/ctgr/Spe.png 1x">
+                </div>
+                <div id="movename">
+                    <svg class="bgmovename">
+                        <rect id="filltransparent" width="125" height="22">
+                        </rect>
+                    </svg>
+                    <div id="txtmovename">
+                        <span>오물폭탄</span>
+                    </div>
+                    <div id="txtmovename2">
+                        <span>Sludge Bomb</span>
+                    </div>
+                </div>
+                <div id="txtinfo">
+                    <div id="power">
+                        <div id="txt">
+                            <span>90</span>
+                        </div>
+                    </div>
+                    <div id="accu">
+                        <div id="txt">
+                            <span>100</span>
                         </div>
                     </div>
                     <div id="pp">
@@ -8365,6 +8415,58 @@
                     </div>
                 </div>
             </div>
+            <div id="move" style="cursor:pointer;" OnClick="location.href='../move/오물웨이브.html'">
+                <div id="moveno">
+                    <svg class="bgmoveno">
+                        <path id="fillwhitewithborder" d="M 15 0 L 30 0 L 30 30 L 15 30 C 7 30 0 23 0 15 C 0 7 7 0 15 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtmoveno">
+                        <span>78</span>
+                    </div>
+                </div>
+                <svg class="movemain" viewBox="0 0 198 30">
+                    <rect id="Poison" width="198" height="35">
+                    </rect>
+                </svg>
+                <svg class="moveinfo" viewBox="0 0 118 30">
+                    <path id="fillblack" d="M 0 0 L 103 0 C 111 0 118 7 118 15 C 118 23 111 30 103 30 L 0 30 L 0 0 Z">
+                    </path>
+                </svg>
+                <div id="movehead">
+                    <img id="movetype" srcset="../../images/type/Poison.png 1x">
+                    <img id="movectgr" srcset="../../images/ctgr/Spe.png 1x">
+                </div>
+                <div id="movename">
+                    <svg class="bgmovename">
+                        <rect id="filltransparent" width="125" height="22">
+                        </rect>
+                    </svg>
+                    <div id="txtmovename">
+                        <span>오물웨이브</span>
+                    </div>
+                    <div id="txtmovename2">
+                        <span>Sludge Wave</span>
+                    </div>
+                </div>
+                <div id="txtinfo">
+                    <div id="power">
+                        <div id="txt">
+                            <span>95</span>
+                        </div>
+                    </div>
+                    <div id="accu">
+                        <div id="txt">
+                            <span>100</span>
+                        </div>
+                    </div>
+                    <div id="pp">
+                        <div id="txt">
+                            <span>10</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div id="move" style="cursor:pointer;" OnClick="location.href='../move/속임수.html'">
                 <div id="moveno">
                     <svg class="bgmoveno">
@@ -8521,6 +8623,58 @@
                     </div>
                 </div>
             </div>
+            <div id="move" style="cursor:pointer;" OnClick="location.href='../move/베놈트랩.html'">
+                <div id="moveno">
+                    <svg class="bgmoveno">
+                        <path id="fillwhitewithborder" d="M 15 0 L 30 0 L 30 30 L 15 30 C 7 30 0 23 0 15 C 0 7 7 0 15 0 Z">
+                        </path>
+                    </svg>
+                    <div id="txtmoveno">
+                        <span>91</span>
+                    </div>
+                </div>
+                <svg class="movemain" viewBox="0 0 198 30">
+                    <rect id="Poison" width="198" height="35">
+                    </rect>
+                </svg>
+                <svg class="moveinfo" viewBox="0 0 118 30">
+                    <path id="fillblack" d="M 0 0 L 103 0 C 111 0 118 7 118 15 C 118 23 111 30 103 30 L 0 30 L 0 0 Z">
+                    </path>
+                </svg>
+                <div id="movehead">
+                    <img id="movetype" srcset="../../images/type/Poison.png 1x">
+                    <img id="movectgr" srcset="../../images/ctgr/Sta.png 1x">
+                </div>
+                <div id="movename">
+                    <svg class="bgmovename">
+                        <rect id="filltransparent" width="125" height="22">
+                        </rect>
+                    </svg>
+                    <div id="txtmovename">
+                        <span>베놈트랩</span>
+                    </div>
+                    <div id="txtmovename2">
+                        <span>Venom Drench</span>
+                    </div>
+                </div>
+                <div id="txtinfo">
+                    <div id="power">
+                        <div id="txt">
+                            <span>—</span>
+                        </div>
+                    </div>
+                    <div id="accu">
+                        <div id="txt">
+                            <span>100</span>
+                        </div>
+                    </div>
+                    <div id="pp">
+                        <div id="txt">
+                            <span>20</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div id="move" style="cursor:pointer;" OnClick="location.href='../move/아쿠아브레이크.html'">
                 <div id="moveno">
                     <svg class="bgmoveno">
@@ -8573,162 +8727,6 @@
                     </div>
                 </div>
             </div>
-            <!--
-                <div id="moveno">
-                    <svg class="bgmoveno">
-                        <path id="fillwhitewithborder" d="M 15 0 L 30 0 L 30 30 L 15 30 C 7 30 0 23 0 15 C 0 7 7 0 15 0 Z">
-                        </path>
-                    </svg>
-                    <div id="txtmoveno">
-                        <span></span>
-                    </div>
-                </div>
-                <svg class="movemain" viewBox="0 0 198 30">
-                    #N/A
-                    </rect>
-                </svg>
-                <svg class="moveinfo" viewBox="0 0 118 30">
-                    <path id="fillblack" d="M 0 0 L 103 0 C 111 0 118 7 118 15 C 118 23 111 30 103 30 L 0 30 L 0 0 Z">
-                    </path>
-                </svg>
-                <div id="movehead">
-                    #N/A
-                    #N/A
-                </div>
-                <div id="movename">
-                    <svg class="bgmovename">
-                        <rect id="filltransparent" width="125" height="22">
-                        </rect>
-                    </svg>
-                    <div id="txtmovename">
-                        #N/A
-                    </div>
-                    <div id="txtmovename2">
-                        #N/A
-                    </div>
-                </div>
-                <div id="txtinfo">
-                    <div id="power">
-                        <div id="txt">
-                            #N/A
-                        </div>
-                    </div>
-                    <div id="accu">
-                        <div id="txt">
-                            #N/A
-                        </div>
-                    </div>
-                    <div id="pp">
-                        <div id="txt">
-                            #N/A
-                        </div>
-                    </div>
-                </div>
-            -->
-            <!--
-                <div id="moveno">
-                    <svg class="bgmoveno">
-                        <path id="fillwhitewithborder" d="M 15 0 L 30 0 L 30 30 L 15 30 C 7 30 0 23 0 15 C 0 7 7 0 15 0 Z">
-                        </path>
-                    </svg>
-                    <div id="txtmoveno">
-                        <span></span>
-                    </div>
-                </div>
-                <svg class="movemain" viewBox="0 0 198 30">
-                    #N/A
-                    </rect>
-                </svg>
-                <svg class="moveinfo" viewBox="0 0 118 30">
-                    <path id="fillblack" d="M 0 0 L 103 0 C 111 0 118 7 118 15 C 118 23 111 30 103 30 L 0 30 L 0 0 Z">
-                    </path>
-                </svg>
-                <div id="movehead">
-                    #N/A
-                    #N/A
-                </div>
-                <div id="movename">
-                    <svg class="bgmovename">
-                        <rect id="filltransparent" width="125" height="22">
-                        </rect>
-                    </svg>
-                    <div id="txtmovename">
-                        #N/A
-                    </div>
-                    <div id="txtmovename2">
-                        #N/A
-                    </div>
-                </div>
-                <div id="txtinfo">
-                    <div id="power">
-                        <div id="txt">
-                            #N/A
-                        </div>
-                    </div>
-                    <div id="accu">
-                        <div id="txt">
-                            #N/A
-                        </div>
-                    </div>
-                    <div id="pp">
-                        <div id="txt">
-                            #N/A
-                        </div>
-                    </div>
-                </div>
-            -->
-            <!--
-                <div id="moveno">
-                    <svg class="bgmoveno">
-                        <path id="fillwhitewithborder" d="M 15 0 L 30 0 L 30 30 L 15 30 C 7 30 0 23 0 15 C 0 7 7 0 15 0 Z">
-                        </path>
-                    </svg>
-                    <div id="txtmoveno">
-                        <span></span>
-                    </div>
-                </div>
-                <svg class="movemain" viewBox="0 0 198 30">
-                    #N/A
-                    </rect>
-                </svg>
-                <svg class="moveinfo" viewBox="0 0 118 30">
-                    <path id="fillblack" d="M 0 0 L 103 0 C 111 0 118 7 118 15 C 118 23 111 30 103 30 L 0 30 L 0 0 Z">
-                    </path>
-                </svg>
-                <div id="movehead">
-                    #N/A
-                    #N/A
-                </div>
-                <div id="movename">
-                    <svg class="bgmovename">
-                        <rect id="filltransparent" width="125" height="22">
-                        </rect>
-                    </svg>
-                    <div id="txtmovename">
-                        #N/A
-                    </div>
-                    <div id="txtmovename2">
-                        #N/A
-                    </div>
-                </div>
-                <div id="txtinfo">
-                    <div id="power">
-                        <div id="txt">
-                            #N/A
-                        </div>
-                    </div>
-                    <div id="accu">
-                        <div id="txt">
-                            #N/A
-                        </div>
-                    </div>
-                    <div id="pp">
-                        <div id="txt">
-                            #N/A
-                        </div>
-                    </div>
-                </div>
-            -->
             <!--
                 <div id="moveno">
                     <svg class="bgmoveno">
@@ -13755,24 +13753,24 @@
                 <rect id="fillwhitewithborder" rx="12" ry="12" width="335" height="42">
                 </rect>
             </svg>
-            <div id="prev" style="cursor:pointer;" OnClick="location.href='198.html'">
+            <div id="prev" style="cursor:pointer;" OnClick="location.href='199.html'">
                 <svg class="backicon" viewBox="0 0 32 28">
                     <path id="fillblack" d="M 16 0 L 32 28 L 26 28 L 16 10 L 6 28 L 0 28 L 16 0 Z">
                     </path>
                 </svg>
-                <img id="backsprt" srcset="../../images/sprt1/198.png 1x">
+                <img id="backsprt" srcset="../../images/sprt1/199.png 1x">
                 <div id="prevno">
-                    <span>198</span>
+                    <span>199</span>
                 </div>
             </div>
-            <div id="next" style="cursor:pointer;" OnClick="location.href='199rG.html'">
+            <div id="next" style="cursor:pointer;" OnClick="location.href='200.html'">
                 <svg class="nexticon" viewBox="0 0 32 28">
                     <path id="fillblack" d="M 16 0 L 32 28 L 26 28 L 16 10 L 6 28 L 0 28 L 16 0 Z">
                     </path>
                 </svg>
-                <img id="nextsprt" srcset="../../images/sprt1/199rG.png 1x">
+                <img id="nextsprt" srcset="../../images/sprt1/200.png 1x">
                 <div id="nextno">
-                    <span>199</span>
+                    <span>200</span>
                 </div>
             </div>
         </div>
@@ -13789,7 +13787,7 @@
     <div id="header"></div>
     <div id="main">
         <svg class="bgmain">
-            <rect id="Bg199" width="375" height="105">
+            <rect id="Bg199rG" width="375" height="105">
             </rect>
         </svg>
         <div id="name">
@@ -13798,13 +13796,13 @@
                 </path>
             </svg>
             <div id="pkmnname">
-                <span>야도킹</span>
+                <span>가라르 야도킹</span>
             </div>
             <div id="pkmnname">
-                <span style="font-size:11px;">Slowking</span>
+                <span style="font-size:11px;">Galarian Slowking</span>
             </div>
             <div id="pkmnname">
-                <span style="font-family:NanumGothic; font-size:11px;">ヤドキング</span>
+                <span style="font-family:NanumGothic; font-size:11px;">ガラルヤドキング</span>
             </div>
         </div>
         <div id="ctgr">
@@ -13813,15 +13811,15 @@
                 </path>
             </svg>
             <div id="txtctgr">
-                <span>임금포켓몬</span>
+                <span>술사포켓몬</span>
             </div>
         </div>
         <div id="type">
-            <img id="type1" srcset="../../images/type/Water.png 1x">
+            <img id="type1" srcset="../../images/type/Poison.png 1x">
             <img id="type2" srcset="../../images/type/Psychic.png 1x">
 
         </div>
-        <img id="sprt" srcset="../../images/sprt1/199.png 1x">
+        <img id="sprt" srcset="../../images/sprt1/199rG.png 1x">
         <img id="shiny" onclick="isShiny()" srcset="../../images/icon/nshiny.png 1x" />
     </div>
     <div id="gomove">
@@ -13829,7 +13827,7 @@
             <rect id="fillwhitewithborder" width="375" height="30">
             </rect>
         </svg>
-        <svg class="infogogo" style="cursor:pointer;" OnClick="location.href='../pkmninfo/199.html'">
+        <svg class="infogogo" style="cursor:pointer;" OnClick="location.href='../pkmninfo/199rG.html'">
             <rect id="fillwhitewithborder" width="188" height="30">
                 <img id="goinfo" srcset="../../images/icon/info.png 1x">
                 <div id="infotext">
@@ -13841,7 +13839,7 @@
             <path id="bar" d="M 0 0 L 0 30">
             </path>
         </svg>
-        <svg class="movegogo" style="cursor:pointer;" OnClick="location.href='199.html'">
+        <svg class="movegogo" style="cursor:pointer;" OnClick="location.href='199rG.html'">
             <rect id="fillwhitewithborder" width="188" height="30">
                 <img id="attack" srcset="../../images/icon/circleattack.png 1x">
                 <div id="movetext">
