@@ -1,5 +1,3 @@
 User-agent: *
-Disallow: /css/
 Disallow: /images/
-Disallow: /js/
-Sitemap: http://podex.netlify.app/sitemap.xml
+Sitemap: https://podex.netlify.app/sitemap.xml
