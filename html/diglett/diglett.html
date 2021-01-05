@@ -1,0 +1,4004 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=320, user-scalable=yes">
+	<title>IoA Diglett Location</title>
+	<link rel="stylesheet" href="../../css/header.css" />
+	<style id="applicationStylesheet" type="text/css">
+
+		#diglett {
+			position: absolute;
+			width: 375px;
+			height: 13080px;
+			background-color: white;
+			overflow: hidden;
+		}
+
+		.bgbody {
+			position: absolute;
+			overflow: visible;
+			width: 375px;
+			height: 13087px;
+			left: 0px;
+			top: 60px;
+		}
+
+		.bgloca {
+			position: absolute;
+			overflow: visible;
+			width: 335px;
+			height: 518px;
+			left: 0px;
+			top: 0px;
+		}
+
+
+		#locatitle {
+			position: absolute;
+			width: 323px;
+			height: 90px;
+			left: 6px;
+			top: 4px;
+			overflow: visible;
+		}
+
+		.bgtitle {
+			position: absolute;
+			overflow: visible;
+			width: 161px;
+			height: 90px;
+			left: 162px;
+			top: 0px;
+		}
+
+		#locaname {
+			left: 144px;
+			top: 9px;
+			position: absolute;
+			overflow: visible;
+			width: 200px;
+			white-space: nowrap;
+			text-align: center;
+			font-family: NanumSquare;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 14px;
+			color: rgba(0,0,0,1);
+		}
+
+		#locapic {
+			position: absolute;
+			width: 160px;
+			height: 90px;
+			left: 0px;
+			top: 0px;
+			overflow: visible;
+		}
+
+		#diglett_box {
+			position: relative;
+			width: 322px;
+			height: 1398px;
+			left: 7px;
+			top: 96px;
+			overflow: visible;
+		}
+
+		#no {
+			position: relative;
+			width: 160px;
+			height: 17px;
+			left: 0px;
+			top: 90px;
+			overflow: visible;
+		}
+
+		.diglettno {
+			position: absolute;
+			overflow: visible;
+			width: 160px;
+			height: 16px;
+			left: 0px;
+			top: 0px;
+		}
+
+		#diglettnotxt {
+			left: 67px;
+			top: 1px;
+			position: absolute;
+			overflow: visible;
+			width: 27px;
+			white-space: nowrap;
+			text-align: center;
+			font-family: NanumSquare;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 14px;
+			color: rgba(0,0,0,1);
+		}
+
+		#expl {
+			position: relative;
+			width: 160px;
+			height: 32px;
+			left: 0px;
+			top: 90px;
+			overflow: visible;
+		}
+
+		.diglettexpl {
+			position: absolute;
+			overflow: visible;
+			width: 160px;
+			height: 32px;
+			left: 0px;
+			top: 0px;
+		}
+
+		#diglettexpltxt {
+			left: 20px;
+			top: 4px;
+			position: absolute;
+			overflow: visible;
+			width: 120px;
+			white-space: nowrap;
+			text-align: center;
+			font-family: NanumSquare;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 10px;
+			color: rgba(0,0,0,1);
+		}
+
+        #locabox01 {
+            position: absolute;
+            width: 335px;
+            left: 20px;
+            top: 64px;
+            overflow: visible;
+        }
+
+        #locabox02 {
+            position: absolute;
+            width: 335px;
+            left: 20px;
+            top: 1568px;
+            overflow: visible;
+        }
+
+        #locabox03 {
+            position: absolute;
+            width: 335px;
+            left: 20px;
+            top: 3072px;
+            overflow: visible;
+        }
+
+        #locabox04 {
+            position: absolute;
+            width: 335px;
+            left: 20px;
+            top: 3736px;
+            overflow: visible;
+        }
+
+        #locabox05 {
+            position: absolute;
+            width: 335px;
+            left: 20px;
+            top: 4400px;
+            overflow: visible;
+        }
+
+        #locabox06 {
+            position: absolute;
+            width: 335px;
+            left: 20px;
+            top: 5064px;
+            overflow: visible;
+        }
+
+        #locabox07 {
+            position: absolute;
+            width: 335px;
+            left: 20px;
+            top: 5728px;
+            overflow: visible;
+        }
+
+        #locabox08 {
+            position: absolute;
+            width: 335px;
+            left: 20px;
+            top: 6952px;
+            overflow: visible;
+        }
+
+        #locabox09 {
+            position: absolute;
+            width: 335px;
+            left: 20px;
+            top: 7757px;
+            overflow: visible;
+        }
+
+        #locabox10 {
+            position: absolute;
+            width: 335px;
+            left: 20px;
+            top: 8421px;
+            overflow: visible;
+        }
+
+        #locabox11 {
+            position: absolute;
+            width: 335px;
+            left: 20px;
+            top: 9363px;
+            overflow: visible;
+        }
+
+        #locabox12 {
+            position: absolute;
+            width: 335px;
+            left: 20px;
+            top: 9747px;
+            overflow: visible;
+        }
+
+        #locabox13 {
+            position: absolute;
+            width: 335px;
+            left: 20px;
+            top: 10270px;
+            overflow: visible;
+        }
+
+        #locabox14 {
+            position: absolute;
+            width: 335px;
+            left: 20px;
+            top: 10934px;
+            overflow: visible;
+        }
+
+        #locabox15 {
+            position: absolute;
+            width: 335px;
+            left: 20px;
+            top: 11878px;
+            overflow: visible;
+        }
+
+        #locabox16 {
+            position: absolute;
+            width: 335px;
+            left: 20px;
+            top: 12262px;
+            overflow: visible;
+        }
+
+        #diglett_01 {
+            position: relative;
+            width: 160px;
+            height: 138px;
+            left: 0px;
+            top: 0px;
+            overflow: visible;
+        }
+
+		#diglett_02 {
+			position: relative;
+			width: 160px;
+			height: 138px;
+			left: 162px;
+			top: -138px;
+			overflow: visible;
+		}
+
+		#diglett_03 {
+			position: relative;
+			width: 160px;
+			height: 138px;
+			left: 0px;
+			top: -136px;
+			overflow: visible;
+		}
+
+		#diglett_04 {
+			position: relative;
+			width: 160px;
+			height: 138px;
+			left: 162px;
+			top: -274px;
+			overflow: visible;
+		}
+
+		#diglett_05 {
+			position: relative;
+			width: 160px;
+			height: 138px;
+			left: 0px;
+			top: -272px;
+			overflow: visible;
+		}
+
+		#diglett_06 {
+			position: relative;
+			width: 160px;
+			height: 138px;
+			left: 162px;
+			top: -410px;
+			overflow: visible;
+		}
+
+        #diglett_07 {
+            position: relative;
+            width: 160px;
+            height: 138px;
+            left: 0px;
+            top: -408px;
+            overflow: visible;
+        }
+
+        #diglett_08 {
+            position: relative;
+            width: 160px;
+            height: 138px;
+            left: 162px;
+            top: -546px;
+            overflow: visible;
+        }
+
+        #diglett_09 {
+            position: relative;
+            width: 160px;
+            height: 138px;
+            left: 0px;
+            top: -544px;
+            overflow: visible;
+        }
+
+        #diglett_10 {
+            position: relative;
+            width: 160px;
+            height: 138px;
+            left: 162px;
+            top: -682px;
+            overflow: visible;
+        }
+
+        #diglett_11 {
+            position: relative;
+            width: 160px;
+            height: 138px;
+            left: 0px;
+            top: -680px;
+            overflow: visible;
+        }
+
+        #diglett_12 {
+            position: relative;
+            width: 160px;
+            height: 138px;
+            left: 162px;
+            top: -818px;
+            overflow: visible;
+        }
+
+        #diglett_13 {
+            position: relative;
+            width: 160px;
+            height: 138px;
+            left: 0px;
+            top: -816px;
+            overflow: visible;
+        }
+
+        #diglett_14 {
+            position: relative;
+            width: 160px;
+            height: 138px;
+            left: 162px;
+            top: -954px;
+            overflow: visible;
+        }
+
+        #diglett_15 {
+            position: relative;
+            width: 160px;
+            height: 138px;
+            left: 0px;
+            top: -952px;
+            overflow: visible;
+        }
+
+        #diglett_16 {
+            position: relative;
+            width: 160px;
+            height: 138px;
+            left: 162px;
+            top: -1090px;
+            overflow: visible;
+        }
+
+        #diglett_17 {
+            position: relative;
+            width: 160px;
+            height: 138px;
+            left: 0px;
+            top: -1088px;
+            overflow: visible;
+        }
+
+        #diglett_18 {
+            position: relative;
+            width: 160px;
+            height: 138px;
+            left: 162px;
+            top: -1226px;
+            overflow: visible;
+        }
+
+        #diglett_19 {
+            position: relative;
+            width: 160px;
+            height: 138px;
+            left: 0px;
+            top: -1224px;
+            overflow: visible;
+        }
+
+        #diglett_20 {
+            position: relative;
+            width: 160px;
+            height: 138px;
+            left: 162px;
+            top: -1362px;
+            overflow: visible;
+        }
+	</style>
+</head>
+<body id="bodytag">
+	<div id="diglett">
+		<svg class="bgbody">
+			<rect id="fillwhitewithborder" width="375" height="13087">
+			</rect>
+		</svg>
+		<!--인사의 들판 Fields of Honor-->
+		<div id="locabox01">
+			<svg class="bgloca">
+				<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="335" height="1500">
+				</rect>
+			</svg>
+			<div id="locatitle">
+				<svg class="bgtitle">
+					<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="161" height="90">
+					</rect>
+				</svg>
+				<div id="locaname">
+					<span>인사의 들판<br />Fields of Honor<br /></span>
+					<br>
+					<span style="font-size:10px;">19마리<br />001 - 019</span>
+				</div>
+				<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/201.jpg 1x">
+			</div>
+			<div id="diglett_box">
+				<div id="diglett_01">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/001.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>001</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>마스터 도장 다리 앞<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_02">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/002.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>002</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>001 남쪽 해변의<br />가장자리 모래사장</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_03">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/003.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>003</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>갑옷섬 역 앞 나무<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_04">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/004.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>004</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>갑옷섬 역 앞 나무<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_05">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/005.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>005</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>갑옷섬 역 앞 박스 사이<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_06">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/006.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>006</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>해변을 바라보는 위치<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_07">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/007.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>007</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>001 오른쪽<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_08">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/008.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>008</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>풀숲 근처 큰 바위 뒤쪽<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_09">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/009.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>009</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>001 다리 반대쪽<br />붉은 꽃 근처</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_10">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/010.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>010</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>고래왕이 보이는 절벽<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_11">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/011.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>011</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>마스터 도장 앞 화단<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_12">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/012.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>012</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>마스터 도장 앞 화단<br />011 근처</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_13">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/013.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>013</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>마스터 도장 왼쪽 굴<br />근처 나무 아래</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_14">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/014.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>014</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>청량한 습지초원이 보이는<br />마스터 도장 근처 언덕</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_15">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/015.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>015</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>마스터 도장 입구의<br />바위 뒤쪽</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_16">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/016.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>016</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>마스터 도장 입구 흙길<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_17">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/017.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>017</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>청량한 습지초원 입구<br />근처의 덤불</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_18">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/018.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>018</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>갑옷섬 역 오른쪽 해변 맨 끝<br />붉은 꽃 사이</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_19">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/019.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>019</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>동굴 근처 강이 보이는 언덕<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_20">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/icon/ditto.gif 1x">
+				</div>
+			</div>
+		</div>
+		<!--청량한 습지초원 Soothing Wetlands-->
+		<div id="locabox02">
+			<svg class="bgloca">
+				<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="335" height="1500">
+				</rect>
+			</svg>
+			<div id="locatitle">
+				<svg class="bgtitle">
+					<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="161" height="90">
+					</rect>
+				</svg>
+				<div id="locaname">
+					<span>청량한 습지초원<br />Soothing Wetlands<br /></span>
+					<br>
+					<span style="font-size:10px;">20마리<br />020 - 039</span>
+				</div>
+				<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/202.jpg 1x">
+			</div>
+			<div id="diglett_box">
+				<div id="diglett_01">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/020.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>020</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>인사의 들판에서 들어오는<br />입구 쪽 나무 근처</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_02">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/021.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>021</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>서쪽 호수 옆<br />노란 풀 근처</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_03">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/022.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>022</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>서쪽 호수 가장자리<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_04">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/023.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>023</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>챌린지비치로 넘어가는<br />서쪽 강 근처</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_05">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/024.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>024</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>챌린지비치로 넘어가는 서쪽 강<br />북쪽 방면 나무 근처 붉은 꽃</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_06">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/025.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>025</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>챌린지비치로 넘어가는 서쪽 강<br />북쪽 방면 바위 근처</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_07">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/026.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>026</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>집중의 숲 입구 방면<br />노란 꽃 근처</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_08">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/027.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>027</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>중앙 큰 호수 옆<br />노란 꽃 근처</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_09">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/028.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>028</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>서쪽 파이트케이브 동굴 입구<br />근처 붉은 꽃</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_10">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/029.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>029</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>중앙 큰 호수 나무 아래<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_11">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/030.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>030</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>서쪽 파이트케이브 동굴 입구<br />근처 풀 사이</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_12">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/031.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>031</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>중앙 큰 호수 옆<br />노란 꽃 사이</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_13">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/032.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>032</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>남쪽 절벽 아래 통나무<br />옆 노란 꽃 사이</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_14">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/033.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>033</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>중앙 큰 호수<br />동쪽 방면 풀숲</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_15">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/034.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>034</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>중앙 큰 호수 서쪽 방면<br />나무 근처 붉은 꽃 사이</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_16">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/035.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>035</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>서쪽 파이트케이브 입구 방면<br />통나무 뒤</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_17">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/036.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>036</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>동쪽 긴 호수 근처<br />나무 옆 노란 꽃 아래</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_18">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/037.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>037</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>북서쪽 통나무 2개 사이<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_19">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/038.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>038</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>서쪽 노란 꽃이 보이는<br />넓은 장소</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_20">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/039.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>039</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>나무열매 나무 앞<br />붉은 꽃 사이</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--투지의 동굴 Courageous Cavern-->
+		<div id="locabox03">
+			<svg class="bgloca">
+				<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="335" height="660">
+				</rect>
+			</svg>
+			<div id="locatitle">
+				<svg class="bgtitle">
+					<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="161" height="90">
+					</rect>
+				</svg>
+				<div id="locaname">
+					<span>투지의 동굴<br />Courageous Cavern<br /></span>
+					<br>
+					<span style="font-size:10px;">7마리<br />040 - 046</span>
+				</div>
+				<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/203.jpg 1x">
+			</div>
+			<div id="diglett_box">
+				<div id="diglett_01">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/040.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>040</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>인사의 들판 방면 입구에서<br />쭉 걸어가기</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_02">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/041.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>041</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>청량한 습지초원 방면 입구<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_03">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/042.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>042</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>동굴 중간 지점 아래층<br />내려가는 길목 옆 바위</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_04">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/043.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>043</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>042 지점에서 더 아래로<br />내려가서 보이는 굴 3개 근처</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_05">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/044.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>044</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>원환의 만 방면<br />입구 근처</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_06">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/045.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>045</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>044 근처<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_07">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/046.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>046</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>인사의 들판 방면 입구 오른쪽<br />굴 있는 작은 동굴 바위 뒤</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_08">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/icon/ditto.gif 1x">
+				</div>
+			</div>
+		</div>
+		<!--원환의 만 Loop Lagoon-->
+		<div id="locabox04">
+			<svg class="bgloca">
+				<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="335" height="660">
+				</rect>
+			</svg>
+			<div id="locatitle">
+				<svg class="bgtitle">
+					<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="161" height="90">
+					</rect>
+				</svg>
+				<div id="locaname">
+					<span>원환의 만<br />Loop Lagoon<br /></span>
+					<br>
+					<span style="font-size:10px;">7마리<br />047 - 053</span>
+				</div>
+				<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/204.jpg 1x">
+			</div>
+			<div id="diglett_box">
+				<div id="diglett_01">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/047.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>047</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>투지의 동굴<br />들어가는 입구 앞</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_02">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/048.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>048</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>투지의 동굴 들어가는 육지가<br />있는 해변의 남쪽 끝</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_03">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/049.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>049</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>가운데 섬의 북쪽<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_04">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/050.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>050</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>가운데 섬의<br />나무열매 나무 옆</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_05">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/051.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>051</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>북쪽 해변의 왼쪽<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_06">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/052.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>052</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>북쪽 해변의 왼쪽<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_07">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/053.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>053</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>투지의 동굴<br />들어가는 입구 앞 풀</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_08">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/icon/ditto.gif 1x">
+				</div>
+			</div>
+		</div>
+		<!--파이트케이브 Brawler's Cave-->
+		<div id="locabox05">
+			<svg class="bgloca">
+				<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="335" height="660">
+				</rect>
+			</svg>
+			<div id="locatitle">
+				<svg class="bgtitle">
+					<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="161" height="90">
+					</rect>
+				</svg>
+				<div id="locaname">
+					<span>파이트케이브<br />Brawler's Cave<br /></span>
+					<br>
+					<span style="font-size:10px;">7마리<br />054 - 060</span>
+				</div>
+				<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/205.jpg 1x">
+			</div>
+			<div id="diglett_box">
+				<div id="diglett_01">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/054.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>054</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>입구 강 근처<br />작은 바위 뒤</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_02">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/055.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>055</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>높은 곳으로 이어지는<br />길 끝 바위 뒤</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_03">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/056.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>056</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>동굴 올라가며 보이는<br />바위 뒤</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_04">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/057.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>057</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>동굴 가장 높은 곳<br />굴 근처</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_05">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/058.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>001</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>동굴 올라가며 보이는<br />돌무더기 사이</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_06">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/059.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>059</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>챌린지로드 입구 근처<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_07">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/060.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>060</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>가운데 기둥 있는 곳<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_08">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/icon/ditto.gif 1x">
+				</div>
+			</div>
+		</div>
+		<!--챌린지로드 Challenge Road-->
+		<div id="locabox06">
+			<svg class="bgloca">
+				<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="335" height="660">
+				</rect>
+			</svg>
+			<div id="locatitle">
+				<svg class="bgtitle">
+					<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="161" height="90">
+					</rect>
+				</svg>
+				<div id="locaname">
+					<span>챌린지로드<br />Challenge Road<br /></span>
+					<br>
+					<span style="font-size:10px;">8마리<br />061 - 068</span>
+				</div>
+				<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/206.jpg 1x">
+			</div>
+			<div id="diglett_box">
+				<div id="diglett_01">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/061.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>061</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>파이트케이브 입구 근처<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_02">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/062.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>062</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>바다가 보이는 절벽 위<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_03">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/063.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>063</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>굴 근처 동쪽 절벽<br />풀숲 옆</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_04">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/064.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>064</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>단련 평원으로 내려가는<br />계단 중간 바위 옆</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_05">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/065.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>065</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>단련 평원이 보이는<br />서쪽 절벽 끝</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_06">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/066.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>066</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>바다가 보이는 위쪽<br />동쪽 절벽 끝</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_07">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/067.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>067</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>악의 탑 근처<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_08">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/icon/ditto.gif 1x">
+				</div>
+			</div>
+		</div>
+		<!--단련 평원 Training Lowlands-->
+		<div id="locabox07">
+			<svg class="bgloca">
+				<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="335" height="1220">
+				</rect>
+			</svg>
+			<div id="locatitle">
+				<svg class="bgtitle">
+					<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="161" height="90">
+					</rect>
+				</svg>
+				<div id="locaname">
+					<span>단련 평원<br />Training Lowlands<br /></span>
+					<br>
+					<span style="font-size:10px;">15마리<br />069 - 083</span>
+				</div>
+				<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/207.jpg 1x">
+			</div>
+			<div id="diglett_box">
+				<div id="diglett_01">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/069.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>069</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>파이트케이브 입구 쪽<br />다리 근처</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_02">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/070.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>070</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>069 다리 건너편<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_03">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/071.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>071</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>챌린지로드 올라가는<br />계단 왼쪽</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_04">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/072.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>072</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>바위 절벽을 따라가 보이는<br />붉은 꽃 근처</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_05">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/073.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>073</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>서쪽 바다로 나가기 전<br />위치한 호수 기슭</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_06">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/074.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>074</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>073 옆 나무 아래<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_07">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/075.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>075</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>073 074 호수 내부 섬<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_08">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/076.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>076</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>서쪽 바다로 나가기 전 해안<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_09">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/077.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>077</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>연습의 동굴 입구가 보이는<br />붉은 꽃 사이</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_10">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/078.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>078</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>077 왼쪽 풀숲<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_11">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/079.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>079</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>연습의 동굴 왼쪽<br />벽을 따라 걸어가기</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_12">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/080.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>080</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>북쪽 나무 아래<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_13">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/081.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>081</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>챌린지로드 계단 왼쪽 깊숙한<br />곳. 071에서 더 들어가기</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_14">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/082.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>082</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>집중의 숲 들어가는<br />다리 앞</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_15">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/083.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>083</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>해변 앞 큰 바위 옆<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_16">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/icon/ditto.gif 1x">
+				</div>
+			</div>
+		</div>
+		<!--챌린지비치 Challenge Beach-->
+		<div id="locabox08">
+			<svg class="bgloca">
+				<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="335" height="801">
+				</rect>
+			</svg>
+			<div id="locatitle">
+				<svg class="bgtitle">
+					<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="161" height="90">
+					</rect>
+				</svg>
+				<div id="locaname">
+					<span>챌린지비치<br />Challenge Beach<br /></span>
+					<br>
+					<span style="font-size:10px;">9마리<br />084 - 092</span>
+				</div>
+				<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/208.jpg 1x">
+			</div>
+			<div id="diglett_box">
+				<div id="diglett_01">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/084.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>084</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>공중날기 후 왼쪽 방면<br />바다가 보이는 절벽</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_02">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/085.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>085</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>084 절벽 끝<br />굴 옆 나무 뒤쪽</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_03">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/086.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>086</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>물의 탑 앞 모래사장<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_04">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/087.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>087</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>086 근처 바위 옆<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_05">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/088.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>088</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>물의 탑 뒤쪽<br />콘크리트 지지대 뒤</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_06">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/089.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>089</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>공중날기 후 오른쪽 방면<br />강 옆 바위 근처</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_07">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/090.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>090</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>089 근처 큰 바위 옆<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_08">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/091.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>091</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>큰 바위 2개 사이<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_09">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/092.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>092</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>089 근처 모래사장 맨 끝<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_10">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/icon/ditto.gif 1x">
+				</div>
+			</div>
+		</div>
+		<!--집중의 숲 Forest of Focus-->
+		<div id="locabox09">
+			<svg class="bgloca">
+				<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="335" height="660">
+				</rect>
+			</svg>
+			<div id="locatitle">
+				<svg class="bgtitle">
+					<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="161" height="90">
+					</rect>
+				</svg>
+				<div id="locaname">
+					<span>집중의 숲<br />Forest of Focus<br /></span>
+					<br>
+					<span style="font-size:10px;">8마리<br />093 - 100</span>
+				</div>
+				<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/209.jpg 1x">
+			</div>
+			<div id="diglett_box">
+				<div id="diglett_01">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/093.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>093</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>청량한 습지초원 쪽 입구<br />들어서자마자 보이는 다리 근처</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_02">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/094.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>094</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>093에서 더 들어가서 보이는<br />나무열매 나무 근처</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_03">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/095.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>095</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>동쪽에 있는 북쪽 다리의<br />북쪽 방면</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_04">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/096.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>096</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>북쪽 다리 동쪽 근처<br />위치한 굴 옆</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_05">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/097.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>097</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>북쪽 중앙 구역의<br />풀과 붉은 꽃 사이</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_06">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/098.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>098</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>북쪽의 쭉 뻗은 길<br />나무 아래</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_07">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/099.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>099</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>서쪽 구역의<br />나무열매 나무 근처</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_08">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/100.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>100</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>남쪽 다리의 동쪽 방면 강변<br /></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--허니컴섬 Honeycalm Island-->
+		<div id="locabox10">
+			<svg class="bgloca">
+				<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="335" height="940">
+				</rect>
+			</svg>
+			<div id="locatitle">
+				<svg class="bgtitle">
+					<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="161" height="90">
+					</rect>
+				</svg>
+				<div id="locaname">
+					<span>허니컴섬<br />Honeycalm Island<br /></span>
+					<br>
+					<span style="font-size:10px;">11마리<br />101 - 111</span>
+				</div>
+				<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/210.jpg 1x">
+			</div>
+			<div id="diglett_box">
+				<div id="diglett_01">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/101.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>101</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>둥근 바위가 있는 서쪽 방면<br />돌출부의 노란 꽃 사이</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_02">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/102.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>102</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>남서쪽 방면 돌출부의<br />굴 옆 노란 꽃 사이</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_03">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/103.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>103</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>남동쪽 방면 돌출부의<br />굴 옆 풀숲 근처</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_04">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/104.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>104</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>동쪽 방면 돌출부의 모래사장<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_05">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/105.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>105</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>북동쪽 방면 돌출부의 모래사장<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_06">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/106.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>106</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>북서쪽 방면 돌출부의<br />나무 쪽 모래사장</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_07">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/107.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>107</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>106 돌출부의<br />굴 옆 풀숲 근처</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_08">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/108.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>108</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>중앙 나무 아래<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_09">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/109.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>109</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>중앙 나무 아래<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_10">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/110.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>110</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>중앙 나무 아래<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_11">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/111.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>111</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>102 돌출부의<br />둥근 돌 근처</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_12">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/icon/ditto.gif 1x">
+				</div>
+			</div>
+		</div>
+		<!--허니컴 바다 Honeycalm Sea-->
+		<div id="locabox11">
+			<svg class="bgloca">
+				<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="335" height="380">
+				</rect>
+			</svg>
+			<div id="locatitle">
+				<svg class="bgtitle">
+					<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="161" height="90">
+					</rect>
+				</svg>
+				<div id="locaname">
+					<span>허니컴 바다<br />Honeycalm Sea<br /></span>
+					<br>
+					<span style="font-size:10px;">3마리<br />112 - 114</span>
+				</div>
+				<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/211.jpg 1x">
+			</div>
+			<div id="diglett_box">
+				<div id="diglett_01">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/112.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>112</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>동쪽의 작은 육지<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_02">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/113.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>113</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>112에서 더 안쪽<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_03">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/114.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>114</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>허니컴 섬과 물의 탑이<br />보이는 작은 모래섬</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_04">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/icon/ditto.gif 1x">
+				</div>
+			</div>
+		</div>
+		<!--외딴섬 해역 Insular Sea-->
+		<div id="locabox12">
+			<svg class="bgloca">
+				<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="335" height="520">
+				</rect>
+			</svg>
+			<div id="locatitle">
+				<svg class="bgtitle">
+					<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="161" height="90">
+					</rect>
+				</svg>
+				<div id="locaname">
+					<span>외딴섬 해역<br />Insular Sea<br /></span>
+					<br>
+					<span style="font-size:10px;">6마리<br />115 - 120</span>
+				</div>
+				<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/212.jpg 1x">
+			</div>
+			<div id="diglett_box">
+				<div id="diglett_01">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/115.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>115</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>섬 북쪽 방면<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_02">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/116.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>116</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>섬 동쪽 방면 모래사장<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_03">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/117.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>117</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>섬 남쪽 방면<br />붉은 꽃 사이</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_04">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/118.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>118</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>작은 모래섬<br />디그다 둘과 닥트리오 하나</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_05">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/119.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>119</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>작은 모래섬<br />디그다 둘과 닥트리오 하나</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_06">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/120.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>120</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>작은 모래섬<br />디그다 둘과 닥트리오 하나</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--열도 바다 Stepping-Stone Sea-->
+		<div id="locabox13">
+			<svg class="bgloca">
+				<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="335" height="660">
+				</rect>
+			</svg>
+			<div id="locatitle">
+				<svg class="bgtitle">
+					<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="161" height="90">
+					</rect>
+				</svg>
+				<div id="locaname">
+					<span>열도 바다<br />Stepping-Stone Sea<br /></span>
+					<br>
+					<span style="font-size:10px;">7마리<br />121 - 127</span>
+				</div>
+				<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/213.jpg 1x">
+			</div>
+			<div id="diglett_box">
+				<div id="diglett_01">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/121.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>121</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>물의 탑이 보이는 섬<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_02">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/122.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>122</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>121 근처<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_03">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/123.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>123</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>121 섬 남서쪽<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_04">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/124.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>124</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>섬 북서쪽의<br />나무와 붉은 꽃 근처</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_05">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/125.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>125</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>바위가 있는 작은 모래섬<br />126 옆</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_06">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/126.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>126</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>바위가 있는 작은 모래섬<br />125 옆</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_07">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/127.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>127</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>남쪽 긴 섬의 가운데<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_08">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/icon/ditto.gif 1x">
+				</div>
+			</div>
+		</div>
+		<!--워크아웃 바다 Workout Sea-->
+		<div id="locabox14">
+			<svg class="bgloca">
+				<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="335" height="940">
+				</rect>
+			</svg>
+			<div id="locatitle">
+				<svg class="bgtitle">
+					<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="161" height="90">
+					</rect>
+				</svg>
+				<div id="locaname">
+					<span>워크아웃 바다<br />Workout Sea<br /></span>
+					<br>
+					<span style="font-size:10px;">11마리<br />128 - 138</span>
+				</div>
+				<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/214.jpg 1x">
+			</div>
+			<div id="diglett_box">
+				<div id="diglett_01">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/128.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>128</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>인사의 들판으로 공중날기 후<br />바다 우측에 보이는 해변</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_02">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/129.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>129</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>가라두구팔찌 NPC가 있는<br />섬의 모래사장</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_03">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/130.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>130</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>가라두구팔찌 NPC가 있는<br />섬 가운데 붉은 꽃 사이</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_04">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/131.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>131</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>가라두구팔찌 NPC가 있는<br />섬 동쪽의 작은 언덕</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_05">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/132.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>132</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>갑옷섬 최남단 모래섬<br />작은 바위 뒤</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_06">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/133.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>133</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>굴이 있는 큰 모래섬 한가운데<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_07">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/134.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>134</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>고래왕 근처 작은 모래섬<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_08">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/135.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>135</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>메타몽 섬<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_09">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/136.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>136</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>메타몽 섬<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_10">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/137.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>137</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>메타몽 섬<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_11">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/138.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>138</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>메타몽 섬<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_12">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/icon/ditto.gif 1x">
+				</div>
+			</div>
+		</div>
+		<!--연습의 동굴 Warm-Up Tunnel-->
+		<div id="locabox15">
+			<svg class="bgloca">
+				<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="335" height="380">
+				</rect>
+			</svg>
+			<div id="locatitle">
+				<svg class="bgtitle">
+					<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="161" height="90">
+					</rect>
+				</svg>
+				<div id="locaname">
+					<span>연습의 동굴<br />Warm-Up Tunnel<br /></span>
+					<br>
+					<span style="font-size:10px;">3마리<br />139 - 141</span>
+				</div>
+				<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/215.jpg 1x">
+			</div>
+			<div id="diglett_box">
+				<div id="diglett_01">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/139.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>139</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>단련 평원 방면 입구<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_02">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/140.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>140</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>동굴 중간 부분<br />바위 2개 사이</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_03">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/141.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>141</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>냄비바닥사막 방면<br />입구 근처</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_04">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/icon/ditto.gif 1x">
+				</div>
+			</div>
+		</div>
+		<!--냄비바닥사막 Potbottom Desert-->
+		<div id="locabox16">
+			<svg class="bgloca">
+				<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="335" height="800">
+				</rect>
+			</svg>
+			<div id="locatitle">
+				<svg class="bgtitle">
+					<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="161" height="90">
+					</rect>
+				</svg>
+				<div id="locaname">
+					<span>냄비바닥사막<br />Potbottom Desert<br /></span>
+					<br>
+					<span style="font-size:10px;">10마리<br />142 - 151</span>
+				</div>
+				<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/216.jpg 1x">
+			</div>
+			<div id="diglett_box">
+				<div id="diglett_01">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/142.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>142</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>연습의 동굴 입구<br />바로 오른쪽 굴 근처</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_02">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/143.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>143</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>동쪽 벽을 따라<br />보이는 바위 근처</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_03">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/144.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>144</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>북쪽 벽을 따라<br />보이는 바위 근처</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_04">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/145.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>145</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>북쪽 벽 근처 모래<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_05">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/146.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>146</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>동쪽 벽 바위 있는 곳<br />근처 모래 아래</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_06">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/147.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>147</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>동남쪽 벽을 따라<br />보이는 나무 아래</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_07">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/148.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>148</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>동남쪽 커다란 모래<br />둔덕 위쪽</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_08">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/149.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>149</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>148 아래 나무 근처<br /></span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_09">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/150.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>150</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>사막 한가운데의<br />중간 크기 모래 둔덕 위쪽</span>
+						</div>
+					</div>
+				</div>
+				<div id="diglett_10">
+					<img style="border-radius:10px" id="locapic" srcset="../../images/diglett/151.jpg 1x">
+					<div id="no">
+						<svg class="diglettno">
+							<rect id="fillwhitewithborder" rx="8" ry="8" x="0" y="0" width="160" height="16">
+							</rect>
+						</svg>
+						<div id="diglettnotxt">
+							<span>151</span>
+						</div>
+					</div>
+					<div id="expl">
+						<svg class="diglettexpl">
+							<rect id="fillwhitewithborder" rx="10" ry="10" x="0" y="0" width="160" height="32">
+							</rect>
+						</svg>
+						<div id="diglettexpltxt">
+							<span>사막 한가운데의<br />바위 근처</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="title">
+		<svg class="bgtitle">
+			<rect id="fillwhite" width="255" height="60">
+			</rect>
+		</svg>
+		<div id="txttitle">
+			<span>갑옷섬 디그다 위치</span>
+		</div>
+	</div>
+	<div id="header"></div>
+</body>
+</html>
