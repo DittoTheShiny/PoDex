@@ -371,11 +371,11 @@
 }
 
 .bgtitle {
-    position: fixed;
-    overflow: hidden;
-    width: 255px;
+    position: absolute;
+    overflow: visible;
+    width: 375px;
     height: 60px;
-    left: 60px;
+    left: 0px;
     top: 0px;
 }
 
